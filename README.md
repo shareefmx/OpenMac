@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="./icons/logo.svg" width="340" alt="OpenMac Logo">
+
 # OpenMac
 
 **The community-powered directory of genuinely open-source macOS apps, developer tools, and system utilities.**
@@ -13,8 +15,17 @@
   <a href="#table-of-contents"><b>Categories</b></a> •
   <a href="#featured-projects"><b>Featured Apps</b></a> •
   <a href="#all-categories"><b>All Apps</b></a> •
+  <a href="#selection-criteria"><b>Criteria</b></a> •
+  <a href="#icon-system"><b>Icons</b></a> •
+  <a href="#faq"><b>FAQ</b></a> •
+  <a href="#contributors"><b>Contributors</b></a> •
+  <a href="#license"><b>License</b></a> •
+  <a href="#how-to-contribute"><b>Add a Project</b></a>
+</p>
+
+<p align="center">
   <a href="./CONTRIBUTING.md"><b>Contribution Guide</b></a> •
-  <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml"><b>1-Click Submit</b></a>
+  <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml"><b>⚡ 1-Click Submit Project</b></a>
 </p>
 
 ---
@@ -32,12 +43,6 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 > [!IMPORTANT]
 > **The Golden Rule**: Every listed application in this directory must have a **publicly accessible source code repository** and operate under a recognized **OSI or FSF-approved open-source license**. No closed-source freeware. No proprietary freemium apps. No telemetry-heavy trials.
 
-### Why Developers and Mac Users Love OpenMac
-- 🛡️ **Auditability & Privacy**: Inspect the code running on your system. Know exactly what handles your clipboard, keystrokes, and network traffic.
-- ⚡ **Native Performance**: Prioritizes modern Swift, SwiftUI, Rust, and Metal-accelerated tools tuned for Apple Silicon and Intel Macs.
-- 🤖 **Automated & Verified**: Canonical metadata is strictly validated via automated CI to guarantee no dead links, missing icons, or license misrepresentations.
-- 🤝 **Community-Governed**: Maintained by Mac developers and enthusiasts worldwide. Fork, submit, and improve.
-
 ---
 
 <a id="table-of-contents"></a>
@@ -45,24 +50,6 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 ## 🧭 Table of Contents
 
 <!-- TOC:START -->
-### 📌 Repository Overview & Guidelines
-
-| Section | Scope | Quick Link |
-| :--- | :--- | :---: |
-| 📖 [**About OpenMac**](#about) | Mission, FOSS standards, and community philosophy | [View Section](#about) |
-| ⭐ [**Featured Projects**](#featured-projects) | Top 10 highest-starred open-source macOS apps | [View Section](#featured-projects) |
-| 🗂️ [**All Categories**](#all-categories) | 1,165 verified Mac applications across 50 categories | [View Section](#all-categories) |
-| 🎯 [**Selection Criteria**](#selection-criteria) | Mandatory rules, OSI/FSF approved licenses, and status definitions | [View Section](#selection-criteria) |
-| 🎨 [**Icon System**](#icon-system) | Specifications for vector SVG and PNG icon artwork | [View Section](#icon-system) |
-| ❓ [**Frequently Asked Questions**](#faq) | Common questions, inclusion criteria, and answers | [View Section](#faq) |
-| 👥 [**Contributors**](#contributors) | Core maintainers, community contributors, and acknowledgements | [View Section](#contributors) |
-| ⚖️ [**License & Trademarks**](#license) | Repository MIT license and legal trademark notices | [View Section](#license) |
-| 🤝 [**How to Add a Project**](#how-to-contribute) | 1-Click web form, interactive CLI wizard, and manual Git workflow | [View Section](#how-to-contribute) |
-| 📝 [**Contribution Guide**](./CONTRIBUTING.md) | Full step-by-step developer contribution guidelines | [Open Guide](./CONTRIBUTING.md) |
-| ⚡ [**1-Click Submit Project**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) | Submit a project in seconds via GitHub Issues | [Submit App](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) |
-
----
-
 ### 🧭 Browse by Category (50 Focus Areas)
 
 | Category | Focus Area | Projects |
