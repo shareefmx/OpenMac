@@ -1,4 +1,13 @@
 categories:
+- id: ai-ml
+  name: AI & Machine Learning
+  icon: 🤖
+  description: Local large language model runners, desktop AI frontends, and on-device
+    ML workflows.
+  subcategories:
+  - Local LLM Inference
+  - AI Desktop Clients
+  - Creative AI
 - id: audio
   name: Audio
   icon: 🎵
@@ -442,12 +451,3 @@ categories:
   - Tiling Managers
   - Keyboard Snappers
   - Window Switchers
-- id: ai-ml
-  name: AI & Machine Learning
-  icon: 🤖
-  description: Local large language model runners, desktop AI frontends, and on-device
-    ML workflows.
-  subcategories:
-  - Local LLM Inference
-  - AI Desktop Clients
-  - Creative AI
