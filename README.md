@@ -55,6 +55,26 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 ## 🧭 Table of Contents
 
 <!-- TOC:START -->
+### 📌 Repository Overview & Guidelines
+
+| Section | Scope | Quick Link |
+| :--- | :--- | :---: |
+| 📖 [**About OpenMac**](#about) | Mission, FOSS standards, and community philosophy | [View Section](#about) |
+| ⭐ [**Featured Projects**](#featured-projects) | Top 10 highest-starred open-source macOS apps | [View Section](#featured-projects) |
+| 🗂️ [**All Categories**](#all-categories) | 1,165 verified Mac applications across 50 categories | [View Section](#all-categories) |
+| 🎯 [**Selection Criteria**](#selection-criteria) | Mandatory rules, OSI/FSF approved licenses, and status definitions | [View Section](#selection-criteria) |
+| 🤝 [**How to Add a Project**](#how-to-contribute) | 1-Click web form, interactive CLI wizard, and manual Git workflow | [View Section](#how-to-contribute) |
+| 🎨 [**Icon System**](#icon-system) | Specifications for vector SVG and PNG icon artwork | [View Section](#icon-system) |
+| ❓ [**Frequently Asked Questions**](#faq) | Common questions, inclusion criteria, and answers | [View Section](#faq) |
+| 👥 [**Contributors**](#contributors) | Core maintainers, community contributors, and acknowledgements | [View Section](#contributors) |
+| ⚖️ [**License & Trademarks**](#license) | Repository MIT license and legal trademark notices | [View Section](#license) |
+| 📝 [**Contribution Guide**](./CONTRIBUTING.md) | Full step-by-step developer contribution guidelines | [Open Guide](./CONTRIBUTING.md) |
+| ⚡ [**1-Click Submit Project**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) | Submit a project in seconds via GitHub Issues | [Submit App](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) |
+
+---
+
+### 🧭 Browse by Category (50 Focus Areas)
+
 | Category | Focus Area | Projects |
 | :--- | :--- | :---: |
 | 🎵 [**Audio**](#audio) | Audio recorders, sound equalizers, routing drivers, and microphone controllers. | [`38 apps`](#audio) |
@@ -1859,6 +1879,8 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 ---
 
 <a id="selection-criteria"></a>
+<a id="criteria"></a>
+<a id="selection-criteria--license-policy"></a>
 <a id="open-source-criteria"></a>
 ## 🎯 Selection Criteria & License Policy
 
@@ -1887,6 +1909,8 @@ To preserve directory trust and quality, every submission is evaluated against r
 
 <a id="how-to-contribute"></a>
 <a id="add-a-project"></a>
+<a id="add-project"></a>
+<a id="how-to-add-a-project"></a>
 ## 🤝 How to Add a Project
 
 Adding an open-source Mac app to OpenMac is fast and easy. Choose the method that suits you best:
@@ -1937,6 +1961,7 @@ For complete guidelines, schema definitions, and tips, please read our [**Contri
 ---
 
 <a id="icon-system"></a>
+<a id="icons"></a>
 ## 🎨 Icon System
 
 All icons are version-controlled inside [`icons/project-icons/`](./icons/project-icons/) to prevent broken images and maintain long-term archival permanence.
@@ -1950,6 +1975,8 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 ---
 
 <a id="faq"></a>
+<a id="frequently-asked-questions"></a>
+<a id="frequently-asked-questions-faq"></a>
 ## ❓ Frequently Asked Questions (FAQ)
 
 <details>
@@ -1968,8 +1995,8 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 </details>
 
 <details>
-<summary><b>How are star counts or rankings determined?</b></summary>
-<p>We deliberately avoid vanity sorting based on GitHub stars alone. Tables are arranged alphabetically within categories to give equal discovery opportunities to emerging tools as well as industry stalwarts. Standout mature projects are highlighted in the Featured section based on objective community criteria.</p>
+<summary><b>How are star counts and rankings determined?</b></summary>
+<p>Each table is ordered in real time by verified GitHub/GitLab stars descending, displaying dynamic live star badges directly from Shields.io so users can easily discover the most widely adopted and proven open-source solutions first.</p>
 </details>
 
 <details>
@@ -1980,6 +2007,7 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 ---
 
 <a id="contributors"></a>
+<a id="contributors--acknowledgements"></a>
 ## 👥 Contributors & Acknowledgements
 
 OpenMac thrives on open community collaboration. Thank you to everyone who submits projects, reports issues, and enhances the macOS open-source ecosystem.
@@ -1995,6 +2023,7 @@ See [**CONTRIBUTORS.md**](./CONTRIBUTORS.md) for details.
 ---
 
 <a id="license"></a>
+<a id="license--trademarks"></a>
 ## ⚖️ License & Trademarks
 
 - **Directory Content**: The OpenMac directory, automated tooling, documentation, and metadata are distributed under the [**MIT License**](./LICENSE).

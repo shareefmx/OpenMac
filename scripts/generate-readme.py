@@ -41,7 +41,26 @@ def generate_stats_badge(categories, projects):
     )
 
 def generate_toc(categories, projects_by_cat):
-    lines = ["| Category | Focus Area | Projects |", "| :--- | :--- | :---: |"]
+    lines = [
+        "### 📌 Repository Overview & Guidelines\n",
+        "| Section | Scope | Quick Link |",
+        "| :--- | :--- | :---: |",
+        "| 📖 [**About OpenMac**](#about) | Mission, FOSS standards, and community philosophy | [View Section](#about) |",
+        "| ⭐ [**Featured Projects**](#featured-projects) | Top 10 highest-starred open-source macOS apps | [View Section](#featured-projects) |",
+        "| 🗂️ [**All Categories**](#all-categories) | 1,165 verified Mac applications across 50 categories | [View Section](#all-categories) |",
+        "| 🎯 [**Selection Criteria**](#selection-criteria) | Mandatory rules, OSI/FSF approved licenses, and status definitions | [View Section](#selection-criteria) |",
+        "| 🤝 [**How to Add a Project**](#how-to-contribute) | 1-Click web form, interactive CLI wizard, and manual Git workflow | [View Section](#how-to-contribute) |",
+        "| 🎨 [**Icon System**](#icon-system) | Specifications for vector SVG and PNG icon artwork | [View Section](#icon-system) |",
+        "| ❓ [**Frequently Asked Questions**](#faq) | Common questions, inclusion criteria, and answers | [View Section](#faq) |",
+        "| 👥 [**Contributors**](#contributors) | Core maintainers, community contributors, and acknowledgements | [View Section](#contributors) |",
+        "| ⚖️ [**License & Trademarks**](#license) | Repository MIT license and legal trademark notices | [View Section](#license) |",
+        "| 📝 [**Contribution Guide**](./CONTRIBUTING.md) | Full step-by-step developer contribution guidelines | [Open Guide](./CONTRIBUTING.md) |",
+        "| ⚡ [**1-Click Submit Project**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) | Submit a project in seconds via GitHub Issues | [Submit App](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) |",
+        "\n---\n",
+        "### 🧭 Browse by Category (50 Focus Areas)\n",
+        "| Category | Focus Area | Projects |",
+        "| :--- | :--- | :---: |"
+    ]
     for cat in categories:
         cid = cat["id"]
         cname = cat["name"]
