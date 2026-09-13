@@ -35,9 +35,9 @@ def generate_stats_badge(categories, projects):
     total_categories = len(categories)
     return (
         f"[![Total Projects](https://img.shields.io/badge/Projects-{total_projects}-blue.svg?style=flat-square)](#all-categories) "
-        f"[![Categories](https://img.shields.io/badge/Categories-{total_categories}-indigo.svg?style=flat-square)](#categories) "
-        f"[![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#open-source-criteria) "
-        f"[![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#open-source-criteria)"
+        f"[![Categories](https://img.shields.io/badge/Categories-{total_categories}-indigo.svg?style=flat-square)](#table-of-contents) "
+        f"[![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#selection-criteria) "
+        f"[![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#selection-criteria)"
     )
 
 def generate_toc(categories, projects_by_cat):
@@ -48,8 +48,8 @@ def generate_toc(categories, projects_by_cat):
         cicon = cat.get("icon", "📦")
         cdesc = cat.get("description", "")
         count = len(projects_by_cat.get(cid, []))
-        anchor = f"#{cname.lower().replace(' ', '-').replace('&', '').replace('--', '-')}"
-        lines.append(f"| {cicon} [{cname}]({anchor}) | {cdesc} | `{count}` |")
+        # Anchor links directly to the explicit anchor ID
+        lines.append(f"| {cicon} [**{cname}**](#{cid}) | {cdesc} | [`{count} apps`](#{cid}) |")
     return "\n".join(lines)
 
 def generate_featured_table(featured_projects):
@@ -67,8 +67,11 @@ def generate_featured_table(featured_projects):
         lic = p.get("license", "OSI")
         
         name_md = f"**[{name}]({site})**"
-        icon_md = f'<img src="./{icon_path}" width="32" height="32" alt="{name}">'
+        # Wrap icon in link so clicking the icon navigates to the project!
+        icon_md = f'<a href="{site}"><img src="./{icon_path}" width="32" height="32" alt="{name}"></a>'
         links_md = f"[Code]({gh})"
+        if site != gh:
+            links_md = f"[Website]({site}) • [Code]({gh})"
         
         lines.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {links_md} | `{lic}` |")
 
@@ -85,7 +88,14 @@ def generate_projects_markdown(categories, projects_by_cat):
         projs = projects_by_cat.get(cid, [])
         projs.sort(key=lambda x: x["name"].lower())
 
+        slug_name = cname.lower().replace(' ', '-').replace('&', '').replace('--', '-')
+
         section = []
+        # Provide multiple explicit HTML anchors to guarantee matching regardless of link style:
+        # e.g., #development, #terminal-shell, #terminal
+        section.append(f'<a id="{cid}"></a>')
+        if slug_name != cid:
+            section.append(f'<a id="{slug_name}"></a>')
         section.append(f"### {cicon} {cname}\n")
         section.append(f"> {cdesc}\n")
 
@@ -106,10 +116,12 @@ def generate_projects_markdown(categories, projects_by_cat):
                 lic = p.get("license", "OSI")
                 
                 name_md = f"**[{name}]({site})**"
-                icon_md = f'<img src="./{icon_path}" width="32" height="32" alt="{name}">'
-                links_md = f"[Source]({gh})"
+                # Wrap icon in clickable link
+                icon_md = f'<a href="{site}"><img src="./{icon_path}" width="32" height="32" alt="{name}"></a>'
                 if site != gh:
                     links_md = f"[Website]({site}) • [Source]({gh})"
+                else:
+                    links_md = f"[Source]({gh})"
 
                 table.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {links_md} | `{lic}` |")
 
@@ -182,4 +194,3 @@ if __name__ == "__main__":
     parser.add_argument("--check", action="store_true", help="Check if README.md is in sync without modifying.")
     args = parser.parse_args()
     generate(check_mode=args.check)
-

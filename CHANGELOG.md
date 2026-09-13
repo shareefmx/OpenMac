@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [1.0.1] - 2026-09-13
+
+### Changed
+- **Hyperlink Navigation Reliability**: Added explicit HTML anchor identifiers for all categories, sections, back-to-top buttons, and navbar items in `README.md` to ensure instant navigation.
+- **Clickable Project Icons**: Wrapped all table project icons in direct hyperlinks to corresponding official project websites and repositories.
+- **Streamlined Contribution Process**: Introduced interactive CLI submission wizard (`scripts/add-project.py`) and direct 1-click web submission forms, removing all placeholder naming (`my-awesome-app`).
+
 ## [1.0.0] - 2026-09-13
 
 ### Added

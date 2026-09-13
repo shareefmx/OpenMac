@@ -29,3 +29,4 @@ A heartfelt thank you to everyone who opens pull requests, submits project propo
 [![Contributors](https://contrib.rocks/image?repo=shareefmx/OpenMac)](https://github.com/shareefmx/OpenMac/graphs/contributors)
 
 To contribute, check out our [Contribution Guide](./CONTRIBUTING.md).
+
