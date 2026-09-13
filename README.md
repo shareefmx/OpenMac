@@ -33,7 +33,8 @@
 </div>
 
 <a id="about"></a>
-## 📖 About OpenMac
+<a id="about-openmac"></a>
+## 📖 About
 
 **OpenMac** is a curated, transparent, community-maintained catalog dedicated exclusively to **free and open-source software (FOSS)** built for macOS.
 
@@ -1882,7 +1883,7 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 <a id="criteria"></a>
 <a id="selection-criteria--license-policy"></a>
 <a id="open-source-criteria"></a>
-## 🎯 Selection Criteria & License Policy
+## 🎯 Selection Criteria
 
 To preserve directory trust and quality, every submission is evaluated against rigorous qualification standards:
 
@@ -1907,11 +1908,11 @@ To preserve directory trust and quality, every submission is evaluated against r
 
 ---
 
-<a id="how-to-contribute"></a>
 <a id="add-a-project"></a>
+<a id="how-to-contribute"></a>
 <a id="add-project"></a>
 <a id="how-to-add-a-project"></a>
-## 🤝 How to Add a Project
+## 🤝 Add a Project
 
 Adding an open-source Mac app to OpenMac is fast and easy. Choose the method that suits you best:
 
@@ -1977,7 +1978,7 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 <a id="faq"></a>
 <a id="frequently-asked-questions"></a>
 <a id="frequently-asked-questions-faq"></a>
-## ❓ Frequently Asked Questions (FAQ)
+## ❓ FAQ
 
 <details>
 <summary><b>Is every application in this repository 100% open source?</b></summary>
@@ -2008,7 +2009,7 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 
 <a id="contributors"></a>
 <a id="contributors--acknowledgements"></a>
-## 👥 Contributors & Acknowledgements
+## 👥 Contributors
 
 OpenMac thrives on open community collaboration. Thank you to everyone who submits projects, reports issues, and enhances the macOS open-source ecosystem.
 
@@ -2024,7 +2025,7 @@ See [**CONTRIBUTORS.md**](./CONTRIBUTORS.md) for details.
 
 <a id="license"></a>
 <a id="license--trademarks"></a>
-## ⚖️ License & Trademarks
+## ⚖️ License
 
 - **Directory Content**: The OpenMac directory, automated tooling, documentation, and metadata are distributed under the [**MIT License**](./LICENSE).
 - **Third-Party Applications**: Each application listed within this directory is governed by its own independent open-source license as indicated in the respective tables.
