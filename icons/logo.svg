@@ -1,12 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 100" width="400" height="100">
   <defs>
+    <style>
+      .logo-title { fill: #1D1D1F; }
+      .logo-sub { fill: #86868B; }
+      @media (prefers-color-scheme: dark) {
+        .logo-title { fill: #FFFFFF; }
+        .logo-sub { fill: #98989D; }
+      }
+    </style>
     <linearGradient id="logoBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#0A84FF"/>
       <stop offset="100%" stop-color="#5E5CE6"/>
-    </linearGradient>
-    <linearGradient id="appleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFFFF"/>
-      <stop offset="100%" stop-color="#E5E5EA"/>
     </linearGradient>
   </defs>
 
@@ -21,11 +25,10 @@
   </g>
 
   <!-- Typography -->
-  <text x="106" y="55" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#FFFFFF" letter-spacing="-0.5">
+  <text class="logo-title" x="106" y="55" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" letter-spacing="-0.5">
     Open<tspan fill="#0A84FF">Mac</tspan>
   </text>
-  <text x="108" y="76" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" fill="#8E8E93" letter-spacing="0.2">
+  <text class="logo-sub" x="108" y="76" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="500" letter-spacing="0.2">
     OPEN-SOURCE MACOS DIRECTORY
   </text>
 </svg>
-

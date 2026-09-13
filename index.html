@@ -26,8 +26,20 @@
   <!-- Top Glass Navigation Bar -->
   <header class="navbar">
     <div class="nav-container">
-      <a href="#" class="brand">
-        <img src="./icons/logo.svg" alt="OpenMac Logo" class="brand-logo">
+      <a href="#" class="brand" aria-label="OpenMac Home">
+        <svg class="brand-icon" width="34" height="34" viewBox="0 0 80 80">
+          <defs>
+            <linearGradient id="logoNavBg" x1="0%" y1="0%" x2="100%" y2="100%">
+              <stop offset="0%" stop-color="#0A84FF"/>
+              <stop offset="100%" stop-color="#5E5CE6"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="80" height="80" rx="18" fill="url(#logoNavBg)"/>
+          <path d="M26 28 L40 40 L26 52" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+          <line x1="44" y1="52" x2="56" y2="52" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+          <circle cx="56" cy="30" r="3.5" fill="#30D158"/>
+        </svg>
+        <span class="brand-text">Open<span>Mac</span></span>
       </a>
 
       <div class="nav-actions">
@@ -203,7 +215,21 @@
     <div class="footer-container">
       <div class="footer-top">
         <div class="footer-brand">
-          <img src="./icons/logo.svg" alt="OpenMac" class="footer-logo">
+          <a href="#" class="brand" aria-label="OpenMac Home">
+            <svg class="brand-icon" width="30" height="30" viewBox="0 0 80 80">
+              <defs>
+                <linearGradient id="logoFootBg" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" stop-color="#0A84FF"/>
+                  <stop offset="100%" stop-color="#5E5CE6"/>
+                </linearGradient>
+              </defs>
+              <rect x="0" y="0" width="80" height="80" rx="18" fill="url(#logoFootBg)"/>
+              <path d="M26 28 L40 40 L26 52" fill="none" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+              <line x1="44" y1="52" x2="56" y2="52" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+              <circle cx="56" cy="30" r="3.5" fill="#30D158"/>
+            </svg>
+            <span class="brand-text">Open<span>Mac</span></span>
+          </a>
           <p>The community-powered directory of genuinely open-source macOS software.</p>
         </div>
 
