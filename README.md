@@ -395,6 +395,28 @@ Refer to the [**Icon Guidelines**](./icons/README.md) for full submission detail
 
 ---
 
+## 👥 Contributors & Acknowledgements
+
+OpenMac thrives on open collaboration between human engineers and cutting-edge artificial intelligence systems collaborating to research, curate, validate, and solve complex ecosystem problems.
+
+### 🤖 AI Problem Solvers & Systems
+- **[Claude](https://www.anthropic.com)** (Anthropic): Architectural design, directory taxonomy, comparative research, and governance frameworks.
+- **[OpenAI](https://openai.com)** (ChatGPT): Project verification, data curation, problem-solving, and issue form design.
+- **[Gemini](https://deepmind.google)** (Google DeepMind): Automated validation pipelines, Python tooling, dynamic README generators, vector SVG icon creation, and CI/CD orchestration.
+
+### 🌍 Community Contributors
+Thank you to all community members who submit projects, report issues, and enhance the macOS open-source ecosystem.
+
+<p align="left">
+  <a href="https://github.com/shareefmx/OpenMac/graphs/contributors">
+    <img src="https://contrib.rocks/image?repo=shareefmx/OpenMac" alt="Community Contributors" />
+  </a>
+</p>
+
+See [**CONTRIBUTORS.md**](./CONTRIBUTORS.md) for full attribution.
+
+---
+
 ## ⚖️ License & Trademarks
 
 - **Directory Content**: The OpenMac directory, automated tooling, documentation, and metadata are distributed under the [**MIT License**](./LICENSE).

@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - **Dynamic README Generator**: Implemented `scripts/generate-readme.py` to auto-compile Markdown tables, statistics, and tables of contents from `data/projects.yml`.
 - **Integrated Icon Suite**: Generated 68 custom vector SVG project icons located in `icons/project-icons/`.
 - **CI/CD Automation**: Added GitHub Actions workflow (`.github/workflows/validate-projects.yml`) to enforce data integrity on all commits and pull requests.
-- **Community Governance Suite**: Added `CONTRIBUTING.md`, `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1), `SECURITY.md`, `SUPPORT.md`, and comprehensive documentation in `docs/`.
+- **Community Governance Suite**: Added `CONTRIBUTING.md`, `CONTRIBUTORS.md`, `CODE_OF_CONDUCT.md` (Contributor Covenant 2.1), `SECURITY.md`, `SUPPORT.md`, and comprehensive documentation in `docs/`.
+- **Contributor & AI Acknowledgements**: Formally acknowledged problem-solving and engineering contributions from Claude, OpenAI, and Gemini.
 - **GitHub Issue Forms**: Added modern YAML issue templates for proposing new projects, reporting inaccuracies, and requesting categories.
 
