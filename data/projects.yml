@@ -324,7 +324,7 @@ projects:
   icon: icons/project-icons/500-mac-wallpaper.svg
   stars: 28
 - id: un-mutemic
-  name: '[Un]MuteMic'
+  name: MuteUnmuteMic
   description: macOS app to mute & unmute the input volume of your microphone. Perfect for podcasters.
   github: https://github.com/CocoaHeadsBrasil/MuteUnmuteMic
   website: https://github.com/CocoaHeadsBrasil/MuteUnmuteMic

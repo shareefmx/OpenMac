@@ -41,3 +41,7 @@ jobs:
         run: |
           python3 scripts/check-links.py
 
+      - name: Run Full Integrity & Assertion Suite
+        run: |
+          python3 scripts/test_integrity.py
+

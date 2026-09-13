@@ -149,7 +149,7 @@ def main():
         "language": lang_input,
         "status": "active",
         "icon": icon_dest,
-        "featured": False
+        "stars": 0
     }
 
     # Append to projects
@@ -162,9 +162,10 @@ def main():
     print(f"\n{GREEN}✓ Appended '{name}' to {proj_file}!{RESET}")
 
     # Run validation & regeneration
-    print("\nRunning automated validation and updating README.md...")
+    print("\nRunning automated validation and updating README.md & web search app...")
     os.system("python3 scripts/validate-projects.py")
     os.system("python3 scripts/generate-readme.py")
+    os.system("python3 scripts/build_web.py")
 
     print(f"\n{BOLD}{GREEN}🎉 Project successfully added!{RESET}")
     print(f"To submit your changes to GitHub, run:\n")
