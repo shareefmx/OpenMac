@@ -102,7 +102,8 @@ def generate_projects_markdown(categories, projects_by_cat):
         cicon = cat.get("icon", "📦")
         cdesc = cat.get("description", "")
         projs = projects_by_cat.get(cid, [])
-        projs.sort(key=lambda x: x["name"].lower())
+        # Sort by stars descending (highest stars on top), with name as tie-breaker
+        projs.sort(key=lambda x: (-x.get("stars", 0), x["name"].lower()))
 
         slug_name = cname.lower().replace(' ', '-').replace('&', '').replace('--', '-')
 
