@@ -96,6 +96,10 @@ def generate_projects_markdown(categories, projects_by_cat):
         section.append(f'<a id="{cid}"></a>')
         if slug_name != cid:
             section.append(f'<a id="{slug_name}"></a>')
+        if cid == "ios-macos":
+            section.append('<a id="ios--macos"></a>')
+        if cid == "vpn-proxy":
+            section.append('<a id="vpn--proxy"></a>')
         section.append(f"### {cicon} {cname}\n")
         section.append(f"> {cdesc}\n")
 

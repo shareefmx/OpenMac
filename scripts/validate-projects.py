@@ -22,6 +22,7 @@ RESET = "\033[0m"
 # Accepted OSI/FSF open-source licenses
 ACCEPTED_LICENSES = {
     "MIT",
+    "MIT-0",
     "Apache-2.0",
     "GPL-2.0",
     "GPL-2.0-only",
@@ -32,19 +33,49 @@ ACCEPTED_LICENSES = {
     "AGPL-3.0",
     "AGPL-3.0-only",
     "AGPL-3.0-or-later",
+    "LGPL-2.0",
     "LGPL-2.1",
+    "LGPL-2.1-only",
+    "LGPL-2.1-or-later",
     "LGPL-3.0",
+    "LGPL-3.0-only",
+    "LGPL-3.0-or-later",
     "BSD-2-Clause",
     "BSD-3-Clause",
+    "BSD-4-Clause",
+    "MPL-1.1",
     "MPL-2.0",
     "ISC",
     "EPL-1.0",
     "EPL-2.0",
     "Unlicense",
     "CC0-1.0",
+    "CC-BY-4.0",
+    "CC-BY-SA-4.0",
     "Vim",
     "Zlib",
-    "Artistic-2.0"
+    "Artistic-2.0",
+    "WTFPL",
+    "OpenSSL",
+    "PostgreSQL",
+    "OFL-1.1",
+    "OSI-Approved"
+}
+
+ACCEPTED_HOSTS = {
+    "github.com",
+    "gitlab.com",
+    "codeberg.org",
+    "bitbucket.org",
+    "sourceforge.net",
+    "sf.net",
+    "mozilla.org",
+    "kde.org",
+    "googlesource.com",
+    "apple.com",
+    "blender.org",
+    "zx2c4.com",
+    "wildfiregames.com"
 }
 
 ACCEPTED_STATUSES = {"active", "maintenance", "archived"}
@@ -158,8 +189,8 @@ def validate():
             parsed = urlparse(gh_url)
             if not parsed.scheme or not parsed.netloc:
                 errors.append(f"Project '{p_name}': Invalid GitHub URL '{gh_url}'")
-            elif "github.com" not in parsed.netloc.lower() and "gitlab.com" not in parsed.netloc.lower() and "codeberg.org" not in parsed.netloc.lower():
-                errors.append(f"Project '{p_name}': source repository '{gh_url}' must be a hosted public Git repository (GitHub/GitLab/Codeberg).")
+            elif not any(host in parsed.netloc.lower() for host in ACCEPTED_HOSTS):
+                errors.append(f"Project '{p_name}': source repository '{gh_url}' must be a hosted public Git repository ({', '.join(sorted(ACCEPTED_HOSTS))}).")
             
             if norm_gh in seen_github_urls:
                 errors.append(f"Duplicate GitHub repository URL detected: '{gh_url}' (already used by '{seen_github_urls[norm_gh]}')")

@@ -1,121 +1,453 @@
-# OpenMac Categories Definition
-# Defines the canonical taxonomy for open-source macOS software directory.
-
 categories:
-  - id: development
-    name: Development
-    icon: "🛠️"
-    description: "Code editors, IDEs, Git clients, API testing tools, and database management utilities."
-    subcategories:
-      - "Code Editors & IDEs"
-      - "Git & Version Control"
-      - "API & Web Development"
-      - "Database Tools"
-      - "Containers & Virtualization"
-
-  - id: terminal
-    name: Terminal & Shell
-    icon: "💻"
-    description: "Terminal emulators, multiplexers, modern shells, prompt engines, and CLI power utilities."
-    subcategories:
-      - "Terminal Emulators"
-      - "Multiplexers & Shells"
-      - "CLI Utilities"
-
-  - id: window-management
-    name: Window Management
-    icon: "🪟"
-    description: "Tiling window managers, keyboard window snappers, and window switching enhancers."
-    subcategories:
-      - "Tiling Window Managers"
-      - "Window Snapping & Organizing"
-      - "App & Window Switchers"
-
-  - id: productivity
-    name: Productivity
-    icon: "⚡"
-    description: "Application launchers, clipboard history, menubar organizers, and time management."
-    subcategories:
-      - "Launchers & Quick Navigation"
-      - "Clipboard Managers"
-      - "Menubar Utilities"
-      - "Input & Mouse Enhancers"
-      - "Screen Capture & Recording"
-
-  - id: system
-    name: System & Hardware
-    icon: "🖥️"
-    description: "Hardware diagnostics, system resource monitors, uninstaller tools, and display controls."
-    subcategories:
-      - "Resource Monitoring"
-      - "App Uninstallation & Cleaning"
-      - "Display & Audio Control"
-      - "Package Management"
-
-  - id: ai-ml
-    name: AI & Machine Learning
-    icon: "🤖"
-    description: "Local large language model runners, desktop AI frontends, and on-device ML workflows."
-    subcategories:
-      - "Local LLM Inference"
-      - "AI Desktop Clients"
-      - "Speech & Audio AI"
-      - "Image & Creative AI"
-
-  - id: media
-    name: Media & Audio
-    icon: "🎬"
-    description: "Modern video players, audio routers, screen recording suites, and video transcoders."
-    subcategories:
-      - "Video Players"
-      - "Audio Routing & Editing"
-      - "Screen Recording & Streaming"
-      - "Transcoding & Conversion"
-
-  - id: security
-    name: Security & Privacy
-    icon: "🔒"
-    description: "Password vaults, disk encryption, personal application firewalls, and privacy monitors."
-    subcategories:
-      - "Password Managers"
-      - "Encryption & File Security"
-      - "Firewalls & Network Security"
-      - "Malware & Privacy Detection"
-
-  - id: notes
-    name: Notes & Writing
-    icon: "📝"
-    description: "Local-first markdown editors, networked thought notebooks, and distraction-free writing."
-    subcategories:
-      - "Knowledge Bases & PKM"
-      - "Markdown & Text Editors"
-      - "Academic & Research Writing"
-
-  - id: file-management
-    name: File Management & Sharing
-    icon: "📂"
-    description: "Cloud storage sync, local peer-to-peer file transfer, archive utilities, and FTP clients."
-    subcategories:
-      - "P2P & Local Transfer"
-      - "Remote Storage & FTP"
-      - "Archive & Compression"
-      - "BitTorrent Clients"
-
-  - id: design
-    name: Design & Creative
-    icon: "🎨"
-    description: "Vector graphics illustration, 3D modeling, photo editing, and creative digital painting."
-    subcategories:
-      - "Vector Graphics"
-      - "3D & Animation"
-      - "Digital Painting & Image Editing"
-
-  - id: customization
-    name: Customization & Tweaks
-    icon: "🎛️"
-    description: "Hardware key remapping, custom menubar scripts, dynamic notch tweaks, and desktop themes."
-    subcategories:
-      - "Keyboard & Input Customization"
-      - "Menubar & Status Customization"
-      - "System Tweaks"
-
+- id: audio
+  name: Audio
+  icon: 🎵
+  description: Audio recorders, sound equalizers, routing drivers, and microphone
+    controllers.
+  subcategories:
+  - Equalizers
+  - Audio Routing
+  - Recording
+  - Microphone Tools
+- id: backup
+  name: Backup
+  icon: 💾
+  description: Snapshot tools, Time Machine helpers, volume cloners, and data protection
+    utilities.
+  subcategories:
+  - Time Machine Utilities
+  - Snapshot Tools
+  - Cloud Backup
+  - Disk Cloning
+- id: browser
+  name: Browser
+  icon: 🌐
+  description: Open-source web browsers, privacy navigation tools, and lightweight
+    web viewing engines.
+  subcategories:
+  - Full Browsers
+  - Privacy Browsers
+  - Minimalist Browsers
+- id: chat
+  name: Chat
+  icon: 💬
+  description: Instant messaging, Matrix, IRC, Telegram, WhatsApp wrappers, and team
+    communication.
+  subcategories:
+  - Instant Messaging
+  - Matrix Clients
+  - IRC Clients
+  - Chat Bridges
+- id: cryptocurrency
+  name: Cryptocurrency
+  icon: 💰
+  description: Cryptocurrency wallets, node runners, portfolio trackers, and blockchain
+    tools.
+  subcategories:
+  - Wallets
+  - Price Trackers
+  - Node Runners
+- id: database
+  name: Database
+  icon: 🗄️
+  description: Modern database GUIs, SQL query editors, Redis managers, and SQLite
+    visualizers.
+  subcategories:
+  - SQL Clients
+  - Redis GUIs
+  - SQLite Tools
+  - NoSQL Viewers
+- id: development
+  name: Development
+  icon: 👨‍💻
+  description: General developer utilities, SDK managers, reverse engineering suites,
+    and debugging tools.
+  subcategories:
+  - Developer Suites
+  - Disassemblers
+  - Package Managers
+  - Profiling
+- id: git
+  name: Git
+  icon: 📦
+  description: Native Git GUI clients, visual diff inspection tools, commit helpers,
+    and merge assistants.
+  subcategories:
+  - Git Clients
+  - Diff & Merge Tools
+  - Commit Utilities
+- id: ios-macos
+  name: iOS / macOS
+  icon: 📱
+  description: Apple ecosystem tooling, Xcode enhancements, provisioning helpers,
+    and simulator utilities.
+  subcategories:
+  - Xcode Plugins
+  - Simulator Tools
+  - Signing & Provisioning
+  - Swift Helpers
+- id: json-parsing
+  name: JSON Parsing
+  icon: 🔄
+  description: JSON formatters, syntax highlighters, schema validators, and data tree
+    inspectors.
+  subcategories:
+  - JSON Viewers
+  - Formatters
+  - Schema Validation
+- id: other-development
+  name: Other Development
+  icon: 🔧
+  description: Specialized developer tools, regex visualizers, string processors,
+    and testing utilities.
+  subcategories:
+  - Regex Tools
+  - Test Simulators
+  - Format Converters
+- id: web-development
+  name: Web Development
+  icon: 🌍
+  description: Local web servers, HTTP debugging proxies, static site generators,
+    and API inspection tools.
+  subcategories:
+  - HTTP Proxies
+  - Local Dev Servers
+  - API Testing
+  - Static Sites
+- id: downloader
+  name: Downloader
+  icon: ⬇️
+  description: Media downloaders, YouTube download utilities, Homebrew cask grabbers,
+    and batch fetchers.
+  subcategories:
+  - Video Downloaders
+  - Media Fetchers
+  - Cask Managers
+- id: editors
+  name: Editors
+  icon: 📝
+  description: General text and code editors, native macOS typing suites, and distraction-free
+    editors.
+  subcategories:
+  - Code Editors
+  - Native Text Suites
+  - Minimalist Editors
+- id: csv
+  name: CSV
+  icon: 📊
+  description: Tabular data viewers, spreadsheet inspectors, and high-speed CSV file
+    editors.
+  subcategories:
+  - CSV Viewers
+  - Delimited Data Editors
+- id: json
+  name: JSON
+  icon: 📋
+  description: Dedicated JSON documents editors, structure organizers, and tree manipulation
+    apps.
+  subcategories:
+  - JSON Editors
+  - Document Modifiers
+- id: markdown
+  name: Markdown
+  icon: 📝
+  description: Markdown editors, live preview tools, note renderers, and technical
+    documentation writers.
+  subcategories:
+  - Markdown Editors
+  - Live Previewers
+  - Document Renderers
+- id: tex
+  name: TeX
+  icon: 📐
+  description: LaTeX typesetting tools, mathematical formula editors, and academic
+    paper generators.
+  subcategories:
+  - LaTeX Editors
+  - Equation Editors
+- id: text
+  name: Text
+  icon: ✏️
+  description: Plain text scratchpads, notepad alternatives, and distraction-free
+    writing environments.
+  subcategories:
+  - Text Editors
+  - Scratchpads
+  - Typing Suites
+- id: extensions
+  name: Extensions
+  icon: 🧩
+  description: Quick Look generators, Finder context menu extensions, and share sheet
+    utilities.
+  subcategories:
+  - Quick Look Plugins
+  - Context Menu Tools
+  - Share Extensions
+- id: finder
+  name: Finder
+  icon: 🔍
+  description: Finder enhancements, folder bookmarkers, duplicate detectors, and advanced
+    file browsers.
+  subcategories:
+  - Finder Enhancers
+  - File Browsers
+  - Folder Bookmarkers
+- id: games
+  name: Games
+  icon: 🎮
+  description: Open-source games, console emulators, game engines, and recreational
+    apps for macOS.
+  subcategories:
+  - Emulators
+  - Native Games
+  - Recreational Tools
+- id: graphics
+  name: Graphics
+  icon: 🎨
+  description: Vector design tools, 3D rendering packages, animation software, and
+    diagramming apps.
+  subcategories:
+  - Vector Graphics
+  - 3D Modeling
+  - Animation
+  - Diagramming
+- id: ide
+  name: IDE
+  icon: 💻
+  description: Full-fledged integrated development environments supporting multiple
+    programming stacks.
+  subcategories:
+  - Full IDEs
+  - Language Environments
+  - Workspace Suites
+- id: images
+  name: Images
+  icon: 🖼️
+  description: Image viewing apps, screenshot annotation suites, image optimizers,
+    and color managers.
+  subcategories:
+  - Image Viewers
+  - Annotation Tools
+  - Image Optimizers
+  - Color Pickers
+- id: keyboard
+  name: Keyboard
+  icon: ⌨️
+  description: Key remap utilities, shortcut cheatsheets, keyboard layout managers,
+    and typing assists.
+  subcategories:
+  - Key Remappers
+  - Shortcut Guides
+  - Layout Switchers
+- id: mail
+  name: Mail
+  icon: 📧
+  description: Desktop email clients, menubar notification checkers, and inbox management
+    tools.
+  subcategories:
+  - Email Clients
+  - Menubar Notifiers
+  - Mail Utilities
+- id: medical
+  name: Medical
+  icon: 🏥
+  description: DICOM viewers, medical image visualizers, and healthcare workstation
+    applications.
+  subcategories:
+  - DICOM Viewers
+  - Medical Analysis
+- id: menubar
+  name: Menubar
+  icon: 📊
+  description: Menu bar monitors, notch managers, status bar applets, and quick-access
+    widgets.
+  subcategories:
+  - Status Monitors
+  - Item Hiders
+  - Quick Utilities
+  - Notch Tools
+- id: music
+  name: Music
+  icon: 🎧
+  description: Music players, lyrics synchronizers, audio taggers, and streaming service
+    desktop clients.
+  subcategories:
+  - Music Players
+  - Lyrics Tools
+  - Tag Editors
+  - Streaming Clients
+- id: news
+  name: News
+  icon: 📰
+  description: RSS and Atom feed readers, news aggregators, and headline notification
+    monitors.
+  subcategories:
+  - RSS Readers
+  - News Aggregators
+- id: notes
+  name: Notes
+  icon: 📔
+  description: Note-taking applications, personal knowledge bases, digital journals,
+    and thought planners.
+  subcategories:
+  - Knowledge Bases
+  - Notebooks
+  - Journaling
+- id: other
+  name: Other
+  icon: 📦
+  description: Curated collection of unique, miscellaneous, and versatile macOS tools
+    and utilities.
+  subcategories:
+  - Miscellaneous
+  - Handy Applets
+- id: player
+  name: Player
+  icon: ▶️
+  description: Dedicated lightweight audio and media playback applications for macOS.
+  subcategories:
+  - Audio Players
+  - Mini Players
+- id: podcast
+  name: Podcast
+  icon: 🎙️
+  description: Podcast players, chapter indexers, episode downloaders, and RSS audio
+    subscriptions.
+  subcategories:
+  - Podcast Players
+  - Episode Managers
+- id: productivity
+  name: Productivity
+  icon: ⏱️
+  description: Application launchers, clipboard managers, pomodoro timers, and daily
+    workflow enhancers.
+  subcategories:
+  - Launchers
+  - Clipboard Managers
+  - Pomodoro Timers
+  - Task Managers
+- id: screensaver
+  name: Screensaver
+  icon: 🌙
+  description: Aesthetic screensavers, clock displays, retro animations, and dynamic
+    ambient visuals.
+  subcategories:
+  - Aesthetic Savers
+  - Clock Screensavers
+  - Video Savers
+- id: security
+  name: Security
+  icon: 🔒
+  description: Password vaults, personal application firewalls, disk encryption, and
+    network monitors.
+  subcategories:
+  - Password Managers
+  - Firewalls
+  - Encryption Tools
+  - Malware Scanners
+- id: sharing-files
+  name: Sharing Files
+  icon: 📤
+  description: P2P file transfer tools, AirDrop alternatives, local network sharing,
+    and file sync apps.
+  subcategories:
+  - Local Transfer
+  - P2P Sharing
+  - File Synchronization
+- id: social-networking
+  name: Social Networking
+  icon: 👥
+  description: Clients for decentralized social networks, Mastodon, Bluesky, and community
+    platforms.
+  subcategories:
+  - Mastodon Clients
+  - Bluesky Clients
+  - Community Tools
+- id: streaming
+  name: Streaming
+  icon: 📡
+  description: Live broadcasting suites, desktop capture utilities, and livestream
+    management apps.
+  subcategories:
+  - Broadcasting Suites
+  - Screen Streaming
+- id: system
+  name: System
+  icon: ⚙️
+  description: System diagnostics, hardware monitors, uninstallation cleaners, and
+    maintenance apps.
+  subcategories:
+  - Resource Monitoring
+  - App Uninstallers
+  - Hardware Control
+- id: terminal
+  name: Terminal
+  icon: 📺
+  description: Modern terminal emulators, shell accelerators, multiplexers, and prompt
+    personalizers.
+  subcategories:
+  - Terminal Emulators
+  - Multiplexers
+  - CLI Tools
+- id: touch-bar
+  name: Touch Bar
+  icon: 🎚️
+  description: MacBook Pro Touch Bar customization utilities, widgets, and mini tactile
+    applets.
+  subcategories:
+  - Touch Bar Customizers
+  - Widgets
+- id: utilities
+  name: Utilities
+  icon: 🛠️
+  description: Everyday Mac utilities, mouse accelerators, audio routers, and desktop
+    tools.
+  subcategories:
+  - Input Helpers
+  - Display Control
+  - General Utilities
+- id: vpn-proxy
+  name: VPN & Proxy
+  icon: 🔐
+  description: WireGuard, OpenVPN, Shadowsocks clients, and local network proxy toggle
+    utilities.
+  subcategories:
+  - WireGuard Clients
+  - Proxy Tools
+  - VPN Managers
+- id: video
+  name: Video
+  icon: 🎬
+  description: Video players, subtitle editors, video encoders, and multimedia conversion
+    tools.
+  subcategories:
+  - Video Players
+  - Transcoders
+  - Subtitle Tools
+- id: wallpaper
+  name: Wallpaper
+  icon: 🖥️
+  description: Dynamic wallpaper rotators, aerial desktop engines, and custom wallpaper
+    creators.
+  subcategories:
+  - Dynamic Wallpapers
+  - Wallpaper Switchers
+  - Wallpaper Creators
+- id: window-management
+  name: Window Management
+  icon: 🪟
+  description: Tiling window managers, keyboard snap helpers, and window switcher
+    enhancements.
+  subcategories:
+  - Tiling Managers
+  - Keyboard Snappers
+  - Window Switchers
+- id: ai-ml
+  name: AI & Machine Learning
+  icon: 🤖
+  description: Local large language model runners, desktop AI frontends, and on-device
+    ML workflows.
+  subcategories:
+  - Local LLM Inference
+  - AI Desktop Clients
+  - Creative AI
