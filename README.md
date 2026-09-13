@@ -16,11 +16,11 @@
   <a href="#featured-projects"><b>Featured Apps</b></a> •
   <a href="#all-categories"><b>All Apps</b></a> •
   <a href="#selection-criteria"><b>Criteria</b></a> •
-  <a href="#how-to-contribute"><b>Add a Project</b></a> •
   <a href="#icon-system"><b>Icons</b></a> •
   <a href="#faq"><b>FAQ</b></a> •
   <a href="#contributors"><b>Contributors</b></a> •
-  <a href="#license"><b>License</b></a>
+  <a href="#license"><b>License</b></a> •
+  <a href="#how-to-contribute"><b>Add a Project</b></a>
 </p>
 
 <p align="center">
@@ -64,11 +64,11 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 | ⭐ [**Featured Projects**](#featured-projects) | Top 10 highest-starred open-source macOS apps | [View Section](#featured-projects) |
 | 🗂️ [**All Categories**](#all-categories) | 1,165 verified Mac applications across 50 categories | [View Section](#all-categories) |
 | 🎯 [**Selection Criteria**](#selection-criteria) | Mandatory rules, OSI/FSF approved licenses, and status definitions | [View Section](#selection-criteria) |
-| 🤝 [**How to Add a Project**](#how-to-contribute) | 1-Click web form, interactive CLI wizard, and manual Git workflow | [View Section](#how-to-contribute) |
 | 🎨 [**Icon System**](#icon-system) | Specifications for vector SVG and PNG icon artwork | [View Section](#icon-system) |
 | ❓ [**Frequently Asked Questions**](#faq) | Common questions, inclusion criteria, and answers | [View Section](#faq) |
 | 👥 [**Contributors**](#contributors) | Core maintainers, community contributors, and acknowledgements | [View Section](#contributors) |
 | ⚖️ [**License & Trademarks**](#license) | Repository MIT license and legal trademark notices | [View Section](#license) |
+| 🤝 [**How to Add a Project**](#how-to-contribute) | 1-Click web form, interactive CLI wizard, and manual Git workflow | [View Section](#how-to-contribute) |
 | 📝 [**Contribution Guide**](./CONTRIBUTING.md) | Full step-by-step developer contribution guidelines | [Open Guide](./CONTRIBUTING.md) |
 | ⚡ [**1-Click Submit Project**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) | Submit a project in seconds via GitHub Issues | [Submit App](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) |
 
@@ -1908,59 +1908,6 @@ To preserve directory trust and quality, every submission is evaluated against r
 
 ---
 
-<a id="add-a-project"></a>
-<a id="how-to-contribute"></a>
-<a id="add-project"></a>
-<a id="how-to-add-a-project"></a>
-## 🤝 Add a Project
-
-Adding an open-source Mac app to OpenMac is fast and easy. Choose the method that suits you best:
-
-### 🌟 Method 1: The 1-Click Form (No Git Required)
-If you don't want to mess with Git or command lines, simply fill out our issue template:
-👉 [**Open the Add Project Form**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) — paste the GitHub link and details, and maintainers will add it for you!
-
----
-
-### ⚡ Method 2: The Interactive CLI Wizard (Fastest for Developers)
-We built an automated CLI helper that asks for your app details, creates the icon, runs validation, and updates `README.md` in seconds:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/OpenMac.git
-cd OpenMac
-
-# Run the interactive wizard
-python3 scripts/add-project.py
-```
-Follow the prompts on screen, then push your branch and open a PR!
-
----
-
-### 🛠️ Method 3: Standard Manual Git Workflow
-If you prefer manual control:
-
-```bash
-# 1. Clone your fork and create a branch
-git checkout -b add/your-project-name
-
-# 2. Add icon to icons/project-icons/ (SVG or PNG)
-cp /path/to/icon.svg icons/project-icons/your-project-name.svg
-
-# 3. Add project metadata to data/projects.yml
-# 4. Run automated validation & README compiler
-python3 scripts/validate-projects.py
-python3 scripts/generate-readme.py
-
-# 5. Commit and push
-git add .
-git commit -m "Add Your Project Name to Category"
-git push origin add/your-project-name
-```
-
-For complete guidelines, schema definitions, and tips, please read our [**Contributing Guide (CONTRIBUTING.md)**](./CONTRIBUTING.md).
-
----
-
 <a id="icon-system"></a>
 <a id="icons"></a>
 ## 🎨 Icon System
@@ -2030,6 +1977,59 @@ See [**CONTRIBUTORS.md**](./CONTRIBUTORS.md) for details.
 - **Directory Content**: The OpenMac directory, automated tooling, documentation, and metadata are distributed under the [**MIT License**](./LICENSE).
 - **Third-Party Applications**: Each application listed within this directory is governed by its own independent open-source license as indicated in the respective tables.
 - **Trademarks**: macOS, Mac, and the Apple logo are trademarks of Apple Inc., registered in the U.S. and other countries. All project names, icons, and logos are properties of their respective copyright holders. OpenMac is an independent community initiative and is not affiliated with or endorsed by Apple Inc.
+
+---
+
+<a id="how-to-contribute"></a>
+<a id="add-a-project"></a>
+<a id="add-project"></a>
+<a id="how-to-add-a-project"></a>
+## 🤝 How to Contribute & Add a Project
+
+Adding an open-source Mac app to OpenMac is fast and easy. Choose the method that suits you best:
+
+### 🌟 Method 1: The 1-Click Form (No Git Required)
+If you don't want to mess with Git or command lines, simply fill out our issue template:
+👉 [**Open the Add Project Form**](https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml) — paste the GitHub link and details, and maintainers will add it for you!
+
+---
+
+### ⚡ Method 2: The Interactive CLI Wizard (Fastest for Developers)
+We built an automated CLI helper that asks for your app details, creates the icon, runs validation, and updates `README.md` in seconds:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/OpenMac.git
+cd OpenMac
+
+# Run the interactive wizard
+python3 scripts/add-project.py
+```
+Follow the prompts on screen, then push your branch and open a PR!
+
+---
+
+### 🛠️ Method 3: Standard Manual Git Workflow
+If you prefer manual control:
+
+```bash
+# 1. Clone your fork and create a branch
+git checkout -b add/your-project-name
+
+# 2. Add icon to icons/project-icons/ (SVG or PNG)
+cp /path/to/icon.svg icons/project-icons/your-project-name.svg
+
+# 3. Add project metadata to data/projects.yml
+# 4. Run automated validation & README compiler
+python3 scripts/validate-projects.py
+python3 scripts/generate-readme.py
+
+# 5. Commit and push
+git add .
+git commit -m "Add Your Project Name to Category"
+git push origin add/your-project-name
+```
+
+For complete guidelines, schema definitions, and tips, please read our [**Contributing Guide (CONTRIBUTING.md)**](./CONTRIBUTING.md).
 
 ---
 
