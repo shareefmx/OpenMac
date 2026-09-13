@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="./icons/logo.svg" width="340" alt="OpenMac Logo">
-
 # OpenMac
 
 **The community-powered directory of genuinely open-source macOS apps, developer tools, and system utilities.**
@@ -15,17 +13,8 @@
   <a href="#table-of-contents"><b>Categories</b></a> •
   <a href="#featured-projects"><b>Featured Apps</b></a> •
   <a href="#all-categories"><b>All Apps</b></a> •
-  <a href="#selection-criteria"><b>Criteria</b></a> •
-  <a href="#icon-system"><b>Icons</b></a> •
-  <a href="#faq"><b>FAQ</b></a> •
-  <a href="#contributors"><b>Contributors</b></a> •
-  <a href="#license"><b>License</b></a> •
-  <a href="#how-to-contribute"><b>Add a Project</b></a>
-</p>
-
-<p align="center">
   <a href="./CONTRIBUTING.md"><b>Contribution Guide</b></a> •
-  <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml"><b>⚡ 1-Click Submit Project</b></a>
+  <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml"><b>1-Click Submit</b></a>
 </p>
 
 ---

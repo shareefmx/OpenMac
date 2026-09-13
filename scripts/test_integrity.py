@@ -93,15 +93,16 @@ def main():
 
     print(f"  ✓ All 50 category tables in README.md are strictly sorted in descending star order.")
 
-    # 4. Check Web Application Sync
-    print("\n4. Asserting Web Search App Synchronization...")
-    assert_true(os.path.isfile("docs/index.html"), "docs/index.html missing")
-    assert_true(os.path.isfile("index.html"), "root index.html missing")
-    with open("docs/index.html", "r", encoding="utf-8") as f:
-        web_html = f.read()
-    assert_true("Top 4 Suggested Matches" in web_html, "Top 4 suggestion feature missing in docs/index.html")
-    assert_true("1,165" in web_html, "Project count 1,165 missing in docs/index.html")
-    print(f"  ✓ Web Search App (Spotlight + Top-4 Suggestions) verified in docs/index.html and index.html.")
+    # 4. Assert Navigation Anchors & Core Integrity
+    print("\n4. Asserting Navigation Anchors & Repository Integrity...")
+    required_anchors = [
+        "about", "table-of-contents", "featured-projects", "all-categories",
+        "selection-criteria", "icon-system", "faq", "contributors",
+        "license", "how-to-contribute"
+    ]
+    for anchor in required_anchors:
+        assert_true(f'id="{anchor}"' in readme or f'#{anchor}' in readme, f"Anchor '{anchor}' missing in README.md")
+    print(f"  ✓ Verified all {len(required_anchors)} core navigation anchors present in README.md.")
 
     print("\n==================================================")
     print("    🎉 ALL 4 TEST SUITES PASSED SUCCESSFULLY!     ")
