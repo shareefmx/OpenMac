@@ -28,8 +28,8 @@ def main():
 
     with open("data/projects.yml", "r", encoding="utf-8") as f:
         projects = yaml.safe_load(f).get("projects", [])
-    assert_true(len(projects) == 1165, f"Expected exactly 1,165 projects, found {len(projects)}")
-    print(f"  ✓ Validated 50 categories and 1,165 projects loaded from YAML.")
+    assert_true(len(projects) == 1273, f"Expected exactly 1,273 projects, found {len(projects)}")
+    print(f"  ✓ Validated 50 categories and 1,273 projects loaded from YAML.")
 
     cat_ids = {c["id"] for c in categories}
 
@@ -51,7 +51,7 @@ def main():
         gh = p.get("github", "").rstrip("/").lower()
         assert_true(gh not in seen_urls, f"Duplicate repository URL found: {gh}")
         seen_urls.add(gh)
-    print(f"  ✓ All 1,165 projects have unique IDs, valid categories, valid icons, and unique Git repos.")
+    print(f"  ✓ All {len(projects)} projects have unique IDs, valid categories, valid icons, and unique Git repos.")
 
     # 3. Assert README Alignment & Star Ordering
     print("\n3. Asserting Table Alignment & Star Order in README.md...")
@@ -114,10 +114,10 @@ def main():
     import json
     with open("site-data.json", "r", encoding="utf-8") as f:
         site_data = json.load(f)
-    assert_true(len(site_data.get("projects", [])) == 1165, f"Expected 1,165 projects in site-data.json, found {len(site_data.get('projects', []))}")
+    assert_true(len(site_data.get("projects", [])) == 1273, f"Expected 1,273 projects in site-data.json, found {len(site_data.get('projects', []))}")
     assert_true(len(site_data.get("categories", [])) == 50, f"Expected 50 categories in site-data.json, found {len(site_data.get('categories', []))}")
     assert_true(len(site_data.get("featured", [])) == 10, f"Expected 10 featured projects in site-data.json, found {len(site_data.get('featured', []))}")
-    print(f"  ✓ Validated index.html, styles.css, app.js, vercel.json, and site-data.json (1,165 apps, 50 categories, 10 featured).")
+    print(f"  ✓ Validated index.html, styles.css, app.js, vercel.json, and site-data.json (1,273 apps, 50 categories, 10 featured).")
 
     print("\n==================================================")
     print("    🎉 ALL 5 TEST SUITES PASSED SUCCESSFULLY!     ")

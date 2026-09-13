@@ -42,6 +42,7 @@ ACCEPTED_LICENSES = {
     "LGPL-3.0-or-later",
     "BSD-2-Clause",
     "BSD-3-Clause",
+    "BSD-3-Clause-Clear",
     "BSD-4-Clause",
     "MPL-1.1",
     "MPL-2.0",
