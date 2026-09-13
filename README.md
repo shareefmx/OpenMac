@@ -11,6 +11,13 @@
 <!-- STATS:END -->
 
 <p align="center">
+  <a href="https://shareefmx.github.io/OpenMac/">
+    <img src="https://img.shields.io/badge/🔍_Instant_Search_Apps-Spotlight_Finder_%26_Top_4_Suggestions-007AFF?style=for-the-badge&logo=apple&logoColor=white" alt="Live Interactive Search">
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://shareefmx.github.io/OpenMac/"><b>Live Search App</b></a> •
   <a href="#table-of-contents"><b>Explore Categories</b></a> •
   <a href="#featured-projects"><b>Featured Apps</b></a> •
   <a href="#all-categories"><b>All Apps</b></a> •
@@ -38,6 +45,35 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 - ⚡ **Native Performance**: Prioritizes modern Swift, SwiftUI, Rust, and Metal-accelerated tools tuned for Apple Silicon and Intel Macs.
 - 🤖 **Automated & Verified**: Canonical metadata is strictly validated via automated CI to guarantee no dead links, missing icons, or license misrepresentations.
 - 🤝 **Community-Governed**: Maintained by Mac developers and enthusiasts worldwide. Fork, submit, and improve.
+
+---
+
+<a id="search"></a>
+## 🔍 Instant Search & Quick Finder
+
+Looking for a specific app, utility, or developer tool?
+
+| Method | Access | Description |
+| :--- | :--- | :--- |
+| 🚀 **Spotlight Search App** | **[Launch Web App ➔](https://shareefmx.github.io/OpenMac/)** | Real-time live search with **top 4 suggested matches** displayed in a dropdown menu as you type, category pills, and instant star sorting. |
+| ⌨️ **Quick In-Page Finder** | Press <kbd>⌘ Cmd</kbd> + <kbd>F</kbd> | Press `⌘ + F` (Mac) or `Ctrl + F` (Windows/Linux) to find any app name or keyword directly on this page. |
+| 🔎 **GitHub Code Search** | **[Search Repository ➔](https://github.com/shareefmx/OpenMac/search?q=)** | Search full code, commits, issues, and discussions across the OpenMac project. |
+
+<details>
+<summary><b>📂 Quick Jump to Any Category (Click to Expand)</b></summary>
+<br>
+
+| Focus Area | Category Direct Links |
+| :--- | :--- |
+| **Core Tools** | [🪟 Window Management](#window-management) • [📺 Terminal](#terminal) • [💻 Development](#development) • [🤖 AI & ML](#ai-ml) • [⚙️ System](#system) • [📊 Menubar](#menubar) |
+| **Media & Audio** | [🎵 Audio](#audio) • [🎬 Video](#video) • [🎧 Music](#music) • [🎙️ Podcast](#podcast) • [▶️ Player](#player) • [📡 Streaming](#streaming) |
+| **Productivity & Notes**| [⏱️ Productivity](#productivity) • [📔 Notes](#notes) • [📝 Markdown](#markdown) • [✏️ Text](#text) • [📋 JSON](#json) • [📊 CSV](#csv) • [📐 TeX](#tex) |
+| **Security & Privacy** | [🔒 Security](#security) • [🔐 VPN & Proxy](#vpn-proxy) • [📤 Sharing Files](#sharing-files) • [💾 Backup](#backup) |
+| **Design & UI** | [🎨 Graphics](#graphics) • [🖼️ Images](#images) • [🖥️ Wallpaper](#wallpaper) • [🌙 Screensaver](#screensaver) • [🎚️ Touch Bar](#touch-bar) |
+| **Communication** | [💬 Chat](#chat) • [📧 Mail](#mail) • [👥 Social Networking](#social-networking) • [📰 News](#news) • [🌐 Browser](#browser) |
+| **Utilities & Hardware**| [🛠️ Utilities](#utilities) • [⌨️ Keyboard](#keyboard) • [🔍 Finder](#finder) • [🧩 Extensions](#extensions) • [🎮 Games](#games) • [🏥 Medical](#medical) |
+
+</details>
 
 ---
 
