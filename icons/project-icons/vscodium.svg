@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_vscodium" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#007ACC"/>
+      <stop offset="100%" stop-color="#005A9E"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_vscodium)" stroke="#29B6F6" stroke-width="3"/>
+  <path d="M84 34 L54 58 L38 46 L30 52 L30 76 L38 82 L54 70 L84 94 L98 86 L98 42 Z" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linejoin="round"/>
+                  <line x1="54" y1="58" x2="54" y2="70" stroke="#FFFFFF" stroke-width="7"/>
+</svg>

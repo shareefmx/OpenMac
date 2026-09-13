@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_inkscape" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#27272A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_inkscape)" stroke="#A1A1AA" stroke-width="3"/>
+  <polygon points="64,30 92,86 36,86" fill="#F4F4F5"/>
+                  <polygon points="64,30 76,54 64,60 52,54" fill="#000000"/>
+</svg>

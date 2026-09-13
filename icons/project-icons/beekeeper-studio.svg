@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_beekeeper_studio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#D97706"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_beekeeper_studio)" stroke="#FDE68A" stroke-width="3"/>
+  <polygon points="64,30 92,46 92,78 64,94 36,78 36,46" fill="#1F2937"/>
+                  <ellipse cx="64" cy="52" rx="16" ry="6" fill="#FBBF24"/>
+                  <path d="M48 52 v14 c0 3 7 6 16 6 s16 -3 16 -6 v-14" fill="none" stroke="#FBBF24" stroke-width="3"/>
+                  <path d="M48 66 v14 c0 3 7 6 16 6 s16 -3 16 -6 v-14" fill="none" stroke="#FBBF24" stroke-width="3"/>
+</svg>

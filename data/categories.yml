@@ -1,0 +1,121 @@
+# OpenMac Categories Definition
+# Defines the canonical taxonomy for open-source macOS software directory.
+
+categories:
+  - id: development
+    name: Development
+    icon: "🛠️"
+    description: "Code editors, IDEs, Git clients, API testing tools, and database management utilities."
+    subcategories:
+      - "Code Editors & IDEs"
+      - "Git & Version Control"
+      - "API & Web Development"
+      - "Database Tools"
+      - "Containers & Virtualization"
+
+  - id: terminal
+    name: Terminal & Shell
+    icon: "💻"
+    description: "Terminal emulators, multiplexers, modern shells, prompt engines, and CLI power utilities."
+    subcategories:
+      - "Terminal Emulators"
+      - "Multiplexers & Shells"
+      - "CLI Utilities"
+
+  - id: window-management
+    name: Window Management
+    icon: "🪟"
+    description: "Tiling window managers, keyboard window snappers, and window switching enhancers."
+    subcategories:
+      - "Tiling Window Managers"
+      - "Window Snapping & Organizing"
+      - "App & Window Switchers"
+
+  - id: productivity
+    name: Productivity
+    icon: "⚡"
+    description: "Application launchers, clipboard history, menubar organizers, and time management."
+    subcategories:
+      - "Launchers & Quick Navigation"
+      - "Clipboard Managers"
+      - "Menubar Utilities"
+      - "Input & Mouse Enhancers"
+      - "Screen Capture & Recording"
+
+  - id: system
+    name: System & Hardware
+    icon: "🖥️"
+    description: "Hardware diagnostics, system resource monitors, uninstaller tools, and display controls."
+    subcategories:
+      - "Resource Monitoring"
+      - "App Uninstallation & Cleaning"
+      - "Display & Audio Control"
+      - "Package Management"
+
+  - id: ai-ml
+    name: AI & Machine Learning
+    icon: "🤖"
+    description: "Local large language model runners, desktop AI frontends, and on-device ML workflows."
+    subcategories:
+      - "Local LLM Inference"
+      - "AI Desktop Clients"
+      - "Speech & Audio AI"
+      - "Image & Creative AI"
+
+  - id: media
+    name: Media & Audio
+    icon: "🎬"
+    description: "Modern video players, audio routers, screen recording suites, and video transcoders."
+    subcategories:
+      - "Video Players"
+      - "Audio Routing & Editing"
+      - "Screen Recording & Streaming"
+      - "Transcoding & Conversion"
+
+  - id: security
+    name: Security & Privacy
+    icon: "🔒"
+    description: "Password vaults, disk encryption, personal application firewalls, and privacy monitors."
+    subcategories:
+      - "Password Managers"
+      - "Encryption & File Security"
+      - "Firewalls & Network Security"
+      - "Malware & Privacy Detection"
+
+  - id: notes
+    name: Notes & Writing
+    icon: "📝"
+    description: "Local-first markdown editors, networked thought notebooks, and distraction-free writing."
+    subcategories:
+      - "Knowledge Bases & PKM"
+      - "Markdown & Text Editors"
+      - "Academic & Research Writing"
+
+  - id: file-management
+    name: File Management & Sharing
+    icon: "📂"
+    description: "Cloud storage sync, local peer-to-peer file transfer, archive utilities, and FTP clients."
+    subcategories:
+      - "P2P & Local Transfer"
+      - "Remote Storage & FTP"
+      - "Archive & Compression"
+      - "BitTorrent Clients"
+
+  - id: design
+    name: Design & Creative
+    icon: "🎨"
+    description: "Vector graphics illustration, 3D modeling, photo editing, and creative digital painting."
+    subcategories:
+      - "Vector Graphics"
+      - "3D & Animation"
+      - "Digital Painting & Image Editing"
+
+  - id: customization
+    name: Customization & Tweaks
+    icon: "🎛️"
+    description: "Hardware key remapping, custom menubar scripts, dynamic notch tweaks, and desktop themes."
+    subcategories:
+      - "Keyboard & Input Customization"
+      - "Menubar & Status Customization"
+      - "System Tweaks"
+

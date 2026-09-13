@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_krita" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#BE185D"/>
+      <stop offset="100%" stop-color="#831843"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_krita)" stroke="#F472B6" stroke-width="3"/>
+  <path d="M40 76 C32 60, 44 38, 64 38 C84 38, 96 52, 92 72 C88 88, 52 90, 40 76 Z" fill="#FCE7F3"/>
+                  <circle cx="52" cy="50" r="4" fill="#0284C7"/>
+                  <circle cx="68" cy="48" r="4" fill="#10B981"/>
+                  <circle cx="80" cy="60" r="4" fill="#F59E0B"/>
+</svg>

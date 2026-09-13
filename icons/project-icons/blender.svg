@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_blender" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#EA580C"/>
+      <stop offset="100%" stop-color="#9A3412"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_blender)" stroke="#FDBA74" stroke-width="3"/>
+  <circle cx="64" cy="64" r="16" fill="#0284C7"/>
+                  <circle cx="64" cy="64" r="8" fill="#FFFFFF"/>
+                  <line x1="64" y1="48" x2="64" y2="30" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+                  <line x1="50" y1="56" x2="34" y2="44" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+                  <line x1="78" y1="56" x2="94" y2="44" stroke="#FFFFFF" stroke-width="5" stroke-linecap="round"/>
+</svg>

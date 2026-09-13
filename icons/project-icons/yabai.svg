@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_yabai" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#27272A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_yabai)" stroke="#E4E4E7" stroke-width="3"/>
+  <rect x="32" y="32" width="28" height="28" rx="4" fill="#F43F5E"/>
+                  <rect x="68" y="32" width="28" height="40" rx="4" fill="#38BDF8"/>
+                  <rect x="32" y="68" width="28" height="28" rx="4" fill="#A855F7"/>
+                  <rect x="68" y="80" width="28" height="16" rx="4" fill="#10B981"/>
+</svg>

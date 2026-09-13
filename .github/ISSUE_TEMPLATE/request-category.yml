@@ -1,0 +1,38 @@
+name: 💡 Propose a New Category
+description: Suggest a new category or taxonomy change for organizing macOS open-source software.
+title: "[Category Request]: <Category Name>"
+labels: ["taxonomy", "proposal"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Categories in OpenMac should reflect substantive domains of macOS software with multiple active projects.
+
+  - type: input
+    id: category_name
+    attributes:
+      label: Proposed Category Name
+      placeholder: e.g. Observability & Telemetry
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Rationale & Scope
+      description: Why does this deserve its own dedicated category instead of fitting into an existing one?
+    validations:
+      required: true
+
+  - type: textarea
+    id: sample_projects
+    attributes:
+      label: Example Qualifying Projects (at least 3)
+      description: List at least 3 genuine open-source macOS projects that would belong in this new category.
+      placeholder: |
+        1. Project 1 (URL: ...)
+        2. Project 2 (URL: ...)
+        3. Project 3 (URL: ...)
+    validations:
+      required: true
+

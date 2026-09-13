@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_coteditor" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2B60DE"/>
+      <stop offset="100%" stop-color="#1F3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_coteditor)" stroke="#60A5FA" stroke-width="3"/>
+  <rect x="36" y="30" width="56" height="68" rx="6" fill="#F8FAFC"/>
+                  <line x1="46" y1="46" x2="72" y2="46" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+                  <line x1="46" y1="58" x2="82" y2="58" stroke="#3B82F6" stroke-width="4" stroke-linecap="round"/>
+                  <line x1="46" y1="70" x2="78" y2="70" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+                  <line x1="46" y1="82" x2="64" y2="82" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M86 36 L94 28 L98 32 L90 40 Z" fill="#F59E0B"/>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_audacity" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#1E3A8A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_audacity)" stroke="#60A5FA" stroke-width="3"/>
+  <path d="M40 68 C34 68, 30 60, 30 50 C30 36, 44 28, 64 28 C84 28, 98 36, 98 50 C98 60, 94 68, 88 68" fill="none" stroke="#93C5FD" stroke-width="6"/>
+                  <path d="M38 64 L50 48 L64 76 L76 52 L90 64" fill="none" stroke="#FBBF24" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

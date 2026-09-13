@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_knockknock" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#B45309"/>
+      <stop offset="100%" stop-color="#78350F"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_knockknock)" stroke="#FDE68A" stroke-width="3"/>
+  <rect x="40" y="32" width="48" height="64" rx="4" fill="#FEF3C7" stroke="#92400E" stroke-width="3"/>
+                  <circle cx="64" cy="56" r="8" fill="none" stroke="#B45309" stroke-width="4"/>
+                  <circle cx="64" cy="50" r="3" fill="#B45309"/>
+</svg>

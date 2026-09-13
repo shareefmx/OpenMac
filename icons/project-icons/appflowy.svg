@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_appflowy" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#312E81"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_appflowy)" stroke="#A5B4FC" stroke-width="3"/>
+  <rect x="34" y="34" width="26" height="42" rx="4" fill="#818CF8"/>
+                  <rect x="68" y="34" width="26" height="60" rx="4" fill="#C7D2FE"/>
+                  <rect x="34" y="82" width="26" height="12" rx="3" fill="#818CF8"/>
+</svg>

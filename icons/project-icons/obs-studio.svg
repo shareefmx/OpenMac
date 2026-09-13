@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_obs_studio" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#18181B"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_obs_studio)" stroke="#71717A" stroke-width="3"/>
+  <circle cx="64" cy="64" r="28" fill="none" stroke="#E4E4E7" stroke-width="6"/>
+                  <circle cx="64" cy="64" r="10" fill="#E4E4E7"/>
+                  <circle cx="64" cy="42" r="5" fill="#E4E4E7"/>
+                  <circle cx="45" cy="75" r="5" fill="#E4E4E7"/>
+                  <circle cx="83" cy="75" r="5" fill="#E4E4E7"/>
+</svg>

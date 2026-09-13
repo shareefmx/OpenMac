@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_alt_tab_macos" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_alt_tab_macos)" stroke="#7DD3FC" stroke-width="3"/>
+  <rect x="30" y="44" width="40" height="34" rx="4" fill="#0C4A6E" stroke="#38BDF8" stroke-width="3"/>
+                  <rect x="58" y="50" width="40" height="34" rx="4" fill="#E0F2FE" stroke="#0284C7" stroke-width="3"/>
+                  <path d="M46 36 L70 36 L64 30 M70 36 L64 42" stroke="#FDE047" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+</svg>

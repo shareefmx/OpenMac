@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_pearcleaner" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#84CC16"/>
+      <stop offset="100%" stop-color="#4D7C0F"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_pearcleaner)" stroke="#BEF264" stroke-width="3"/>
+  <ellipse cx="64" cy="70" rx="22" ry="20" fill="#ECFCCB"/>
+                  <ellipse cx="64" cy="50" rx="14" ry="14" fill="#ECFCCB"/>
+                  <path d="M64 36 C64 30, 72 26, 76 24" fill="none" stroke="#78350F" stroke-width="4" stroke-linecap="round"/>
+                  <path d="M66 32 C72 32, 78 28, 80 26 C80 32, 74 34, 66 32 Z" fill="#84CC16"/>
+</svg>

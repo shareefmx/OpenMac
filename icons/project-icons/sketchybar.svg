@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_sketchybar" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_sketchybar)" stroke="#38BDF8" stroke-width="3"/>
+  <rect x="26" y="52" width="76" height="24" rx="6" fill="#0F172A" stroke="#38BDF8" stroke-width="3"/>
+                  <circle cx="38" cy="64" r="4" fill="#F43F5E"/>
+                  <rect x="48" y="60" width="16" height="8" rx="2" fill="#10B981"/>
+                  <rect x="70" y="60" width="22" height="8" rx="2" fill="#FBBF24"/>
+</svg>

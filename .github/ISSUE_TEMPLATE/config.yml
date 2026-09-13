@@ -1,0 +1,6 @@
+blank_issues_enabled: false
+contact_links:
+  - name: OpenMac Discussions & Ideas
+    url: https://github.com/shareefmx/OpenMac/discussions
+    about: Ask questions, share workflows, and discuss macOS open-source tooling with the community.
+

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_sensible_side_buttons" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_sensible_side_buttons)" stroke="#38BDF8" stroke-width="3"/>
+  <rect x="44" y="32" width="40" height="64" rx="20" fill="#E0F2FE" stroke="#0284C7" stroke-width="3"/>
+                  <line x1="64" y1="32" x2="64" y2="54" stroke="#0284C7" stroke-width="3"/>
+                  <rect x="38" y="46" width="6" height="10" rx="2" fill="#F43F5E"/>
+                  <rect x="38" y="60" width="6" height="10" rx="2" fill="#F43F5E"/>
+</svg>

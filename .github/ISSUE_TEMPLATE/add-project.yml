@@ -1,0 +1,100 @@
+name: 🚀 Propose a New Open-Source Mac Project
+description: Suggest an open-source macOS app or developer tool to be added to the directory.
+title: "[Add Project]: <Project Name>"
+labels: ["project-submission"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for contributing to **OpenMac**!
+        Please ensure the project is **genuinely open source** with a publicly accessible code repository and an OSI/FSF-approved license before submitting.
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      description: The official name of the application or tool.
+      placeholder: e.g. Zed
+    validations:
+      required: true
+
+  - type: input
+    id: github_url
+    attributes:
+      label: GitHub / Source Code Repository URL
+      description: Must be a publicly accessible Git repository (GitHub, GitLab, Codeberg).
+      placeholder: https://github.com/organization/project
+    validations:
+      required: true
+
+  - type: input
+    id: website_url
+    attributes:
+      label: Official Website URL
+      description: Project homepage or documentation site (defaults to repository URL if unavailable).
+      placeholder: https://example.org
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Short Description
+      description: Concise summary of what the project does (20 to 200 characters).
+      placeholder: e.g. High-performance, multiplayer code editor written in Rust with GPU-accelerated rendering.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the most appropriate category for this project.
+      options:
+        - Development
+        - Terminal & Shell
+        - Window Management
+        - Productivity
+        - System & Hardware
+        - AI & Machine Learning
+        - Media & Audio
+        - Security & Privacy
+        - Notes & Writing
+        - File Management & Sharing
+        - Design & Creative
+        - Customization & Tweaks
+    validations:
+      required: true
+
+  - type: input
+    id: license
+    attributes:
+      label: Open-Source License
+      description: Must be a recognized OSI/FSF open-source license (e.g., MIT, Apache-2.0, GPL-3.0).
+      placeholder: e.g. MIT, GPL-3.0, Apache-2.0
+    validations:
+      required: true
+
+  - type: input
+    id: primary_language
+    attributes:
+      label: Primary Programming Language / Tech Stack
+      placeholder: e.g. Swift, Rust, TypeScript, C++
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Contributor Verification Checklist
+      description: Please verify each requirement before submitting.
+      options:
+        - label: The project source code is publicly accessible and auditable.
+          required: true
+        - label: The project carries an official open-source license (no proprietary / closed freeware).
+          required: true
+        - label: The project runs on macOS (Apple Silicon or Intel).
+          required: true
+        - label: I checked that this project is not already listed in OpenMac.
+          required: true
+

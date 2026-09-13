@@ -1,0 +1,50 @@
+name: ⚠️ Report a Project / Broken Link / License Issue
+description: Report an issue with an existing project listing (broken link, closed source, abandonment, incorrect metadata).
+title: "[Report]: <Project Name>"
+labels: ["triage", "maintenance"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form to report broken URLs, license changes, project deprecations, or discrepancies in the OpenMac directory.
+
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      placeholder: e.g. AppName
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: Issue Type
+      options:
+        - "Broken Repository or Website Link"
+        - "Project Moved to Closed-Source / Proprietary"
+        - "License Mismatch / Misrepresentation"
+        - "Repository Archived or Abandoned"
+        - "Incorrect Category or Description"
+        - "Duplicate Entry"
+        - "Other"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue_details
+    attributes:
+      label: Issue Details & Evidence
+      description: Explain the problem in detail. Include URLs, screenshots, or commit references where applicable.
+      placeholder: e.g. The repository has been archived by the author, or the license in the upstream repository changed to proprietary SSPL.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposed_fix
+    attributes:
+      label: Suggested Resolution
+      description: What action should maintainers take? (e.g., update URL, mark status as archived, or remove listing).
+    validations:
+      required: false
+

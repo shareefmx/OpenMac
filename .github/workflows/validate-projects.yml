@@ -1,0 +1,43 @@
+name: Validate Projects & Directory Integrity
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Validate OpenMac Data & README
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.12
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install Python Dependencies
+        run: |
+          python3 -m pip install --upgrade pip
+          pip install pyyaml
+
+      - name: Run Schema & Duplicate Validation
+        run: |
+          python3 scripts/validate-projects.py
+
+      - name: Check README In-Sync Status
+        run: |
+          python3 scripts/generate-readme.py --check
+
+      - name: Validate URL Syntax
+        run: |
+          python3 scripts/check-links.py
+

@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_handbrake" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#0369A1"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_handbrake)" stroke="#38BDF8" stroke-width="3"/>
+  <ellipse cx="64" cy="68" rx="16" ry="20" fill="#F59E0B"/>
+                  <path d="M64 48 C64 36, 72 32, 76 30" stroke="#10B981" stroke-width="4" stroke-linecap="round" fill="none"/>
+                  <path d="M64 48 C56 36, 48 34, 44 32" stroke="#10B981" stroke-width="4" stroke-linecap="round" fill="none"/>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_monitorcontrol" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#475569"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_monitorcontrol)" stroke="#94A3B8" stroke-width="3"/>
+  <rect x="32" y="34" width="64" height="44" rx="4" fill="#0F172A" stroke="#94A3B8" stroke-width="3"/>
+                  <rect x="58" y="78" width="12" height="12" fill="#94A3B8"/>
+                  <line x1="50" y1="90" x2="78" y2="90" stroke="#94A3B8" stroke-width="4" stroke-linecap="round"/>
+                  <circle cx="64" cy="56" r="8" fill="#F59E0B"/>
+</svg>

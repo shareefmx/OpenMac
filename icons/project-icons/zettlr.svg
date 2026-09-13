@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_zettlr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#166534"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_zettlr)" stroke="#86EFAC" stroke-width="3"/>
+  <path d="M42 42 H86 L48 86 H86" fill="none" stroke="#DCFCE7" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

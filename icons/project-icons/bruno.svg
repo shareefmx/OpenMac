@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <defs>
+    <linearGradient id="grad_bruno" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+  </defs>
+  <rect x="8" y="8" width="112" height="112" rx="26" fill="url(#grad_bruno)" stroke="#FBBF24" stroke-width="3"/>
+  <circle cx="64" cy="64" r="28" fill="#FEF3C7"/>
+                  <circle cx="54" cy="60" r="4" fill="#78350F"/>
+                  <circle cx="74" cy="60" r="4" fill="#78350F"/>
+                  <path d="M60 70 Q64 74 68 70" fill="none" stroke="#78350F" stroke-width="3" stroke-linecap="round"/>
+                  <ellipse cx="44" cy="50" rx="6" ry="12" fill="#92400E" transform="rotate(-20 44 50)"/>
+                  <ellipse cx="84" cy="50" rx="6" ry="12" fill="#92400E" transform="rotate(20 84 50)"/>
+</svg>
