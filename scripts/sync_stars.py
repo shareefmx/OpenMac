@@ -20,7 +20,9 @@ def parse_gh_repo(url: str):
     m = re.search(r"github\.com/([^/]+)/([^/#?]+)", url)
     if m:
         owner = m.group(1)
-        repo = m.group(2).rstrip(".git")
+        repo = m.group(2)
+        if repo.endswith(".git"):
+            repo = repo[:-4]
         return owner, repo
     return None
 
@@ -64,7 +66,7 @@ def fetch_stars_batch(batch):
 def fetch_gitlab_stars(url: str) -> int:
     m = re.search(r"gitlab\.com/([^/]+(?:/[^/#?]+)*)", url)
     if m:
-        path = m.group(1).rstrip("/").replace("/-/tree/master", "").replace("/code/", "/")
+        path = m.group(1).rstrip("/").replace("/-/tree/master", "")
         encoded = urllib.parse.quote(path, safe="")
         try:
             api_url = f"https://gitlab.com/api/v4/projects/{encoded}"

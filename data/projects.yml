@@ -208,7 +208,7 @@ projects:
   status: active
   icon: icons/project-icons/ollama.png
   featured: true
-  stars: 180764
+  stars: 180765
 - id: pearcleaner
   name: Pearcleaner
   description: Open-source Mac app uninstaller inspired by AppCleaner, written cleanly in native SwiftUI.
@@ -274,7 +274,7 @@ projects:
   status: active
   icon: icons/project-icons/zed.png
   featured: true
-  stars: 90160
+  stars: 90161
 - id: 0-a-d
   name: 0 A.D.
   description: Real-time strategy game of ancient warfare
@@ -370,7 +370,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/adguard-for-safari.png
-  stars: 0
+  stars: 1183
 - id: adium
   name: Adium
   description: Instant messaging application that can connect to XMPP (Jabber), IRC and more.
@@ -478,7 +478,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/agentpet.png
-  stars: 0
+  stars: 352
 - id: agterm
   name: agterm
   description: agterm is a native macOS terminal designed specifically to keep your screen organized when running multiple AI coding agents at once. Instead of losing track of background tasks in…
@@ -599,7 +599,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/ambient-context.png
-  stars: 0
+  stars: 170
 - id: amethyst
   name: Amethyst
   description: Automatic tiling window manager for macOS inspired by xmonad.
@@ -612,7 +612,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/amethyst.png
-  stars: 0
+  stars: 16264
 - id: android-tool-for-mac
   name: Android tool for Mac
   description: One-click screenshots, video recordings, app installation for iOS and Android
@@ -636,7 +636,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/angkorgit.png
-  stars: 0
+  stars: 117
 - id: annepro-mac
   name: AnnePro-mac
   description: macOS application for controlling AnnePro keyboard over bluetooth.
@@ -999,7 +999,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/auhost.png
-  stars: 0
+  stars: 122
 - id: aural-player
   name: Aural Player
   description: Aural Player is a audio player application for the macOS platform. Inspired by the classic Winamp player for Windows, it is designed to be to-the-point and easy to use.
@@ -1143,7 +1143,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/baocut.png
-  stars: 0
+  stars: 491
 - id: barss-menu-bar-rss-reader
   name: baRSS – Menu Bar RSS Reader
   description: RSS & Atom feed reader that lives in the system status bar.
@@ -1179,7 +1179,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/basert.png
-  stars: 0
+  stars: 214
 - id: battle-for-wesnoth
   name: Battle for Wesnoth
   description: Turn-based tactical strategy game, featuring both single-player and online multiplayer combat.
@@ -1312,7 +1312,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/better-shot.png
-  stars: 0
+  stars: 2289
 - id: bibdesk
   name: BibDesk
   description: Use BibDesk to edit and manage your bibliography
@@ -1336,7 +1336,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/bifrost.png
-  stars: 0
+  stars: 85
 - id: bingpaper
   name: BingPaper
   description: Use Bing daily photo as your wallpaper on macOS.
@@ -1446,7 +1446,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/bonsai.png
-  stars: 0
+  stars: 144
 - id: boop
   name: Boop
   description: A scriptable scratchpad for developers.
@@ -1470,7 +1470,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/boop-agent.png
-  stars: 0
+  stars: 1357
 - id: boostnote
   name: Boostnote
   description: Note-taking application made for programmers just like you.
@@ -1674,7 +1674,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/agentswift.png
-  stars: 0
+  stars: 125
 - id: permiso
   name: Permiso
   description: Are your users struggling with clunky privacy permission screens? You can transform that experience with a professional dialog designed to guide people directly through the system…
@@ -1758,7 +1758,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/mlx-audio-swift.png
-  stars: 0
+  stars: 774
 - id: my-translator
   name: My Translator
   description: Imagine having a personal real-time speech translator right on your computer. This repository provides a powerful desktop application for both macOS and Windows that enables instan…
@@ -1818,7 +1818,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/gecit.png
-  stars: 0
+  stars: 362
 - id: cakebrew
   name: Cakebrew
   description: Manage your Homebrew formulas with style using Cakebrew.
@@ -2095,7 +2095,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/chitchat.png
-  stars: 0
+  stars: 1900
 - id: chorddetector
   name: ChordDetector
   description: Tiny menu bar app that listens iTunes and Spotify to detect chords of songs!
@@ -2275,7 +2275,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/mac-cleaner-cli.png
-  stars: 0
+  stars: 1968
 - id: clean-me
   name: Clean-Me
   description: Small macOS app that acts as a system cleaner (logs, cache, ...).
@@ -2443,7 +2443,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/cocoarestclient.png
-  stars: 0
+  stars: 2369
 - id: gemma-chat
   name: Gemma Chat
   description: Want to code anywhere without an internet connection? Meet a powerful tool that brings AI development directly to your Mac. This repository offers a local chat and coding agent pow…
@@ -2455,7 +2455,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/gemma-chat.png
-  stars: 0
+  stars: 1425
 - id: code-as-world
   name: Code-as-World
   description: Code as World is the AI framework that turns raw video into executable physics by writing the code behind the scenes. Instead of just guessing what happens next, an agent discovers…
@@ -2491,7 +2491,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/codeedit.png
-  stars: 0
+  stars: 23027
 - id: codenotch
   name: Codenotch
   description: Stop guessing if your AI is about to cut you off. Codenotch pins a tiny, sleek black bar to the edge of your Mac screen that instantly shows exactly how much of your usage limit yo…
@@ -2576,7 +2576,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/colorset.png
-  stars: 0
+  stars: 247
 - id: comfyui-qwentts
   name: ComfyUI-QwenTTS
   description: A new tool lets you type a simple sentence and get a completely custom human voice back. ComfyUI-QwenTTS brings powerful speech synthesis into your local node-based workflow, allow…
@@ -2672,7 +2672,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/imsg.png
-  stars: 0
+  stars: 1323
 - id: baguette
   name: Baguette
   description: Manage and control iOS simulators directly from your terminal or a browser by bypassing standard GUI tools. This tool allows you to boot devices, stream screens at 60 frames per se…
@@ -2816,7 +2816,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/corelocationcli.png
-  stars: 0
+  stars: 270
 - id: coreos-vm
   name: CoreOS VM
   description: CoreOS VM is macOS status bar app which allows in an easy way to control CoreOS VM on your Mac.
@@ -2913,7 +2913,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/recordly.png
-  stars: 27743
+  stars: 27749
 - id: dmgmaker
   name: DMGMaker
   description: Package your macOS applications into professional disk images using this dedicated creation tool. It simplifies the process by generating high-quality installers featuring live-ren…
@@ -2937,7 +2937,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/crisp.png
-  stars: 1665
+  stars: 1666
 - id: crunch
   name: Crunch
   description: Insane(ly slow but wicked good) PNG image optimization.
@@ -3071,7 +3071,7 @@ projects:
   language: Python
   status: active
   icon: icons/project-icons/da-cli.png
-  stars: 0
+  stars: 8
 - id: d-inference
   name: Darkbloom
   description: Darkbloom transforms idle Apple Silicon Macs into a secure, decentralized network for running artificial intelligence models. It enables users to tap into high-performance compute…
@@ -3119,7 +3119,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/skills.png
-  stars: 4015
+  stars: 4016
 - id: davit
   name: Davit
   description: Davit is the native macOS dashboard that finally brings Apple's lightweight Linux container platform to life with a beautiful user interface. While tools like Docker Desktop consum…
@@ -3131,7 +3131,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/davit.png
-  stars: 0
+  stars: 1429
 - id: dayflow
   name: Dayflow
   description: Build a private work journal on your Mac without lifting a finger or setting timers. Dayflow quietly watches your screen activity and turns those moments into a clear, chronologica…
@@ -3323,7 +3323,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/devlint.png
-  stars: 0
+  stars: 3
 - id: devspace
   name: DevSpace
   description: Stop sending your code to the cloud and start letting ChatGPT work on your actual machine. DevSpace is a self-hosted tool that connects AI directly to your local project folders, a…
@@ -3384,7 +3384,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/diffusionbee.png
-  stars: 0
+  stars: 13585
 - id: disablemonitor
   name: DisableMonitor
   description: Easily disable or enable a monitor on your Mac.
@@ -3456,7 +3456,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/dockit.png
-  stars: 0
+  stars: 281
 - id: docky
   name: Docky
   description: 'Docky is the dock replacement that finally makes your Mac''s dock feel modern and flexible. It solves a simple but persistent problem: Apple''s system dock has barely changed in year…'
@@ -3528,7 +3528,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/doughnut.png
-  stars: 0
+  stars: 249
 - id: downright
   name: Downright
   description: Turn plain text files into beautiful, native Mac documents. Downright is a free, open source editor for macOS that renders Markdown with crisp, system-level typography. It solves t…
@@ -3540,7 +3540,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/downright.png
-  stars: 0
+  stars: 64
 - id: dozer
   name: Dozer
   description: Hide MacOS menubar items.
@@ -3564,7 +3564,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/droppoint.png
-  stars: 0
+  stars: 1093
 - id: dsh-desktop
   name: DSH Desktop
   description: DSH Desktop turns your computer into a complete, offline AI workspace by running the official DeepSeek Harness interface right on your machine. It solves the headache of messy plug…
@@ -3684,7 +3684,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/electronic-wechat.png
-  stars: 0
+  stars: 13832
 - id: electronmail
   name: ElectronMail
   description: Unofficial desktop app for ProtonMail and Tutanota end-to-end encrypted email providers.
@@ -3984,7 +3984,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/cling.png
-  stars: 0
+  stars: 855
 - id: findphone
   name: FindPhone
   description: It turns your Mac into a handheld signal detector for nearby Bluetooth gadgets when Apple’s Find My service is blocked. This project scans for devices by signal strength and lets y…
@@ -4056,7 +4056,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/fiscript.png
-  stars: 0
+  stars: 530
 - id: flameshot
   name: Flameshot
   description: Powerful yet simple to use screenshot software with in-place annotation and editing.
@@ -4069,7 +4069,7 @@ projects:
   language: C++
   status: active
   icon: icons/project-icons/flameshot.png
-  stars: 0
+  stars: 30837
 - id: float-coin
   name: Float coin
   description: Native menu bar app with floating window and support for many Exchanges.
@@ -4117,7 +4117,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/flycut.png
-  stars: 0
+  stars: 2685
 - id: flying-carpet
   name: Flying Carpet
   description: cross-platform file transfer over ad-hoc wifi, like AirDrop but for Mac/Windows/Linux.
@@ -4129,7 +4129,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/flying-carpet.png
-  stars: 0
+  stars: 5321
 - id: fnscribe
   name: FnScribe
   description: FnScribe is the private Mac dictation tool that keeps your voice entirely on your computer. It runs a local speech model so your audio never touches a server, which is a rare move…
@@ -4249,7 +4249,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/frontieragent.png
-  stars: 0
+  stars: 2730
 - id: fselect
   name: fselect
   description: Command-line tool to search files with SQL syntax.
@@ -4261,7 +4261,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/fselect.png
-  stars: 0
+  stars: 4458
 - id: fsnotes
   name: FSNotes
   description: 'Notes manager for macOS/iOS: modern notational velocity (nvALT) on steroids.'
@@ -4297,7 +4297,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/galeri.png
-  stars: 0
+  stars: 43
 - id: game2world
   name: Game2World
   description: Game2World acts as a specialized video editor that strips away the clutter from real gameplay recordings, removing health bars, maps, and menu screens while leaving the actual game…
@@ -4405,7 +4405,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/get-it.png
-  stars: 0
+  stars: 598
 - id: gifcapture
   name: GifCapture
   description: Gif capture app for macOS.
@@ -4441,7 +4441,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/gifski.png
-  stars: 0
+  stars: 8552
 - id: gifted
   name: Gifted
   description: Turn any short video into an animated GIF quickly and easily.
@@ -4478,7 +4478,7 @@ projects:
   language: Elm
   status: active
   icon: icons/project-icons/gingko.png
-  stars: 0
+  stars: 414
 - id: git-interactive-rebase-tool
   name: Git Interactive Rebase Tool
   description: Full feature terminal based sequence editor for interactive rebase.
@@ -4707,7 +4707,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/glazepkg.png
-  stars: 0
+  stars: 632
 - id: gnu-gatekeeper
   name: GNU Gatekeeper
   description: Video conferencing server for H.323 terminals.
@@ -4731,7 +4731,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/go-shirei.png
-  stars: 0
+  stars: 606
 - id: gokurakujoudo
   name: GokuRakuJoudo
   description: Karabiner-Elements configuration manager, rescue to bloated karabiner.json
@@ -5069,7 +5069,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/highball.png
-  stars: 312
+  stars: 313
 - id: hilbertraum
   name: HilbertRaum
   description: HilbertRaum is the private AI workspace that keeps every byte of your data strictly on your computer. It solves the anxiety of sending sensitive documents to the cloud by running p…
@@ -5370,7 +5370,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/impactor.png
-  stars: 3202
+  stars: 3203
 - id: incy-platforms
   name: Incy Platforms
   description: Manage multiple proxy servers across iOS, Android, and macOS with a single app that handles subscription updates and complex routing rules. Incy Platforms lets you split traffic by…
@@ -5706,7 +5706,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/itunesconnect.png
-  stars: 0
+  stars: 51
 - id: jlens-qwen36
   name: J-lens Qwen3.6
   description: Watch concepts form inside a neural network before they ever reach the final output. The jlens-qwen36 visualizer lets you inspect hidden diagnostic signals in the Qwen3.6-27B model…
@@ -5863,7 +5863,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/jsonexport.png
-  stars: 0
+  stars: 4800
 - id: juice
   name: Juice
   description: Make your battery information a bit more interesting.
@@ -5948,7 +5948,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/kaset.png
-  stars: 0
+  stars: 2250
 - id: katana
   name: Katana
   description: Katana is a simple screenshot utility for macOS that lives in your menubar.
@@ -6118,7 +6118,7 @@ projects:
   language: C++
   status: active
   icon: icons/project-icons/kicad.svg
-  stars: 0
+  stars: 1078
 - id: kimi-k3-mlx
   name: kimi-k3-mlx
   description: kimi-k3-mlx is the Apple Silicon port that finally lets you run and modify Moonshot's massive two-trillion-parameter model right on Mac architecture. This clever tool solves a mass…
@@ -6192,7 +6192,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/kubecontext.png
-  stars: 0
+  stars: 429
 - id: kubemonitor
   name: KubeMonitor
   description: KubeMonitor is a macOS app that displays information about your active Kubernetes cluster in your menu bar.
@@ -6277,7 +6277,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/latest.png
-  stars: 0
+  stars: 4774
 - id: launchnext
   name: LaunchNext
   description: Bring back your classic macOS app launcher and escape the limitations of newer system updates. This open-source tool instantly recreates your familiar Launchpad layout, including a…
@@ -6289,7 +6289,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/launchnext.png
-  stars: 0
+  stars: 3004
 - id: layerx
   name: LayerX
   description: Intuitive app to display transparent images on screen.
@@ -6313,7 +6313,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/layout-designer-for-uicollectionview.png
-  stars: 0
+  stars: 2801
 - id: lazymount-mac
   name: LazyMount Mac
   description: You can now run massive Steam game libraries and heavy AI models directly from your network storage without wasting your Mac's expensive built-in SSD space. An open-source tool cal…
@@ -6457,7 +6457,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/lilypond-ui.png
-  stars: 0
+  stars: 36
 - id: linearmouse
   name: LinearMouse
   description: Utility to customize mouse and trackpad acceleration, scrolling direction, and cursor behaviors.
@@ -6530,7 +6530,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/loading.png
-  stars: 0
+  stars: 622
 - id: mimikastudio
   name: MimikaStudio
   description: MimikaStudio is a local-first application built for macOS with Apple Silicon that enables powerful voice cloning and text-to-speech capabilities directly on your machine. By levera…
@@ -6554,7 +6554,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/localgpt.png
-  stars: 0
+  stars: 1123
 - id: localizable-strings
   name: Localizable.strings
   description: Mac app to localize your iOS and macOS projects.
@@ -6711,7 +6711,7 @@ projects:
   language: TypeScript
   status: active
   icon: icons/project-icons/losslesscut.svg
-  stars: 0
+  stars: 43691
 - id: ltx-desktop
   name: ltx-desktop
   description: ltx-desktop is the desktop app that finally runs powerful AI video generation locally on your own computer. If you have a decent graphics card or an Apple Silicon Mac, this project…
@@ -6867,7 +6867,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/macgist.png
-  stars: 0
+  stars: 130
 - id: macho-browser
   name: macho-browser
   description: Browser for macOS Mach-O binaries.
@@ -7047,7 +7047,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/macsift.png
-  stars: 0
+  stars: 270
 - id: macsvg
   name: macSVG
   description: macOS application for designing HTML5 SVG (Scalable Vector Graphics) art and animation with a WebKit web view.
@@ -7084,7 +7084,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/mailspring.png
-  stars: 0
+  stars: 17783
 - id: maka
   name: Maka
   description: Maka is the local-first AI workspace that treats your agent's actions like a flight recorder. Instead of just chatting, it records every message, tool call, and permission decision…
@@ -7216,7 +7216,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/markedit.png
-  stars: 0
+  stars: 5648
 - id: market-bar
   name: Market Bar
   description: Tiny stocks watcher for the menu bar.
@@ -7240,7 +7240,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/markout.png
-  stars: 0
+  stars: 11
 - id: marktext
   name: MarkText
   description: Simple and elegant open-source markdown editor focused on speed and real-time live preview.
@@ -7253,7 +7253,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/marktext.png
-  stars: 0
+  stars: 61345
 - id: clawdhome
   name: ClawdHome
   description: Are you tired of juggling multiple OpenClaw gateway instances on your computer and worrying about potential security conflicts? The ClawdHome repository is the perfect solution for…
@@ -7277,7 +7277,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/breathe-cli.png
-  stars: 0
+  stars: 325
 - id: tabbed
   name: Tabbed
   description: Are you tired of cluttering your screen with endless, overlapping windows while you work? Meet Tabbed, a clever macOS utility that brings a much-needed sense of order to your digit…
@@ -7301,7 +7301,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/rig.png
-  stars: 0
+  stars: 326
 - id: reframed
   name: Reframed
   description: Are you tired of clunky screen recording tools that make your workflow feel like a chore? Reframed is the ultimate macOS solution designed to streamline your entire capture process…
@@ -7397,7 +7397,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/thuki.png
-  stars: 0
+  stars: 576
 - id: meetingbar
   name: MeetingBar
   description: Menu bar app for your calendar meetings
@@ -7565,7 +7565,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/middledrag.png
-  stars: 0
+  stars: 232
 - id: min-browser
   name: Min Browser
   description: A fast and efficient minimal web browser.
@@ -7637,7 +7637,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/minomeet.png
-  stars: 0
+  stars: 8
 - id: mkchromecast
   name: mkchromecast
   description: Cast macOS and Linux Audio/Video to your Google Cast and Sonos Devices.
@@ -7649,7 +7649,7 @@ projects:
   language: Python
   status: active
   icon: icons/project-icons/mkchromecast.png
-  stars: 0
+  stars: 2349
 - id: mlx
   name: MLX
   description: Run massive machine learning models right on your Mac without the usual memory headache. The mlx framework brings native, high-performance array operations straight to Apple silico…
@@ -7721,7 +7721,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/arsenal-ng.png
-  stars: 0
+  stars: 654
 - id: mongodb-app
   name: mongoDB.app
   description: The easiest way to get started with mongoDB on the Mac.
@@ -7830,7 +7830,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/motrix.png
-  stars: 55472
+  stars: 55473
 - id: ghfs
   name: GHFS
   description: Have you ever wanted to browse an entire GitHub repository just like a normal folder on your Mac without downloading a single file? This clever tool makes it possible by mounting a…
@@ -7878,7 +7878,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/moviebox-tui.png
-  stars: 0
+  stars: 1901
 - id: mplayerx
   name: MPlayerX
   description: Media player on macOS.
@@ -7986,7 +7986,7 @@ projects:
   language: free-pascal
   status: active
   icon: icons/project-icons/mxmarkedit.png
-  stars: 0
+  stars: 34
 - id: mytouchbarmyrules
   name: MyTouchbarMyRules
   description: App to customize your Touch Bar as you want.
@@ -8022,7 +8022,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/nectar-lang.png
-  stars: 0
+  stars: 101
 - id: nef
   name: nef
   description: This Xcode extension enables you to make a code selection and export it to a snippets. Available on Mac AppStore.
@@ -8190,7 +8190,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/notenik.png
-  stars: 0
+  stars: 114
 - id: notes
   name: Notes
   description: 'Notes is a macOS application built to create notes, using text amongst other formats: images, videos, contacts, and etc.'
@@ -8238,7 +8238,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/noti.svg
-  stars: 0
+  stars: 911
 - id: noto
   name: Noto
   description: Plain text editor for macOS with customizable themes.
@@ -8298,7 +8298,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/numi.png
-  stars: 0
+  stars: 6493
 - id: nvm
   name: NVM
   description: Node Version Manager.
@@ -8349,7 +8349,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/oh-my-reddit.png
-  stars: 0
+  stars: 147
 - id: omacosy
   name: Omacosy
   description: Your Mac just stopped feeling like a Mac and started feeling like a power tool. omacosy is a desktop environment that turns macOS into a tiling workspace with a real Super key, let…
@@ -8433,7 +8433,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/oni.png
-  stars: 0
+  stars: 11235
 - id: onionshare
   name: OnionShare
   description: Securely and anonymously share files, host websites, and chat with friends using the Tor network.
@@ -8469,7 +8469,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/open-higgsfield-ai.png
-  stars: 0
+  stars: 193
 - id: open-vibe-island
   name: Open Island
   description: Are you tired of paying for closed-source tools just to keep track of your AI coding agents? Meet Open Island, a powerful, open-source alternative designed specifically for heavy c…
@@ -8541,7 +8541,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/open-edit.png
-  stars: 0
+  stars: 628
 - id: openemu
   name: OpenEmu
   description: Retro video game emulation for macOS.
@@ -8625,7 +8625,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/openresearch-cli.png
-  stars: 0
+  stars: 1690
 - id: openresearch
   name: OpenResearch
   description: OpenResearch is the local-first workspace that lets you run multiple AI research agents in parallel without leaving your machine. Instead of juggling separate chat windows, it give…
@@ -8649,7 +8649,7 @@ projects:
   language: Java
   status: active
   icon: icons/project-icons/openrocket.svg
-  stars: 0
+  stars: 3102
 - id: opensandbox
   name: OpenSandbox
   description: Run untrusted code and heavy-duty browser automation securely inside isolated containers without risking your host machine. OpenSandbox gives you a ready-to-go runtime designed spe…
@@ -8685,7 +8685,7 @@ projects:
   language: Python
   status: active
   icon: icons/project-icons/openshot.svg
-  stars: 0
+  stars: 6492
 - id: openterminal
   name: OpenTerminal
   description: App for macOS that opens a new Finder window and changes the current directory to the folder launched by the app.
@@ -8961,7 +8961,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/perplexity-cli.png
-  stars: 0
+  stars: 87
 - id: persona
   name: Persona
   description: Persona is the cross-platform desktop app that turns your voice assistants into expressive, animated characters right on your screen. Instead of just hearing text-to-speech in the…
@@ -9201,7 +9201,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/plug.png
-  stars: 0
+  stars: 225
 - id: plugnplaymac
   name: PlugNPlayMac
   description: A script to automate tasks when connect a device to your Mac
@@ -9298,7 +9298,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/pokeswift.png
-  stars: 0
+  stars: 363
 - id: pomodoro-cycle
   name: Pomodoro Cycle
   description: Pomodoro Cycle for macOS
@@ -9382,7 +9382,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/privacy-redirect-for-safari.png
-  stars: 0
+  stars: 183
 - id: product-hunt
   name: Product Hunt
   description: share and discover your favorite new products and applications.
@@ -9454,7 +9454,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/proton-cli.png
-  stars: 0
+  stars: 69
 - id: psibar
   name: PSIBar
   description: Quickly hacked up PSI macOS status bar app.
@@ -9526,7 +9526,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/pwc-cli.png
-  stars: 0
+  stars: 124
 - id: pydailychanger
   name: pyDailyChanger
   description: pyDailyChanger is a program that changes your wallpaper daily.
@@ -9550,7 +9550,7 @@ projects:
   language: C++
   status: active
   icon: icons/project-icons/qbittorrent.png
-  stars: 0
+  stars: 40063
 - id: qilin-editor
   name: Qilin Editor
   description: Text editor for exact sciences with built-in KaTeX/AsciiMath support.
@@ -9694,7 +9694,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/quill.png
-  stars: 3904
+  stars: 3903
 - id: quill-2
   name: Quill Dictation
   description: Quill lets you speak directly into any Mac app without ever touching your clipboard, placing your voice exactly where you click or at the end of existing text. It uses your existin…
@@ -9754,7 +9754,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/ra-port.png
-  stars: 0
+  stars: 231
 - id: rambox
   name: Rambox
   description: Cross Platform messaging and emailing app that combines common web applications into one.
@@ -9826,7 +9826,7 @@ projects:
   language: TypeScript
   status: active
   icon: icons/project-icons/readest.png
-  stars: 0
+  stars: 24285
 - id: reaper-mcp
   name: ReaperMCP
   description: ReaperMCP lets your AI assistant directly drive REAPER to compose and mix entire tracks without touching a single plugin. It’s a local bridge that gives the AI full control over no…
@@ -10090,7 +10090,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/rst.png
-  stars: 0
+  stars: 62
 - id: ruby-app
   name: Ruby.app
   description: macOS app that contains a full Ruby installation (for use with Ruby/Gosu).
@@ -10270,7 +10270,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/omlx.png
-  stars: 21665
+  stars: 21666
 - id: rapid-mlx
   name: Rapid-MLX
   description: Are you tired of slow local AI performance on your Mac? Meet Rapid-MLX, the fastest local AI engine specifically designed for Apple Silicon. It solves the performance bottleneck by…
@@ -10402,7 +10402,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/rustcast.png
-  stars: 0
+  stars: 1079
 - id: rvc-mac
   name: rvc-mac
   description: Ribose VPN Client macOS Menu App.
@@ -10426,7 +10426,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/sabaki.png
-  stars: 0
+  stars: 2776
 - id: sam
   name: SAM AI
   description: SAM is the native macOS app that finally runs powerful AI models completely locally on your Mac while keeping your personal data completely private. This open-source assistant lets…
@@ -10570,7 +10570,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/screencat.svg
-  stars: 0
+  stars: 3001
 - id: screenhint
   name: ScreenHint
   description: A simple screenshotting utility for thinking clearly.
@@ -10582,7 +10582,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/screenhint.png
-  stars: 0
+  stars: 18
 - id: screenpipe
   name: Screenpipe
   description: 24/7 screen and audio recording with AI-powered search. Local-first, privacy-focused rewind alternative.
@@ -10678,7 +10678,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/hazmat.png
-  stars: 0
+  stars: 173
 - id: sandbox-runtime
   name: Sandbox Runtime
   description: Ever worry about running untrusted scripts or AI-generated code on your machine? Meet this tool, a clever lightweight sandbox that enforces strict filesystem and network boundaries…
@@ -10811,7 +10811,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/openboot.png
-  stars: 0
+  stars: 274
 - id: shadowsocksx-ng
   name: ShadowsocksX-NG
   description: Next Generation of ShadowsocksX.
@@ -10883,7 +10883,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/shiftit.svg
-  stars: 0
+  stars: 5541
 - id: shifty
   name: Shifty
   description: macOS menu bar app that gives you more control over Night Shift.
@@ -10955,7 +10955,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/simplelocalize-cli.png
-  stars: 0
+  stars: 79
 - id: simplelogin
   name: SimpleLogin
   description: 'Email Alias solution: protect your real email address.'
@@ -11221,7 +11221,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/specht.svg
-  stars: 0
+  stars: 808
 - id: spechtlite
   name: SpechtLite
   description: Rule-based proxy app for macOS.
@@ -11257,7 +11257,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/speech-swift.png
-  stars: 0
+  stars: 1175
 - id: speed-reader
   name: Speed Reader
   description: Read faster with the power of silencing vocalization with SpeedReader.
@@ -11281,7 +11281,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/spicetify-cli.png
-  stars: 0
+  stars: 24480
 - id: spotify-cli-mac
   name: Spotify-Cli-Mac
   description: Control Spotify without leaving your terminal. 🎶
@@ -11329,7 +11329,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/spotspot.png
-  stars: 0
+  stars: 138
 - id: spotter
   name: Spotter
   description: Productivity tool, the main function is to search and launch external application actions and applications themselves, so you can stay focused on your current task. Kind of spotlight or alfred alternative.
@@ -11353,7 +11353,7 @@ projects:
   language: TypeScript
   status: active
   icon: icons/project-icons/sqlectron.png
-  stars: 0
+  stars: 4759
 - id: sshdesk
   name: SSHDesk
   description: Connect to a full, interactive desktop just by opening a standard SSH session in your terminal. No browser, no extra software, no new ports. SSHDESK streams your entire graphical i…
@@ -11438,7 +11438,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/stenoai.png
-  stars: 0
+  stars: 1312
 - id: stickynotes
   name: StickyNotes
   description: A Windows 10-esque Sticky Notes app implemented in AppKit.
@@ -11607,7 +11607,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/desktop-cc-gui.png
-  stars: 0
+  stars: 4193
 - id: notchprompter
   name: NotchPrompter
   description: Struggling to maintain eye contact while reading scripts during your screen recordings? Meet this clever, minimalist floating prompter designed specifically for macOS. It stays pin…
@@ -11643,7 +11643,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/awesome-voice-typing.png
-  stars: 0
+  stars: 187
 - id: wailbrew
   name: WailBrew
   description: Are you tired of typing endless commands to manage your Mac packages? Meet WailBrew, a beautiful and minimalistic graphical interface for Homebrew that makes package management a b…
@@ -11667,7 +11667,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/rift.png
-  stars: 0
+  stars: 1234
 - id: strategr
   name: Strategr
   description: No-fuss time management.
@@ -11751,7 +11751,7 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/subethaedit.png
-  stars: 0
+  stars: 1431
 - id: subler
   name: Subler
   description: Subler is an macOS app created to mux and tag mp4 files.
@@ -11787,7 +11787,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/suohai.png
-  stars: 0
+  stars: 138
 - id: super-productivity
   name: Super Productivity
   description: Free to do list & time tracker for programmers & designers with Jira integration.
@@ -11859,7 +11859,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/macparakeet.png
-  stars: 0
+  stars: 639
 - id: supercmd
   name: SuperCmd
   description: Are you tired of clicking through menus just to find a simple setting or application on your Mac? Meet SuperCmd, a high-performance launcher designed to make your daily workflow fe…
@@ -12027,7 +12027,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/swimat.png
-  stars: 0
+  stars: 1630
 - id: switchshuttle
   name: SwitchShuttle
   description: Simple commands shortcut menu for macOS.
@@ -12209,7 +12209,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/kubeli.png
-  stars: 0
+  stars: 381
 - id: raccoon
   name: Raccoon
   description: Are you a macOS power user tired of juggling multiple apps just to keep your system running smoothly? Meet Raccoon, a lightweight, Bash-based toolkit designed to put essential syst…
@@ -12245,7 +12245,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/agent.svg
-  stars: 0
+  stars: 600
 - id: usb-uncensored-llm
   name: USB Uncensored LLM
   description: Ever wanted to carry your own uncensored AI assistant in your pocket? This project turns any USB drive or SSD into a fully portable, air-gapped environment for high-quality local l…
@@ -12317,7 +12317,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/telegram.png
-  stars: 0
+  stars: 5761
 - id: telegram-desktop
   name: Telegram Desktop
   description: Telegram Desktop messaging app.
@@ -12545,7 +12545,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/code-editor-toolkit.png
-  stars: 0
+  stars: 254
 - id: thengenerator
   name: ThenGenerator
   description: Xcode Source Editor Extension for 'Then'
@@ -12665,7 +12665,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/tinycast.png
-  stars: 0
+  stars: 2985
 - id: tmpnote
   name: tmpNote
   description: Very simple macOS app to make temporary notes.
@@ -12786,7 +12786,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/touch-emoji.png
-  stars: 0
+  stars: 56
 - id: claude-usage-tracker
   name: Claude Usage Tracker
   description: Monitor your Claude AI usage limits in real-time directly from your macOS menu bar with this native application. Built using Swift and SwiftUI, the project provides a seamless way…
@@ -12967,7 +12967,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/turboagent.png
-  stars: 0
+  stars: 119
 - id: turbo-boost-switcher
   name: Turbo Boost Switcher
   description: Turbo Boost Switcher is a little application for Mac computers that allows to enable and/or disable the Turbo Boost feature.
@@ -13015,7 +13015,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/app-it.png
-  stars: 0
+  stars: 217
 - id: elephc
   name: elephc
   description: Ever imagined running your PHP code as a lightning-fast, standalone native binary? This innovative compiler changes the game by transforming a subset of PHP directly into native as…
@@ -13099,7 +13099,7 @@ projects:
   language: JavaScript
   status: active
   icon: icons/project-icons/udemy-downloader-gui.png
-  stars: 0
+  stars: 6317
 - id: ueli
   name: Ueli
   description: A keystroke launcher for macOS (and Windows) like Spotlight or Alfred.
@@ -13111,7 +13111,7 @@ projects:
   language: TypeScript
   status: active
   icon: icons/project-icons/ueli.png
-  stars: 0
+  stars: 4594
 - id: ultra-tabsaver
   name: Ultra TabSaver
   description: Ultra TabSaver is an open-source Tab Manager for Safari
@@ -13255,7 +13255,7 @@ projects:
   language: Go
   status: active
   icon: icons/project-icons/veet.png
-  stars: 0
+  stars: 148
 - id: vegvisir
   name: vegvisir
   description: Browser based GUI for LLDB Debugger.
@@ -13279,7 +13279,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/veracrypt.png
-  stars: 0
+  stars: 11586
 - id: vercel-deployment-menu-bar
   name: Vercel Deployment Menu Bar
   description: Open-source macOS menu bar app to monitor Vercel deployment status in real time.
@@ -13413,7 +13413,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/vorssaint-utils.png
-  stars: 18567
+  stars: 18568
 - id: vox
   name: Vox
   description: Your spoken words can turn into clean, polished text on your clipboard in just about a second without ever sending a single byte of audio to the internet. vox is a private dictatio…
@@ -13715,7 +13715,7 @@ projects:
   language: Rust
   status: active
   icon: icons/project-icons/wolfcut.png
-  stars: 0
+  stars: 1651
 - id: workflow-audit
   name: Workflow Audit
   description: workflow-audit checks if a person can actually finish a task in your SwiftUI app, not just whether the code compiles. It walks through your screens like a user would, spotting feat…
@@ -13727,7 +13727,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/workflow-audit.png
-  stars: 0
+  stars: 58
 - id: writer-computer
   name: Writer
   description: Writer is a fast, local-first desktop markdown editor built with Tauri and React that keeps your documents directly on disk while intelligently respecting your workspace Gitignore…
@@ -13763,7 +13763,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/wwdc-srt.png
-  stars: 0
+  stars: 102
 - id: xbar
   name: xbar
   description: Put the output from any script or program into your macOS Menu Bar.
@@ -13811,7 +13811,7 @@ projects:
   language: Swift
   status: active
   icon: icons/project-icons/xit.png
-  stars: 0
+  stars: 1170
 - id: xournal
   name: Xournal++
   description: Take handwritten notes with ease
@@ -13848,7 +13848,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/yabai.png
-  stars: 0
+  stars: 29609
 - id: yap
   name: Yap
   description: Your Mac can transcribe your voice faster and more accurately than heavy cloud models without ever sending your audio to the internet. A clever open source project called yap lives…
@@ -13920,7 +13920,7 @@ projects:
   language: C
   status: active
   icon: icons/project-icons/poketokenbar.png
-  stars: 421
+  stars: 420
 - id: youtube-downloader-for-macos
   name: YouTube Downloader for macOS
   description: Simple menu bar app to download YouTube movies on your Mac. I wrote this as a test project to learn more about app development on macOS.
@@ -14054,4 +14054,4 @@ projects:
   language: Objective-C
   status: active
   icon: icons/project-icons/bersicht.svg
-  stars: 0
+  stars: 4990
