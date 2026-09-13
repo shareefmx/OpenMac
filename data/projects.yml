@@ -1,949 +1,903 @@
-# OpenMac Curated Project Dataset
-# Single Source of Truth for genuinely open-source macOS apps & projects.
-# All entries must satisfy:
-#   1. Publicly accessible source repository (GitHub, GitLab, etc.)
-#   2. Recognized OSI or FSF open-source license
-#   3. Direct macOS compatibility (native Swift/Obj-C, Electron, Qt, or cross-platform desktop)
-
 projects:
-  # ==========================================
-  # Development
-  # ==========================================
-  - id: zed
-    name: Zed
-    description: "High-performance, multiplayer code editor written in Rust with GPU-accelerated rendering."
-    github: "https://github.com/zed-industries/zed"
-    website: "https://zed.dev"
-    category: development
-    subcategory: "Code Editors & IDEs"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "Rust"
-    status: active
-    icon: "icons/project-icons/zed.svg"
-    featured: true
-
-  - id: vscodium
-    name: VSCodium
-    description: "Community-driven, telemetry-free binary distribution of Microsoft's VS Code editor."
-    github: "https://github.com/VSCodium/vscodium"
-    website: "https://vscodium.com"
-    category: development
-    subcategory: "Code Editors & IDEs"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/vscodium.svg"
-    featured: true
-
-  - id: coteditor
-    name: CotEditor
-    description: "Lightweight, pure native plain-text editor designed exclusively for macOS."
-    github: "https://github.com/coteditor/CotEditor"
-    website: "https://coteditor.com"
-    category: development
-    subcategory: "Code Editors & IDEs"
-    license: "Apache-2.0"
-    platform: "macOS 13.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/coteditor.svg"
-
-  - id: macvim
-    name: MacVim
-    description: "Vim text editor port designed to look and behave natively on macOS with full GUI integration."
-    github: "https://github.com/macvim-dev/macvim"
-    website: "https://macvim-dev.github.io/macvim"
-    category: development
-    subcategory: "Code Editors & IDEs"
-    license: "Vim"
-    platform: "macOS 10.13+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/macvim.svg"
-
-  - id: bruno
-    name: Bruno
-    description: "Fast, git-friendly open-source API client for exploring and testing REST and GraphQL APIs."
-    github: "https://github.com/usebruno/bruno"
-    website: "https://www.usebruno.com"
-    category: development
-    subcategory: "API & Web Development"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "JavaScript"
-    status: active
-    icon: "icons/project-icons/bruno.svg"
-    featured: true
-
-  - id: gitup
-    name: GitUp
-    description: "Direct-manipulation Git client offering a non-linear graph visualization and instant undo."
-    github: "https://github.com/git-up/GitUp"
-    website: "https://gitup.co"
-    category: development
-    subcategory: "Git & Version Control"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/gitup.svg"
-
-  - id: beekeeper-studio
-    name: Beekeeper Studio
-    description: "Modern, easy-to-use SQL editor and database management tool supporting Postgres, MySQL, and SQLite."
-    github: "https://github.com/beekeeper-studio/beekeeper-studio"
-    website: "https://www.beekeeperstudio.io"
-    category: development
-    subcategory: "Database Tools"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/beekeeper-studio.svg"
-
-  - id: colima
-    name: Colima
-    description: "Container runtimes (Docker and containerd) on macOS with minimal resource consumption."
-    github: "https://github.com/abiosoft/colima"
-    website: "https://github.com/abiosoft/colima"
-    category: development
-    subcategory: "Containers & Virtualization"
-    license: "MIT"
-    platform: "macOS 11.0+"
-    language: "Go"
-    status: active
-    icon: "icons/project-icons/colima.svg"
-
-  - id: podman-desktop
-    name: Podman Desktop
-    description: "Desktop environment to manage containers, Kubernetes, and local development environments."
-    github: "https://github.com/containers/podman-desktop"
-    website: "https://podman-desktop.io"
-    category: development
-    subcategory: "Containers & Virtualization"
-    license: "Apache-2.0"
-    platform: "macOS 11.0+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/podman-desktop.svg"
-
-  # ==========================================
-  # Terminal & Shell
-  # ==========================================
-  - id: iterm2
-    name: iTerm2
-    description: "Full-featured macOS terminal emulator with split panes, search, autocomplete, and tmux integration."
-    github: "https://github.com/gnachman/iTerm2"
-    website: "https://iterm2.com"
-    category: terminal
-    subcategory: "Terminal Emulators"
-    license: "GPL-2.0"
-    platform: "macOS 10.14+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/iterm2.svg"
-    featured: true
-
-  - id: ghostty
-    name: Ghostty
-    description: "Fast, feature-rich, and cross-platform terminal emulator leveraging native macOS UI and GPU acceleration."
-    github: "https://github.com/ghostty-org/ghostty"
-    website: "https://ghostty.org"
-    category: terminal
-    subcategory: "Terminal Emulators"
-    license: "MIT"
-    platform: "macOS 13.0+"
-    language: "Zig"
-    status: active
-    icon: "icons/project-icons/ghostty.svg"
-    featured: true
-
-  - id: alacritty
-    name: Alacritty
-    description: "Cross-platform, GPU-accelerated terminal emulator focused on simplicity and maximum performance."
-    github: "https://github.com/alacritty/alacritty"
-    website: "https://alacritty.org"
-    category: terminal
-    subcategory: "Terminal Emulators"
-    license: "Apache-2.0"
-    platform: "macOS 10.15+"
-    language: "Rust"
-    status: active
-    icon: "icons/project-icons/alacritty.svg"
-
-  - id: kitty
-    name: Kitty
-    description: "Cross-platform, fast, feature-rich, GPU-based terminal emulator with graphics support."
-    github: "https://github.com/kovidgoyal/kitty"
-    website: "https://sw.kovidgoyal.net/kitty"
-    category: terminal
-    subcategory: "Terminal Emulators"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "Python"
-    status: active
-    icon: "icons/project-icons/kitty.svg"
-
-  - id: wezterm
-    name: WezTerm
-    description: "GPU-accelerated cross-platform terminal emulator and multiplexer written in Rust."
-    github: "https://github.com/wez/wezterm"
-    website: "https://wezfurlong.org/wezterm"
-    category: terminal
-    subcategory: "Terminal Emulators"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "Rust"
-    status: active
-    icon: "icons/project-icons/wezterm.svg"
-
-  - id: starship
-    name: Starship
-    description: "Minimal, blazing-fast, and infinitely customizable cross-shell prompt for any shell."
-    github: "https://github.com/starship/starship"
-    website: "https://starship.rs"
-    category: terminal
-    subcategory: "CLI Utilities"
-    license: "ISC"
-    platform: "macOS 10.13+"
-    language: "Rust"
-    status: active
-    icon: "icons/project-icons/starship.svg"
-
-  - id: zellij
-    name: Zellij
-    description: "Terminal workspace manager and multiplexer with built-in layout engines and plugin architecture."
-    github: "https://github.com/zellij-org/zellij"
-    website: "https://zellij.dev"
-    category: terminal
-    subcategory: "Multiplexers & Shells"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "Rust"
-    status: active
-    icon: "icons/project-icons/zellij.svg"
-
-  # ==========================================
-  # Window Management
-  # ==========================================
-  - id: rectangle
-    name: Rectangle
-    description: "Move and resize windows on macOS using keyboard shortcuts and snap areas."
-    github: "https://github.com/rxhanson/Rectangle"
-    website: "https://rectangleapp.com"
-    category: window-management
-    subcategory: "Window Snapping & Organizing"
-    license: "MIT"
-    platform: "macOS 10.13+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/rectangle.svg"
-    featured: true
-
-  - id: aerospace
-    name: AeroSpace
-    description: "i3-like tiling window manager for macOS with tree-based workspace navigation."
-    github: "https://github.com/nikitabobko/AeroSpace"
-    website: "https://nikitabobko.github.io/AeroSpace"
-    category: window-management
-    subcategory: "Tiling Window Managers"
-    license: "MIT"
-    platform: "macOS 13.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/aerospace.svg"
-    featured: true
-
-  - id: yabai
-    name: yabai
-    description: "Tiling window management utility for macOS based on binary space partitioning."
-    github: "https://github.com/koekeishiya/yabai"
-    website: "https://github.com/koekeishiya/yabai"
-    category: window-management
-    subcategory: "Tiling Window Managers"
-    license: "MIT"
-    platform: "macOS 11.0+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/yabai.svg"
-
-  - id: amethyst
-    name: Amethyst
-    description: "Automatic tiling window manager for macOS inspired by xmonad."
-    github: "https://github.com/ianyh/Amethyst"
-    website: "https://ianyh.com/amethyst"
-    category: window-management
-    subcategory: "Tiling Window Managers"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/amethyst.svg"
-
-  # ==========================================
-  # Productivity
-  # ==========================================
-  - id: maccy
-    name: Maccy
-    description: "Lightweight, native clipboard manager with search history and zero telemetry."
-    github: "https://github.com/p0deje/Maccy"
-    website: "https://maccy.app"
-    category: productivity
-    subcategory: "Clipboard Managers"
-    license: "MIT"
-    platform: "macOS 12.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/maccy.svg"
-    featured: true
-
-  - id: alt-tab-macos
-    name: AltTab
-    description: "Brings Windows-style alt-tab window switcher functionality with live window previews to macOS."
-    github: "https://github.com/lwouis/alt-tab-macos"
-    website: "https://alt-tab-macos.netlify.app"
-    category: productivity
-    subcategory: "App & Window Switchers"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/alt-tab-macos.svg"
-    featured: true
-
-  - id: ice
-    name: Ice
-    description: "Powerful menu bar manager that lets you hide, show, and organize menu bar items."
-    github: "https://github.com/jordanbaird/Ice"
-    website: "https://github.com/jordanbaird/Ice"
-    category: productivity
-    subcategory: "Menubar Utilities"
-    license: "MIT"
-    platform: "macOS 14.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/ice.svg"
-
-  - id: hidden-bar
-    name: Hidden Bar
-    description: "Ultra-lightweight menu bar utility that gives Mac users full control over menu bar icons."
-    github: "https://github.com/dwarvesf/hidden"
-    website: "https://github.com/dwarvesf/hidden"
-    category: productivity
-    subcategory: "Menubar Utilities"
-    license: "MIT"
-    platform: "macOS 10.14+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/hidden-bar.svg"
-
-  - id: sol
-    name: Sol
-    description: "Open-source macOS launcher with calendar integration, window management, and bookmarks."
-    github: "https://github.com/ospfranco/sol"
-    website: "https://github.com/ospfranco/sol"
-    category: productivity
-    subcategory: "Launchers & Quick Navigation"
-    license: "MIT"
-    platform: "macOS 12.0+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/sol.svg"
-
-  - id: linearmouse
-    name: LinearMouse
-    description: "Utility to customize mouse and trackpad acceleration, scrolling direction, and cursor behaviors."
-    github: "https://github.com/linearmouse/linearmouse"
-    website: "https://linearmouse.app"
-    category: productivity
-    subcategory: "Input & Mouse Enhancers"
-    license: "MIT"
-    platform: "macOS 12.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/linearmouse.svg"
-
-  - id: kap
-    name: Kap
-    description: "Open-source screen recorder built with web technologies that exports to GIF, MP4, and WebM."
-    github: "https://github.com/wulkano/kap"
-    website: "https://getkap.co"
-    category: productivity
-    subcategory: "Screen Capture & Recording"
-    license: "MIT"
-    platform: "macOS 10.14+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/kap.svg"
-
-  - id: flameshot
-    name: Flameshot
-    description: "Powerful yet simple to use screenshot software with in-place annotation and editing."
-    github: "https://github.com/flameshot-org/flameshot"
-    website: "https://flameshot.org"
-    category: productivity
-    subcategory: "Screen Capture & Recording"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/flameshot.svg"
-
-  # ==========================================
-  # System & Hardware
-  # ==========================================
-  - id: stats
-    name: Stats
-    description: "Menu bar system monitor showing CPU, GPU, memory, disks, sensors, battery, and network speeds."
-    github: "https://github.com/exelban/stats"
-    website: "https://github.com/exelban/stats"
-    category: system
-    subcategory: "Resource Monitoring"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/stats.svg"
-    featured: true
-
-  - id: pearcleaner
-    name: Pearcleaner
-    description: "Open-source Mac app uninstaller inspired by AppCleaner, written cleanly in native SwiftUI."
-    github: "https://github.com/alienator88/Pearcleaner"
-    website: "https://github.com/alienator88/Pearcleaner"
-    category: system
-    subcategory: "App Uninstallation & Cleaning"
-    license: "GPL-3.0"
-    platform: "macOS 13.0+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/pearcleaner.svg"
-    featured: true
-
-  - id: monitorcontrol
-    name: MonitorControl
-    description: "Control external display brightness and volume using native Apple keyboard keys or slider controls."
-    github: "https://github.com/MonitorControl/MonitorControl"
-    website: "https://github.com/MonitorControl/MonitorControl"
-    category: system
-    subcategory: "Display & Audio Control"
-    license: "MIT"
-    platform: "macOS 10.14+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/monitorcontrol.svg"
-
-  - id: latest
-    name: Latest
-    description: "Native small utility that checks your installed Mac applications for available updates."
-    github: "https://github.com/mangerlahn/Latest"
-    website: "https://max-langer.com/Latest"
-    category: system
-    subcategory: "App Uninstallation & Cleaning"
-    license: "MIT"
-    platform: "macOS 10.13+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/latest.svg"
-
-  - id: keka
-    name: Keka
-    description: "Powerful file archiver for macOS supporting 7Z, ZIP, TAR, GZ, and password protection."
-    github: "https://github.com/aonez/Keka"
-    website: "https://www.keka.io"
-    category: system
-    subcategory: "Archive & Compression"
-    license: "GPL-2.0"
-    platform: "macOS 10.10+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/keka.svg"
-
-  - id: homebrew
-    name: Homebrew
-    description: "The missing package manager for macOS and Linux, installing software packages from the CLI."
-    github: "https://github.com/Homebrew/brew"
-    website: "https://brew.sh"
-    category: system
-    subcategory: "Package Management"
-    license: "BSD-2-Clause"
-    platform: "macOS 10.15+"
-    language: "Ruby"
-    status: active
-    icon: "icons/project-icons/homebrew.svg"
-    featured: true
-
-  # ==========================================
-  # AI & Machine Learning
-  # ==========================================
-  - id: ollama
-    name: Ollama
-    description: "Get up and running with large language models locally on Apple Silicon and Intel Macs."
-    github: "https://github.com/ollama/ollama"
-    website: "https://ollama.com"
-    category: ai-ml
-    subcategory: "Local LLM Inference"
-    license: "MIT"
-    platform: "macOS 11.0+"
-    language: "Go"
-    status: active
-    icon: "icons/project-icons/ollama.svg"
-    featured: true
-
-  - id: jan
-    name: Jan
-    description: "Open-source local AI conversational assistant that runs offline on your Mac with zero data tracking."
-    github: "https://github.com/janhq/jan"
-    website: "https://jan.ai"
-    category: ai-ml
-    subcategory: "AI Desktop Clients"
-    license: "AGPL-3.0"
-    platform: "macOS 11.0+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/jan.svg"
-    featured: true
-
-  - id: chatbox
-    name: Chatbox
-    description: "Desktop client for multiple AI models with local data storage, prompt templates, and artifacts."
-    github: "https://github.com/Bin-Huang/chatbox"
-    website: "https://chatboxai.app"
-    category: ai-ml
-    subcategory: "AI Desktop Clients"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/chatbox.svg"
-
-  - id: whisper-cpp
-    name: Whisper.cpp
-    description: "High-performance port of OpenAI's Whisper speech recognition model optimized for Apple Silicon Metal."
-    github: "https://github.com/ggerganov/whisper.cpp"
-    website: "https://github.com/ggerganov/whisper.cpp"
-    category: ai-ml
-    subcategory: "Speech & Audio AI"
-    license: "MIT"
-    platform: "macOS 11.0+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/whisper-cpp.svg"
-
-  - id: diffusionbee
-    name: DiffusionBee
-    description: "Easy offline way to run Stable Diffusion on Mac with Core ML hardware acceleration."
-    github: "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui"
-    website: "https://diffusionbee.com"
-    category: ai-ml
-    subcategory: "Image & Creative AI"
-    license: "GPL-3.0"
-    platform: "macOS 12.0+"
-    language: "JavaScript"
-    status: active
-    icon: "icons/project-icons/diffusionbee.svg"
-
-  # ==========================================
-  # Media & Audio
-  # ==========================================
-  - id: iina
-    name: IINA
-    description: "The modern media player for macOS, built with Swift and powered by mpv with native Picture-in-Picture."
-    github: "https://github.com/iina/iina"
-    website: "https://iina.io"
-    category: media
-    subcategory: "Video Players"
-    license: "GPL-3.0"
-    platform: "macOS 10.13+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/iina.svg"
-    featured: true
-
-  - id: vlc
-    name: VLC
-    description: "Renowned cross-platform multimedia player playing most multimedia files, discs, and streaming protocols."
-    github: "https://github.com/videolan/vlc"
-    website: "https://www.videolan.org/vlc"
-    category: media
-    subcategory: "Video Players"
-    license: "GPL-2.0"
-    platform: "macOS 10.9+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/vlc.svg"
-
-  - id: handbrake
-    name: HandBrake
-    description: "Open-source video transcoder for converting video from nearly any format to modern codecs."
-    github: "https://github.com/HandBrake/HandBrake"
-    website: "https://handbrake.fr"
-    category: media
-    subcategory: "Transcoding & Conversion"
-    license: "GPL-2.0"
-    platform: "macOS 10.13+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/handbrake.svg"
-
-  - id: audacity
-    name: Audacity
-    description: "Multi-track audio editor and recorder offering high-resolution recording and sound manipulation."
-    github: "https://github.com/audacity/audacity"
-    website: "https://www.audacityteam.org"
-    category: media
-    subcategory: "Audio Routing & Editing"
-    license: "GPL-3.0"
-    platform: "macOS 10.13+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/audacity.svg"
-
-  - id: losslesscut
-    name: LosslessCut
-    description: "Swiss army knife for lossless video and audio trimming, cutting, and slicing without re-encoding."
-    github: "https://github.com/mifi/lossless-cut"
-    website: "https://github.com/mifi/lossless-cut"
-    category: media
-    subcategory: "Transcoding & Conversion"
-    license: "GPL-2.0"
-    platform: "macOS 10.15+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/losslesscut.svg"
-
-  - id: obs-studio
-    name: OBS Studio
-    description: "Free and open-source software for video recording and live streaming with full macOS ScreenCaptureKit."
-    github: "https://github.com/obsproject/obs-studio"
-    website: "https://obsproject.com"
-    category: media
-    subcategory: "Screen Recording & Streaming"
-    license: "GPL-2.0"
-    platform: "macOS 11.0+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/obs-studio.svg"
-
-  - id: blackhole
-    name: BlackHole
-    description: "Virtual audio loopback driver that allows applications to pass audio to other applications."
-    github: "https://github.com/ExistentialAudio/BlackHole"
-    website: "https://existential.audio/blackhole"
-    category: media
-    subcategory: "Audio Routing & Editing"
-    license: "GPL-3.0"
-    platform: "macOS 10.10+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/blackhole.svg"
-
-  # ==========================================
-  # Security & Privacy
-  # ==========================================
-  - id: bitwarden
-    name: Bitwarden
-    description: "Trusted open-source password manager with end-to-end encryption across all your devices."
-    github: "https://github.com/bitwarden/clients"
-    website: "https://bitwarden.com"
-    category: security
-    subcategory: "Password Managers"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/bitwarden.svg"
-    featured: true
-
-  - id: keepassxc
-    name: KeePassXC
-    description: "Community fork of KeePassX, a cross-platform password manager with local encrypted storage."
-    github: "https://github.com/keepassxreboot/keepassxc"
-    website: "https://keepassxc.org"
-    category: security
-    subcategory: "Password Managers"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/keepassxc.svg"
-
-  - id: lulu
-    name: LuLu
-    description: "Free, open-source macOS firewall aimed at blocking unauthorized outgoing network connections."
-    github: "https://github.com/objective-see/LuLu"
-    website: "https://objective-see.org/products/lulu.html"
-    category: security
-    subcategory: "Firewalls & Network Security"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/lulu.svg"
-    featured: true
-
-  - id: knockknock
-    name: KnockKnock
-    description: "Scans your Mac for persistent software, background daemons, and launch items."
-    github: "https://github.com/objective-see/KnockKnock"
-    website: "https://objective-see.org/products/knockknock.html"
-    category: security
-    subcategory: "Malware & Privacy Detection"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/knockknock.svg"
-
-  - id: cryptomator
-    name: Cryptomator
-    description: "Client-side encryption for your cloud files, preventing unauthorized inspection of documents."
-    github: "https://github.com/cryptomator/cryptomator"
-    website: "https://cryptomator.org"
-    category: security
-    subcategory: "Encryption & File Security"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "Java"
-    status: active
-    icon: "icons/project-icons/cryptomator.svg"
-
-  - id: tor-browser
-    name: Tor Browser
-    description: "Privacy-focused web browser that routes traffic through the encrypted Tor volunteer network."
-    github: "https://github.com/torproject/tor-browser"
-    website: "https://www.torproject.org"
-    category: security
-    subcategory: "Firewalls & Network Security"
-    license: "BSD-3-Clause"
-    platform: "macOS 10.15+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/tor-browser.svg"
-
-  # ==========================================
-  # Notes & Writing
-  # ==========================================
-  - id: logseq
-    name: Logseq
-    description: "Privacy-first, local-only platform for knowledge management and outliner journaling."
-    github: "https://github.com/logseq/logseq"
-    website: "https://logseq.com"
-    category: notes
-    subcategory: "Knowledge Bases & PKM"
-    license: "AGPL-3.0"
-    platform: "macOS 10.14+"
-    language: "Clojure"
-    status: active
-    icon: "icons/project-icons/logseq.svg"
-    featured: true
-
-  - id: joplin
-    name: Joplin
-    description: "Secure, open-source note-taking app with end-to-end encryption and multi-device synchronization."
-    github: "https://github.com/laurent22/joplin"
-    website: "https://joplinapp.org"
-    category: notes
-    subcategory: "Markdown & Text Editors"
-    license: "AGPL-3.0"
-    platform: "macOS 10.15+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/joplin.svg"
-
-  - id: appflowy
-    name: AppFlowy
-    description: "Open-source alternative to Notion, built with Flutter and Rust for offline-first privacy."
-    github: "https://github.com/AppFlowy-IO/AppFlowy"
-    website: "https://appflowy.io"
-    category: notes
-    subcategory: "Knowledge Bases & PKM"
-    license: "AGPL-3.0"
-    platform: "macOS 11.0+"
-    language: "Dart"
-    status: active
-    icon: "icons/project-icons/appflowy.svg"
-
-  - id: zettlr
-    name: Zettlr
-    description: "Supercharged markdown editor tailored for academic researchers, journalists, and writers."
-    github: "https://github.com/Zettlr/Zettlr"
-    website: "https://zettlr.com"
-    category: notes
-    subcategory: "Academic & Research Writing"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "TypeScript"
-    status: active
-    icon: "icons/project-icons/zettlr.svg"
-
-  - id: marktext
-    name: MarkText
-    description: "Simple and elegant open-source markdown editor focused on speed and real-time live preview."
-    github: "https://github.com/marktext/marktext"
-    website: "https://github.com/marktext/marktext"
-    category: notes
-    subcategory: "Markdown & Text Editors"
-    license: "MIT"
-    platform: "macOS 10.13+"
-    language: "JavaScript"
-    status: active
-    icon: "icons/project-icons/marktext.svg"
-
-  # ==========================================
-  # File Management & Sharing
-  # ==========================================
-  - id: localsend
-    name: LocalSend
-    description: "AirDrop alternative to share files and messages nearby across macOS, iOS, Android, and Windows."
-    github: "https://github.com/localsend/localsend"
-    website: "https://localsend.org"
-    category: file-management
-    subcategory: "P2P & Local Transfer"
-    license: "MIT"
-    platform: "macOS 10.15+"
-    language: "Dart"
-    status: active
-    icon: "icons/project-icons/localsend.svg"
-    featured: true
-
-  - id: cyberduck
-    name: Cyberduck
-    description: "Libre cloud storage browser for macOS with support for FTP, SFTP, WebDAV, Amazon S3, and OpenStack."
-    github: "https://github.com/iterate-ch/cyberduck"
-    website: "https://cyberduck.io"
-    category: file-management
-    subcategory: "Remote Storage & FTP"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "Java"
-    status: active
-    icon: "icons/project-icons/cyberduck.svg"
-
-  - id: transmission
-    name: Transmission
-    description: "Fast, easy, and lightweight BitTorrent client with native Cocoa user interface."
-    github: "https://github.com/transmission/transmission"
-    website: "https://transmissionbt.com"
-    category: file-management
-    subcategory: "BitTorrent Clients"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/transmission.svg"
-
-  - id: syncthing-macos
-    name: Syncthing macOS
-    description: "Native macOS menu bar wrapper for continuous continuous file synchronization via Syncthing."
-    github: "https://github.com/syncthing/syncthing-macos"
-    website: "https://syncthing.net"
-    category: file-management
-    subcategory: "P2P & Local Transfer"
-    license: "MIT"
-    platform: "macOS 10.14+"
-    language: "Swift"
-    status: active
-    icon: "icons/project-icons/syncthing-macos.svg"
-
-  # ==========================================
-  # Design & Creative
-  # ==========================================
-  - id: blender
-    name: Blender
-    description: "Open-source 3D creation suite supporting modeling, rigging, animation, simulation, and rendering with Metal."
-    github: "https://github.com/blender/blender"
-    website: "https://www.blender.org"
-    category: design
-    subcategory: "3D & Animation"
-    license: "GPL-3.0"
-    platform: "macOS 10.15+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/blender.svg"
-    featured: true
-
-  - id: inkscape
-    name: Inkscape
-    description: "Vector graphics editor for illustrations, diagrams, line arts, charts, and logos using standard SVG."
-    github: "https://github.com/inkscape/inkscape"
-    website: "https://inkscape.org"
-    category: design
-    subcategory: "Vector Graphics"
-    license: "GPL-3.0"
-    platform: "macOS 10.13+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/inkscape.svg"
-
-  - id: gimp
-    name: GIMP
-    description: "Cross-platform image editor used for photo retouching, image composition, and graphic authoring."
-    github: "https://github.com/GNOME/gimp"
-    website: "https://www.gimp.org"
-    category: design
-    subcategory: "Digital Painting & Image Editing"
-    license: "GPL-3.0"
-    platform: "macOS 10.13+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/gimp.svg"
-
-  - id: krita
-    name: Krita
-    description: "Professional digital painting and 2D animation studio application for concept artists and illustrators."
-    github: "https://github.com/KDE/krita"
-    website: "https://krita.org"
-    category: design
-    subcategory: "Digital Painting & Image Editing"
-    license: "GPL-3.0"
-    platform: "macOS 10.14+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/krita.svg"
-
-  # ==========================================
-  # Customization & Tweaks
-  # ==========================================
-  - id: karabiner-elements
-    name: Karabiner-Elements
-    description: "Powerful and stable keyboard customizer for macOS to remap keys and create complex modification rules."
-    github: "https://github.com/pqrs-org/Karabiner-Elements"
-    website: "https://karabiner-elements.pqrs.org"
-    category: customization
-    subcategory: "Keyboard & Input Customization"
-    license: "MIT"
-    platform: "macOS 11.0+"
-    language: "C++"
-    status: active
-    icon: "icons/project-icons/karabiner-elements.svg"
-    featured: true
-
-  - id: sketchybar
-    name: SketchyBar
-    description: "Highly customizable macOS status bar replacement with event-driven shell scripts."
-    github: "https://github.com/FelixKratz/SketchyBar"
-    website: "https://felixkratz.github.io/SketchyBar"
-    category: customization
-    subcategory: "Menubar & Status Customization"
-    license: "GPL-3.0"
-    platform: "macOS 11.0+"
-    language: "C"
-    status: active
-    icon: "icons/project-icons/sketchybar.svg"
-
-  - id: sensible-side-buttons
-    name: SensibleSideButtons
-    description: "App that lets third-party mice with side buttons navigate back and forth properly across macOS."
-    github: "https://github.com/archagon/sensible-side-buttons"
-    website: "https://sensible-side-buttons.archagon.net"
-    category: customization
-    subcategory: "Keyboard & Input Customization"
-    license: "GPL-3.0"
-    platform: "macOS 10.10+"
-    language: "Objective-C"
-    status: active
-    icon: "icons/project-icons/sensible-side-buttons.svg"
-
+- id: zed
+  name: Zed
+  description: High-performance, multiplayer code editor written in Rust with GPU-accelerated
+    rendering.
+  github: https://github.com/zed-industries/zed
+  website: https://zed.dev
+  category: development
+  subcategory: Code Editors & IDEs
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: Rust
+  status: active
+  icon: icons/project-icons/zed.png
+  featured: true
+- id: vscodium
+  name: VSCodium
+  description: Community-driven, telemetry-free binary distribution of Microsoft's
+    VS Code editor.
+  github: https://github.com/VSCodium/vscodium
+  website: https://vscodium.com
+  category: development
+  subcategory: Code Editors & IDEs
+  license: MIT
+  platform: macOS 10.15+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/vscodium.svg
+  featured: true
+- id: coteditor
+  name: CotEditor
+  description: Lightweight, pure native plain-text editor designed exclusively for
+    macOS.
+  github: https://github.com/coteditor/CotEditor
+  website: https://coteditor.com
+  category: development
+  subcategory: Code Editors & IDEs
+  license: Apache-2.0
+  platform: macOS 13.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/coteditor.png
+- id: macvim
+  name: MacVim
+  description: Vim text editor port designed to look and behave natively on macOS
+    with full GUI integration.
+  github: https://github.com/macvim-dev/macvim
+  website: https://macvim-dev.github.io/macvim
+  category: development
+  subcategory: Code Editors & IDEs
+  license: Vim
+  platform: macOS 10.13+
+  language: C
+  status: active
+  icon: icons/project-icons/macvim.png
+- id: bruno
+  name: Bruno
+  description: Fast, git-friendly open-source API client for exploring and testing
+    REST and GraphQL APIs.
+  github: https://github.com/usebruno/bruno
+  website: https://www.usebruno.com
+  category: development
+  subcategory: API & Web Development
+  license: MIT
+  platform: macOS 10.15+
+  language: JavaScript
+  status: active
+  icon: icons/project-icons/bruno.png
+  featured: true
+- id: gitup
+  name: GitUp
+  description: Direct-manipulation Git client offering a non-linear graph visualization
+    and instant undo.
+  github: https://github.com/git-up/GitUp
+  website: https://gitup.co
+  category: development
+  subcategory: Git & Version Control
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/gitup.svg
+- id: beekeeper-studio
+  name: Beekeeper Studio
+  description: Modern, easy-to-use SQL editor and database management tool supporting
+    Postgres, MySQL, and SQLite.
+  github: https://github.com/beekeeper-studio/beekeeper-studio
+  website: https://www.beekeeperstudio.io
+  category: development
+  subcategory: Database Tools
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/beekeeper-studio.png
+- id: colima
+  name: Colima
+  description: Container runtimes (Docker and containerd) on macOS with minimal resource
+    consumption.
+  github: https://github.com/abiosoft/colima
+  website: https://github.com/abiosoft/colima
+  category: development
+  subcategory: Containers & Virtualization
+  license: MIT
+  platform: macOS 11.0+
+  language: Go
+  status: active
+  icon: icons/project-icons/colima.png
+- id: podman-desktop
+  name: Podman Desktop
+  description: Desktop environment to manage containers, Kubernetes, and local development
+    environments.
+  github: https://github.com/containers/podman-desktop
+  website: https://podman-desktop.io
+  category: development
+  subcategory: Containers & Virtualization
+  license: Apache-2.0
+  platform: macOS 11.0+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/podman-desktop.png
+- id: iterm2
+  name: iTerm2
+  description: Full-featured macOS terminal emulator with split panes, search, autocomplete,
+    and tmux integration.
+  github: https://github.com/gnachman/iTerm2
+  website: https://iterm2.com
+  category: terminal
+  subcategory: Terminal Emulators
+  license: GPL-2.0
+  platform: macOS 10.14+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/iterm2.png
+  featured: true
+- id: ghostty
+  name: Ghostty
+  description: Fast, feature-rich, and cross-platform terminal emulator leveraging
+    native macOS UI and GPU acceleration.
+  github: https://github.com/ghostty-org/ghostty
+  website: https://ghostty.org
+  category: terminal
+  subcategory: Terminal Emulators
+  license: MIT
+  platform: macOS 13.0+
+  language: Zig
+  status: active
+  icon: icons/project-icons/ghostty.png
+  featured: true
+- id: alacritty
+  name: Alacritty
+  description: Cross-platform, GPU-accelerated terminal emulator focused on simplicity
+    and maximum performance.
+  github: https://github.com/alacritty/alacritty
+  website: https://alacritty.org
+  category: terminal
+  subcategory: Terminal Emulators
+  license: Apache-2.0
+  platform: macOS 10.15+
+  language: Rust
+  status: active
+  icon: icons/project-icons/alacritty.png
+- id: kitty
+  name: Kitty
+  description: Cross-platform, fast, feature-rich, GPU-based terminal emulator with
+    graphics support.
+  github: https://github.com/kovidgoyal/kitty
+  website: https://sw.kovidgoyal.net/kitty
+  category: terminal
+  subcategory: Terminal Emulators
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: Python
+  status: active
+  icon: icons/project-icons/kitty.png
+- id: wezterm
+  name: WezTerm
+  description: GPU-accelerated cross-platform terminal emulator and multiplexer written
+    in Rust.
+  github: https://github.com/wez/wezterm
+  website: https://wezfurlong.org/wezterm
+  category: terminal
+  subcategory: Terminal Emulators
+  license: MIT
+  platform: macOS 10.15+
+  language: Rust
+  status: active
+  icon: icons/project-icons/wezterm.png
+- id: starship
+  name: Starship
+  description: Minimal, blazing-fast, and infinitely customizable cross-shell prompt
+    for any shell.
+  github: https://github.com/starship/starship
+  website: https://starship.rs
+  category: terminal
+  subcategory: CLI Utilities
+  license: ISC
+  platform: macOS 10.13+
+  language: Rust
+  status: active
+  icon: icons/project-icons/starship.png
+- id: zellij
+  name: Zellij
+  description: Terminal workspace manager and multiplexer with built-in layout engines
+    and plugin architecture.
+  github: https://github.com/zellij-org/zellij
+  website: https://zellij.dev
+  category: terminal
+  subcategory: Multiplexers & Shells
+  license: MIT
+  platform: macOS 10.15+
+  language: Rust
+  status: active
+  icon: icons/project-icons/zellij.png
+- id: rectangle
+  name: Rectangle
+  description: Move and resize windows on macOS using keyboard shortcuts and snap
+    areas.
+  github: https://github.com/rxhanson/Rectangle
+  website: https://rectangleapp.com
+  category: window-management
+  subcategory: Window Snapping & Organizing
+  license: MIT
+  platform: macOS 10.13+
+  language: Swift
+  status: active
+  icon: icons/project-icons/rectangle.png
+  featured: true
+- id: aerospace
+  name: AeroSpace
+  description: i3-like tiling window manager for macOS with tree-based workspace navigation.
+  github: https://github.com/nikitabobko/AeroSpace
+  website: https://nikitabobko.github.io/AeroSpace
+  category: window-management
+  subcategory: Tiling Window Managers
+  license: MIT
+  platform: macOS 13.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/aerospace.png
+  featured: true
+- id: yabai
+  name: yabai
+  description: Tiling window management utility for macOS based on binary space partitioning.
+  github: https://github.com/koekeishiya/yabai
+  website: https://github.com/koekeishiya/yabai
+  category: window-management
+  subcategory: Tiling Window Managers
+  license: MIT
+  platform: macOS 11.0+
+  language: C
+  status: active
+  icon: icons/project-icons/yabai.png
+- id: amethyst
+  name: Amethyst
+  description: Automatic tiling window manager for macOS inspired by xmonad.
+  github: https://github.com/ianyh/Amethyst
+  website: https://ianyh.com/amethyst
+  category: window-management
+  subcategory: Tiling Window Managers
+  license: MIT
+  platform: macOS 10.15+
+  language: Swift
+  status: active
+  icon: icons/project-icons/amethyst.png
+- id: maccy
+  name: Maccy
+  description: Lightweight, native clipboard manager with search history and zero
+    telemetry.
+  github: https://github.com/p0deje/Maccy
+  website: https://maccy.app
+  category: productivity
+  subcategory: Clipboard Managers
+  license: MIT
+  platform: macOS 12.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/maccy.png
+  featured: true
+- id: alt-tab-macos
+  name: AltTab
+  description: Brings Windows-style alt-tab window switcher functionality with live
+    window previews to macOS.
+  github: https://github.com/lwouis/alt-tab-macos
+  website: https://alt-tab-macos.netlify.app
+  category: productivity
+  subcategory: App & Window Switchers
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: Swift
+  status: active
+  icon: icons/project-icons/alt-tab-macos.svg
+  featured: true
+- id: ice
+  name: Ice
+  description: Powerful menu bar manager that lets you hide, show, and organize menu
+    bar items.
+  github: https://github.com/jordanbaird/Ice
+  website: https://github.com/jordanbaird/Ice
+  category: productivity
+  subcategory: Menubar Utilities
+  license: MIT
+  platform: macOS 14.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/ice.png
+- id: hidden-bar
+  name: Hidden Bar
+  description: Ultra-lightweight menu bar utility that gives Mac users full control
+    over menu bar icons.
+  github: https://github.com/dwarvesf/hidden
+  website: https://github.com/dwarvesf/hidden
+  category: productivity
+  subcategory: Menubar Utilities
+  license: MIT
+  platform: macOS 10.14+
+  language: Swift
+  status: active
+  icon: icons/project-icons/hidden-bar.png
+- id: sol
+  name: Sol
+  description: Open-source macOS launcher with calendar integration, window management,
+    and bookmarks.
+  github: https://github.com/ospfranco/sol
+  website: https://github.com/ospfranco/sol
+  category: productivity
+  subcategory: Launchers & Quick Navigation
+  license: MIT
+  platform: macOS 12.0+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/sol.png
+- id: linearmouse
+  name: LinearMouse
+  description: Utility to customize mouse and trackpad acceleration, scrolling direction,
+    and cursor behaviors.
+  github: https://github.com/linearmouse/linearmouse
+  website: https://linearmouse.app
+  category: productivity
+  subcategory: Input & Mouse Enhancers
+  license: MIT
+  platform: macOS 12.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/linearmouse.svg
+- id: kap
+  name: Kap
+  description: Open-source screen recorder built with web technologies that exports
+    to GIF, MP4, and WebM.
+  github: https://github.com/wulkano/kap
+  website: https://getkap.co
+  category: productivity
+  subcategory: Screen Capture & Recording
+  license: MIT
+  platform: macOS 10.14+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/kap.svg
+- id: flameshot
+  name: Flameshot
+  description: Powerful yet simple to use screenshot software with in-place annotation
+    and editing.
+  github: https://github.com/flameshot-org/flameshot
+  website: https://flameshot.org
+  category: productivity
+  subcategory: Screen Capture & Recording
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: C++
+  status: active
+  icon: icons/project-icons/flameshot.png
+- id: stats
+  name: Stats
+  description: Menu bar system monitor showing CPU, GPU, memory, disks, sensors, battery,
+    and network speeds.
+  github: https://github.com/exelban/stats
+  website: https://github.com/exelban/stats
+  category: system
+  subcategory: Resource Monitoring
+  license: MIT
+  platform: macOS 10.15+
+  language: Swift
+  status: active
+  icon: icons/project-icons/stats.png
+  featured: true
+- id: pearcleaner
+  name: Pearcleaner
+  description: Open-source Mac app uninstaller inspired by AppCleaner, written cleanly
+    in native SwiftUI.
+  github: https://github.com/alienator88/Pearcleaner
+  website: https://github.com/alienator88/Pearcleaner
+  category: system
+  subcategory: App Uninstallation & Cleaning
+  license: GPL-3.0
+  platform: macOS 13.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/pearcleaner.png
+  featured: true
+- id: monitorcontrol
+  name: MonitorControl
+  description: Control external display brightness and volume using native Apple keyboard
+    keys or slider controls.
+  github: https://github.com/MonitorControl/MonitorControl
+  website: https://github.com/MonitorControl/MonitorControl
+  category: system
+  subcategory: Display & Audio Control
+  license: MIT
+  platform: macOS 10.14+
+  language: Swift
+  status: active
+  icon: icons/project-icons/monitorcontrol.png
+- id: latest
+  name: Latest
+  description: Native small utility that checks your installed Mac applications for
+    available updates.
+  github: https://github.com/mangerlahn/Latest
+  website: https://max-langer.com/Latest
+  category: system
+  subcategory: App Uninstallation & Cleaning
+  license: MIT
+  platform: macOS 10.13+
+  language: Swift
+  status: active
+  icon: icons/project-icons/latest.png
+- id: keka
+  name: Keka
+  description: Powerful file archiver for macOS supporting 7Z, ZIP, TAR, GZ, and password
+    protection.
+  github: https://github.com/aonez/Keka
+  website: https://www.keka.io
+  category: system
+  subcategory: Archive & Compression
+  license: GPL-2.0
+  platform: macOS 10.10+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/keka.png
+- id: homebrew
+  name: Homebrew
+  description: The missing package manager for macOS and Linux, installing software
+    packages from the CLI.
+  github: https://github.com/Homebrew/brew
+  website: https://brew.sh
+  category: system
+  subcategory: Package Management
+  license: BSD-2-Clause
+  platform: macOS 10.15+
+  language: Ruby
+  status: active
+  icon: icons/project-icons/homebrew.png
+  featured: true
+- id: ollama
+  name: Ollama
+  description: Get up and running with large language models locally on Apple Silicon
+    and Intel Macs.
+  github: https://github.com/ollama/ollama
+  website: https://ollama.com
+  category: ai-ml
+  subcategory: Local LLM Inference
+  license: MIT
+  platform: macOS 11.0+
+  language: Go
+  status: active
+  icon: icons/project-icons/ollama.png
+  featured: true
+- id: jan
+  name: Jan
+  description: Open-source local AI conversational assistant that runs offline on
+    your Mac with zero data tracking.
+  github: https://github.com/janhq/jan
+  website: https://jan.ai
+  category: ai-ml
+  subcategory: AI Desktop Clients
+  license: AGPL-3.0
+  platform: macOS 11.0+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/jan.png
+  featured: true
+- id: chatbox
+  name: Chatbox
+  description: Desktop client for multiple AI models with local data storage, prompt
+    templates, and artifacts.
+  github: https://github.com/Bin-Huang/chatbox
+  website: https://chatboxai.app
+  category: ai-ml
+  subcategory: AI Desktop Clients
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/chatbox.png
+- id: whisper-cpp
+  name: Whisper.cpp
+  description: High-performance port of OpenAI's Whisper speech recognition model
+    optimized for Apple Silicon Metal.
+  github: https://github.com/ggerganov/whisper.cpp
+  website: https://github.com/ggerganov/whisper.cpp
+  category: ai-ml
+  subcategory: Speech & Audio AI
+  license: MIT
+  platform: macOS 11.0+
+  language: C++
+  status: active
+  icon: icons/project-icons/whisper-cpp.png
+- id: diffusionbee
+  name: DiffusionBee
+  description: Easy offline way to run Stable Diffusion on Mac with Core ML hardware
+    acceleration.
+  github: https://github.com/divamgupta/diffusionbee-stable-diffusion-ui
+  website: https://diffusionbee.com
+  category: ai-ml
+  subcategory: Image & Creative AI
+  license: GPL-3.0
+  platform: macOS 12.0+
+  language: JavaScript
+  status: active
+  icon: icons/project-icons/diffusionbee.png
+- id: iina
+  name: IINA
+  description: The modern media player for macOS, built with Swift and powered by
+    mpv with native Picture-in-Picture.
+  github: https://github.com/iina/iina
+  website: https://iina.io
+  category: media
+  subcategory: Video Players
+  license: GPL-3.0
+  platform: macOS 10.13+
+  language: Swift
+  status: active
+  icon: icons/project-icons/iina.png
+  featured: true
+- id: vlc
+  name: VLC
+  description: Renowned cross-platform multimedia player playing most multimedia files,
+    discs, and streaming protocols.
+  github: https://github.com/videolan/vlc
+  website: https://www.videolan.org/vlc
+  category: media
+  subcategory: Video Players
+  license: GPL-2.0
+  platform: macOS 10.9+
+  language: C
+  status: active
+  icon: icons/project-icons/vlc.png
+- id: handbrake
+  name: HandBrake
+  description: Open-source video transcoder for converting video from nearly any format
+    to modern codecs.
+  github: https://github.com/HandBrake/HandBrake
+  website: https://handbrake.fr
+  category: media
+  subcategory: Transcoding & Conversion
+  license: GPL-2.0
+  platform: macOS 10.13+
+  language: C
+  status: active
+  icon: icons/project-icons/handbrake.png
+- id: audacity
+  name: Audacity
+  description: Multi-track audio editor and recorder offering high-resolution recording
+    and sound manipulation.
+  github: https://github.com/audacity/audacity
+  website: https://www.audacityteam.org
+  category: media
+  subcategory: Audio Routing & Editing
+  license: GPL-3.0
+  platform: macOS 10.13+
+  language: C++
+  status: active
+  icon: icons/project-icons/audacity.png
+- id: losslesscut
+  name: LosslessCut
+  description: Swiss army knife for lossless video and audio trimming, cutting, and
+    slicing without re-encoding.
+  github: https://github.com/mifi/lossless-cut
+  website: https://github.com/mifi/lossless-cut
+  category: media
+  subcategory: Transcoding & Conversion
+  license: GPL-2.0
+  platform: macOS 10.15+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/losslesscut.svg
+- id: obs-studio
+  name: OBS Studio
+  description: Free and open-source software for video recording and live streaming
+    with full macOS ScreenCaptureKit.
+  github: https://github.com/obsproject/obs-studio
+  website: https://obsproject.com
+  category: media
+  subcategory: Screen Recording & Streaming
+  license: GPL-2.0
+  platform: macOS 11.0+
+  language: C
+  status: active
+  icon: icons/project-icons/obs-studio.png
+- id: blackhole
+  name: BlackHole
+  description: Virtual audio loopback driver that allows applications to pass audio
+    to other applications.
+  github: https://github.com/ExistentialAudio/BlackHole
+  website: https://existential.audio/blackhole
+  category: media
+  subcategory: Audio Routing & Editing
+  license: GPL-3.0
+  platform: macOS 10.10+
+  language: C
+  status: active
+  icon: icons/project-icons/blackhole.png
+- id: bitwarden
+  name: Bitwarden
+  description: Trusted open-source password manager with end-to-end encryption across
+    all your devices.
+  github: https://github.com/bitwarden/clients
+  website: https://bitwarden.com
+  category: security
+  subcategory: Password Managers
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/bitwarden.png
+  featured: true
+- id: keepassxc
+  name: KeePassXC
+  description: Community fork of KeePassX, a cross-platform password manager with
+    local encrypted storage.
+  github: https://github.com/keepassxreboot/keepassxc
+  website: https://keepassxc.org
+  category: security
+  subcategory: Password Managers
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: C++
+  status: active
+  icon: icons/project-icons/keepassxc.png
+- id: lulu
+  name: LuLu
+  description: Free, open-source macOS firewall aimed at blocking unauthorized outgoing
+    network connections.
+  github: https://github.com/objective-see/LuLu
+  website: https://objective-see.org/products/lulu.html
+  category: security
+  subcategory: Firewalls & Network Security
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/lulu.png
+  featured: true
+- id: knockknock
+  name: KnockKnock
+  description: Scans your Mac for persistent software, background daemons, and launch
+    items.
+  github: https://github.com/objective-see/KnockKnock
+  website: https://objective-see.org/products/knockknock.html
+  category: security
+  subcategory: Malware & Privacy Detection
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/knockknock.png
+- id: cryptomator
+  name: Cryptomator
+  description: Client-side encryption for your cloud files, preventing unauthorized
+    inspection of documents.
+  github: https://github.com/cryptomator/cryptomator
+  website: https://cryptomator.org
+  category: security
+  subcategory: Encryption & File Security
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: Java
+  status: active
+  icon: icons/project-icons/cryptomator.png
+- id: tor-browser
+  name: Tor Browser
+  description: Privacy-focused web browser that routes traffic through the encrypted
+    Tor volunteer network.
+  github: https://github.com/torproject/tor-browser
+  website: https://www.torproject.org
+  category: security
+  subcategory: Firewalls & Network Security
+  license: BSD-3-Clause
+  platform: macOS 10.15+
+  language: C++
+  status: active
+  icon: icons/project-icons/tor-browser.png
+- id: logseq
+  name: Logseq
+  description: Privacy-first, local-only platform for knowledge management and outliner
+    journaling.
+  github: https://github.com/logseq/logseq
+  website: https://logseq.com
+  category: notes
+  subcategory: Knowledge Bases & PKM
+  license: AGPL-3.0
+  platform: macOS 10.14+
+  language: Clojure
+  status: active
+  icon: icons/project-icons/logseq.png
+  featured: true
+- id: joplin
+  name: Joplin
+  description: Secure, open-source note-taking app with end-to-end encryption and
+    multi-device synchronization.
+  github: https://github.com/laurent22/joplin
+  website: https://joplinapp.org
+  category: notes
+  subcategory: Markdown & Text Editors
+  license: AGPL-3.0
+  platform: macOS 10.15+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/joplin.png
+- id: appflowy
+  name: AppFlowy
+  description: Open-source alternative to Notion, built with Flutter and Rust for
+    offline-first privacy.
+  github: https://github.com/AppFlowy-IO/AppFlowy
+  website: https://appflowy.io
+  category: notes
+  subcategory: Knowledge Bases & PKM
+  license: AGPL-3.0
+  platform: macOS 11.0+
+  language: Dart
+  status: active
+  icon: icons/project-icons/appflowy.png
+- id: zettlr
+  name: Zettlr
+  description: Supercharged markdown editor tailored for academic researchers, journalists,
+    and writers.
+  github: https://github.com/Zettlr/Zettlr
+  website: https://zettlr.com
+  category: notes
+  subcategory: Academic & Research Writing
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: TypeScript
+  status: active
+  icon: icons/project-icons/zettlr.png
+- id: marktext
+  name: MarkText
+  description: Simple and elegant open-source markdown editor focused on speed and
+    real-time live preview.
+  github: https://github.com/marktext/marktext
+  website: https://github.com/marktext/marktext
+  category: notes
+  subcategory: Markdown & Text Editors
+  license: MIT
+  platform: macOS 10.13+
+  language: JavaScript
+  status: active
+  icon: icons/project-icons/marktext.png
+- id: localsend
+  name: LocalSend
+  description: AirDrop alternative to share files and messages nearby across macOS,
+    iOS, Android, and Windows.
+  github: https://github.com/localsend/localsend
+  website: https://localsend.org
+  category: file-management
+  subcategory: P2P & Local Transfer
+  license: MIT
+  platform: macOS 10.15+
+  language: Dart
+  status: active
+  icon: icons/project-icons/localsend.png
+  featured: true
+- id: cyberduck
+  name: Cyberduck
+  description: Libre cloud storage browser for macOS with support for FTP, SFTP, WebDAV,
+    Amazon S3, and OpenStack.
+  github: https://github.com/iterate-ch/cyberduck
+  website: https://cyberduck.io
+  category: file-management
+  subcategory: Remote Storage & FTP
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: Java
+  status: active
+  icon: icons/project-icons/cyberduck.png
+- id: transmission
+  name: Transmission
+  description: Fast, easy, and lightweight BitTorrent client with native Cocoa user
+    interface.
+  github: https://github.com/transmission/transmission
+  website: https://transmissionbt.com
+  category: file-management
+  subcategory: BitTorrent Clients
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: C++
+  status: active
+  icon: icons/project-icons/transmission.png
+- id: syncthing-macos
+  name: Syncthing macOS
+  description: Native macOS menu bar wrapper for continuous continuous file synchronization
+    via Syncthing.
+  github: https://github.com/syncthing/syncthing-macos
+  website: https://syncthing.net
+  category: file-management
+  subcategory: P2P & Local Transfer
+  license: MIT
+  platform: macOS 10.14+
+  language: Swift
+  status: active
+  icon: icons/project-icons/syncthing-macos.png
+- id: blender
+  name: Blender
+  description: Open-source 3D creation suite supporting modeling, rigging, animation,
+    simulation, and rendering with Metal.
+  github: https://github.com/blender/blender
+  website: https://www.blender.org
+  category: design
+  subcategory: 3D & Animation
+  license: GPL-3.0
+  platform: macOS 10.15+
+  language: C++
+  status: active
+  icon: icons/project-icons/blender.png
+  featured: true
+- id: inkscape
+  name: Inkscape
+  description: Vector graphics editor for illustrations, diagrams, line arts, charts,
+    and logos using standard SVG.
+  github: https://github.com/inkscape/inkscape
+  website: https://inkscape.org
+  category: design
+  subcategory: Vector Graphics
+  license: GPL-3.0
+  platform: macOS 10.13+
+  language: C++
+  status: active
+  icon: icons/project-icons/inkscape.png
+- id: gimp
+  name: GIMP
+  description: Cross-platform image editor used for photo retouching, image composition,
+    and graphic authoring.
+  github: https://github.com/GNOME/gimp
+  website: https://www.gimp.org
+  category: design
+  subcategory: Digital Painting & Image Editing
+  license: GPL-3.0
+  platform: macOS 10.13+
+  language: C
+  status: active
+  icon: icons/project-icons/gimp.png
+- id: krita
+  name: Krita
+  description: Professional digital painting and 2D animation studio application for
+    concept artists and illustrators.
+  github: https://github.com/KDE/krita
+  website: https://krita.org
+  category: design
+  subcategory: Digital Painting & Image Editing
+  license: GPL-3.0
+  platform: macOS 10.14+
+  language: C++
+  status: active
+  icon: icons/project-icons/krita.svg
+- id: karabiner-elements
+  name: Karabiner-Elements
+  description: Powerful and stable keyboard customizer for macOS to remap keys and
+    create complex modification rules.
+  github: https://github.com/pqrs-org/Karabiner-Elements
+  website: https://karabiner-elements.pqrs.org
+  category: customization
+  subcategory: Keyboard & Input Customization
+  license: MIT
+  platform: macOS 11.0+
+  language: C++
+  status: active
+  icon: icons/project-icons/karabiner-elements.png
+  featured: true
+- id: sketchybar
+  name: SketchyBar
+  description: Highly customizable macOS status bar replacement with event-driven
+    shell scripts.
+  github: https://github.com/FelixKratz/SketchyBar
+  website: https://felixkratz.github.io/SketchyBar
+  category: customization
+  subcategory: Menubar & Status Customization
+  license: GPL-3.0
+  platform: macOS 11.0+
+  language: C
+  status: active
+  icon: icons/project-icons/sketchybar.png
+- id: sensible-side-buttons
+  name: SensibleSideButtons
+  description: App that lets third-party mice with side buttons navigate back and
+    forth properly across macOS.
+  github: https://github.com/archagon/sensible-side-buttons
+  website: https://sensible-side-buttons.archagon.net
+  category: customization
+  subcategory: Keyboard & Input Customization
+  license: GPL-3.0
+  platform: macOS 10.10+
+  language: Objective-C
+  status: active
+  icon: icons/project-icons/sensible-side-buttons.png

@@ -17,7 +17,7 @@ Before submitting a project, please ensure it strictly satisfies our **Four Pill
 
 ---
 
-## 🚀 Easy Ways to Add a Project
+## � Easy Ways to Add a Project
 
 Adding a new open-source Mac app to OpenMac is fast and seamless. Pick the method that works best for you:
 
