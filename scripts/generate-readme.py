@@ -127,11 +127,7 @@ def generate_projects_markdown(categories, projects_by_cat):
         if not projs:
             section.append("*No projects currently listed in this category. Contributions welcome!*\n")
         else:
-            table = [
-                "| Icon | Project | Description | Stack | Stars | Links | License |",
-                "| :---: | :--- | :--- | :---: | :---: | :---: | :---: |"
-            ]
-            for p in projs:
+            def render_row(p):
                 icon_path = p.get("icon", "icons/default.svg")
                 name = p["name"]
                 site = p.get("website") or p["github"]
@@ -148,10 +144,44 @@ def generate_projects_markdown(categories, projects_by_cat):
                 else:
                     links_md = f"[Source]({gh})"
 
-                table.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {stars_badge} | {links_md} | `{lic}` |")
+                return f"| {icon_md} | {name_md} | {desc} | `{lang}` | {stars_badge} | {links_md} | `{lic}` |"
 
-            section.append("\n".join(table))
-            section.append("\n[⬆ Back to Top](#table-of-contents)\n")
+            header = [
+                "| Icon | Project | Description | Stack | Stars | Links | License |",
+                "| :---: | :--- | :--- | :---: | :---: | :---: | :---: |"
+            ]
+
+            if len(projs) <= 5:
+                table = list(header)
+                for p in projs:
+                    table.append(render_row(p))
+                section.append("\n".join(table))
+                section.append("\n[⬆ Back to Top](#table-of-contents)\n")
+            else:
+                top_5 = projs[:5]
+                remaining = projs[5:]
+
+                table_top = list(header)
+                for p in top_5:
+                    table_top.append(render_row(p))
+                section.append("\n".join(table_top))
+
+                table_remaining = list(header)
+                for p in remaining:
+                    table_remaining.append(render_row(p))
+
+                details = [
+                    "",
+                    "<details>",
+                    f"<summary><b>Show More ({len(remaining)} more apps in {cname})</b></summary>",
+                    "",
+                    "\n".join(table_remaining),
+                    "",
+                    "</details>",
+                    ""
+                ]
+                section.append("\n".join(details))
+                section.append("\n[⬆ Back to Top](#table-of-contents)\n")
 
         sections.append("\n".join(section))
 
