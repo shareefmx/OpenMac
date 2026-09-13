@@ -216,6 +216,18 @@ def generate(check_mode=False):
 
     print(f"Successfully generated README.md tables for {len(projects)} projects across {len(categories)} categories.")
 
+    # Also sync web app data
+    try:
+        import importlib.util
+        script_path = os.path.join(os.path.dirname(__file__), "build-site-data.py")
+        if os.path.exists(script_path):
+            spec = importlib.util.spec_from_file_location("build_site_data", script_path)
+            build_mod = importlib.util.module_from_spec(spec)
+            spec.loader.exec_module(build_mod)
+            build_mod.main()
+    except Exception as e:
+        print(f"Warning: Failed to update site-data.json: {e}")
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Generate OpenMac README from canonical YAML.")
     parser.add_argument("--check", action="store_true", help="Check if README.md is in sync without modifying.")

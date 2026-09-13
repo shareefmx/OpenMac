@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="system">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenMac — The Open-Source macOS Directory</title>
+  <meta name="description" content="Discover 1,165+ curated, verified open-source apps, developer tools, and system utilities for macOS. 100% free and open-source software.">
+  <meta name="theme-color" content="#0A84FF">
+  
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OpenMac — The Open-Source macOS Directory">
+  <meta property="og:description" content="A curated directory of 1,165+ genuinely open-source apps and developer tools for macOS.">
+  <meta property="og:image" content="./icons/logo.svg">
+  <meta property="og:url" content="https://openmac.vercel.app">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="./icons/logo.svg">
+  <link rel="apple-touch-icon" href="./icons/logo.svg">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Top Glass Navigation Bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <a href="#" class="brand">
+        <img src="./icons/logo.svg" alt="OpenMac Logo" class="brand-logo">
+      </a>
+
+      <div class="nav-actions">
+        <!-- Spotlight Trigger Button -->
+        <button id="spotlight-btn" class="nav-btn search-trigger" aria-label="Quick Search">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <span class="search-placeholder">Quick Search...</span>
+          <kbd class="kbd-shortcut">⌘K</kbd>
+        </button>
+
+        <!-- Theme Toggle -->
+        <button id="theme-btn" class="nav-btn icon-only" aria-label="Toggle Theme" title="Toggle Theme">
+          <svg class="theme-icon sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
+          <svg class="theme-icon moon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
+        </button>
+
+        <!-- Submit App Button -->
+        <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml" target="_blank" rel="noopener" class="nav-btn primary">
+          <span>Submit App</span>
+        </a>
+
+        <!-- GitHub Repository Button -->
+        <a href="https://github.com/shareefmx/OpenMac" target="_blank" rel="noopener" class="nav-btn icon-only github-link" title="GitHub Repository">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-container">
+      <div class="hero-badge">
+        <span class="pulse-dot"></span>
+        <span id="hero-badge-text">1,165 Verified macOS Apps • 100% Open Source</span>
+      </div>
+      
+      <h1 class="hero-title">The Open-Source<br><span class="gradient-text">macOS Directory</span></h1>
+      <p class="hero-subtitle">Discover powerful desktop applications, native developer tools, and system utilities designed for Apple Silicon and Intel Macs — strictly free, auditable, and open-source.</p>
+
+      <!-- Main Search Bar -->
+      <div class="hero-search-wrapper">
+        <div class="hero-search">
+          <svg class="search-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="main-search-input" placeholder="Search by app name, description, stack, or category... (e.g. Ollama, Terminal, Rust, Swift)" autocomplete="off" spellcheck="false">
+          <button id="clear-search-btn" class="clear-btn" aria-label="Clear Search" style="display: none;">✕</button>
+          <kbd class="hero-kbd">⌘K</kbd>
+        </div>
+      </div>
+
+      <!-- Quick Filter Chips -->
+      <div class="quick-chips" id="quick-chips">
+        <button class="chip active" data-cat="all">All Apps</button>
+        <button class="chip" data-cat="ai-ml">🤖 AI & ML</button>
+        <button class="chip" data-cat="development">👨‍💻 Development</button>
+        <button class="chip" data-cat="terminal">📺 Terminal</button>
+        <button class="chip" data-cat="window-management">🪟 Windows</button>
+        <button class="chip" data-cat="audio">🎵 Audio</button>
+        <button class="chip" data-cat="productivity">⚡ Productivity</button>
+        <button class="chip" data-cat="security">🛡️ Security</button>
+        <button class="chip" data-cat="git">📦 Git</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Apps Section -->
+  <section class="featured-section" id="featured-section">
+    <div class="section-container">
+      <div class="section-header">
+        <div class="section-title-wrap">
+          <span class="section-icon">⭐</span>
+          <div>
+            <h2 class="section-title">Featured Projects</h2>
+            <p class="section-desc">Highest-starred and most popular open-source macOS software</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="featured-grid" id="featured-grid">
+        <!-- Rendered dynamically by app.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Directory Catalog Section -->
+  <main class="catalog-section" id="catalog-section">
+    <div class="section-container">
+      
+      <!-- Catalog Controls Toolbar -->
+      <div class="catalog-toolbar">
+        <div class="toolbar-left">
+          <span id="results-count" class="results-count">Loading projects...</span>
+          <span id="active-filter-badge" class="active-filter-pill" style="display: none;"></span>
+        </div>
+
+        <div class="toolbar-right">
+          <!-- Category Dropdown for Mobile / Quick Select -->
+          <div class="control-group">
+            <label for="category-select" class="control-label">Category:</label>
+            <select id="category-select" class="select-control">
+              <option value="all">All Categories (50)</option>
+              <!-- Populated by app.js -->
+            </select>
+          </div>
+
+          <!-- Sort Selector -->
+          <div class="control-group">
+            <label for="sort-select" class="control-label">Sort:</label>
+            <select id="sort-select" class="select-control">
+              <option value="stars-desc">Stars (High to Low)</option>
+              <option value="stars-asc">Stars (Low to High)</option>
+              <option value="name-asc">Name (A → Z)</option>
+              <option value="name-desc">Name (Z → A)</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <!-- Categories Navigation Pills (Scrollable) -->
+      <nav class="categories-scroll" id="categories-scroll" aria-label="Category Filters">
+        <!-- Populated by app.js -->
+      </nav>
+
+      <!-- Projects Grid Cards -->
+      <div class="projects-grid" id="projects-grid">
+        <!-- Populated by app.js -->
+      </div>
+
+      <!-- Empty State -->
+      <div class="empty-state" id="empty-state" style="display: none;">
+        <div class="empty-icon">🔍</div>
+        <h3>No matching applications found</h3>
+        <p>Try searching for a different keyword or select another category filter.</p>
+        <button id="reset-filters-btn" class="nav-btn primary">Reset All Filters</button>
+      </div>
+
+      <!-- Load More / Pagination -->
+      <div class="pagination-wrapper" id="pagination-wrapper" style="display: none;">
+        <button id="load-more-btn" class="load-more-btn">
+          <span>Load More Applications</span>
+        </button>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Spotlight Modal (⌘K) -->
+  <div class="modal-overlay" id="spotlight-modal" aria-hidden="true">
+    <div class="modal-box" role="dialog" aria-modal="true" aria-label="Spotlight Search">
+      <div class="modal-search-bar">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+        <input type="text" id="modal-search-input" placeholder="Type an application name or keyword..." autocomplete="off">
+        <kbd class="modal-esc-kbd" id="close-modal-btn">ESC</kbd>
+      </div>
+
+      <div class="modal-results" id="modal-results">
+        <!-- Populated dynamically -->
+      </div>
+
+      <div class="modal-footer">
+        <div class="modal-hints">
+          <span><kbd>↑</kbd> <kbd>↓</kbd> Navigate</span>
+          <span><kbd>↵</kbd> Open Source</span>
+          <span><kbd>ESC</kbd> Close</span>
+        </div>
+        <span class="modal-stats" id="modal-stats">Top matches</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <img src="./icons/logo.svg" alt="OpenMac" class="footer-logo">
+          <p>The community-powered directory of genuinely open-source macOS software.</p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-col">
+            <h4>Directory</h4>
+            <a href="#featured-section">Featured Projects</a>
+            <a href="#catalog-section">All 50 Categories</a>
+            <a href="./data/projects.yml" target="_blank" rel="noopener">Raw Projects Data</a>
+            <a href="./data/categories.yml" target="_blank" rel="noopener">Taxonomy Schema</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Contribute</h4>
+            <a href="https://github.com/shareefmx/OpenMac/issues/new?template=add-project.yml" target="_blank" rel="noopener">Submit New App</a>
+            <a href="./CONTRIBUTING.md" target="_blank" rel="noopener">Contribution Guide</a>
+            <a href="https://github.com/shareefmx/OpenMac/issues/new?template=report-project.yml" target="_blank" rel="noopener">Report Inaccuracy</a>
+            <a href="./CONTRIBUTORS.md" target="_blank" rel="noopener">Contributors</a>
+          </div>
+
+          <div class="footer-col">
+            <h4>Legal & Community</h4>
+            <a href="./LICENSE" target="_blank" rel="noopener">MIT License</a>
+            <a href="./SECURITY.md" target="_blank" rel="noopener">Security Policy</a>
+            <a href="./CODE_OF_CONDUCT.md" target="_blank" rel="noopener">Code of Conduct</a>
+            <a href="https://github.com/shareefmx/OpenMac" target="_blank" rel="noopener">GitHub Repository</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 OpenMac Contributors. Built with pride for the macOS community worldwide.</p>
+        <p class="disclaimer">macOS, Mac, and Apple are trademarks of Apple Inc. Inclusion of projects does not imply endorsement.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Application Logic -->
+  <script src="app.js"></script>
+</body>
+</html>

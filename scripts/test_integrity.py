@@ -104,8 +104,23 @@ def main():
         assert_true(f'id="{anchor}"' in readme or f'#{anchor}' in readme, f"Anchor '{anchor}' missing in README.md")
     print(f"  ✓ Verified all {len(required_anchors)} core navigation anchors present in README.md.")
 
+    # 5. Assert Web Application Assets & Data Integrity
+    print("\n5. Asserting Web Application Assets & Sync...")
+    required_web_files = ["index.html", "styles.css", "app.js", "site-data.json", "vercel.json"]
+    for wf in required_web_files:
+        assert_true(os.path.isfile(wf), f"Web asset missing: {wf}")
+        assert_true(os.path.getsize(wf) > 100, f"Web asset is empty or too small: {wf}")
+
+    import json
+    with open("site-data.json", "r", encoding="utf-8") as f:
+        site_data = json.load(f)
+    assert_true(len(site_data.get("projects", [])) == 1165, f"Expected 1,165 projects in site-data.json, found {len(site_data.get('projects', []))}")
+    assert_true(len(site_data.get("categories", [])) == 50, f"Expected 50 categories in site-data.json, found {len(site_data.get('categories', []))}")
+    assert_true(len(site_data.get("featured", [])) == 10, f"Expected 10 featured projects in site-data.json, found {len(site_data.get('featured', []))}")
+    print(f"  ✓ Validated index.html, styles.css, app.js, vercel.json, and site-data.json (1,165 apps, 50 categories, 10 featured).")
+
     print("\n==================================================")
-    print("    🎉 ALL 4 TEST SUITES PASSED SUCCESSFULLY!     ")
+    print("    🎉 ALL 5 TEST SUITES PASSED SUCCESSFULLY!     ")
     print("==================================================")
 
 if __name__ == "__main__":
