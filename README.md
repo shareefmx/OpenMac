@@ -2,8 +2,6 @@
 
 <img src="./icons/logo.svg" width="340" alt="OpenMac Logo">
 
-# OpenMac
-
 **The community-powered directory of genuinely open-source macOS apps, developer tools, and system utilities.**
 
 <!-- STATS:START -->
