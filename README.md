@@ -11,7 +11,7 @@
 <!-- STATS:END -->
 
 <p align="center">
-  <a href="https://openmac.vercel.app"><b>🌐 Live Web App</b></a> •
+  <a href="https://open-mac-9tpo.vercel.app/"><b>Live Web App</b></a> •
   <a href="#about"><b>About</b></a> •
   <a href="#table-of-contents"><b>Categories</b></a> •
   <a href="#featured-projects"><b>Featured Apps</b></a> •
