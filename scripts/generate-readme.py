@@ -52,10 +52,26 @@ def generate_toc(categories, projects_by_cat):
         lines.append(f"| {cicon} [**{cname}**](#{cid}) | {cdesc} | [`{count} apps`](#{cid}) |")
     return "\n".join(lines)
 
+def get_stars_badge(gh_url: str) -> str:
+    """Generates a real-time live GitHub/GitLab stars badge."""
+    gh_clean = gh_url.strip().rstrip("/")
+    if "github.com/" in gh_clean:
+        parts = gh_clean.split("github.com/")[-1].split("/")
+        if len(parts) >= 2:
+            owner, repo = parts[0], parts[1]
+            return f"[![Stars](https://img.shields.io/github/stars/{owner}/{repo}?style=flat-square&label=%E2%AD%90)](https://github.com/{owner}/{repo}/stargazers)"
+    elif "gitlab.com/" in gh_clean:
+        parts = gh_clean.split("gitlab.com/")[-1].split("/")
+        if len(parts) >= 2:
+            owner, repo = parts[0], parts[1]
+            return f"[![Stars](https://img.shields.io/gitlab/stars/{owner}/{repo}?style=flat-square&label=%E2%AD%90)](https://gitlab.com/{owner}/{repo})"
+    
+    return f"[![Source](https://img.shields.io/badge/%E2%AD%90-Source-blue?style=flat-square)]({gh_url})"
+
 def generate_featured_table(featured_projects):
     lines = [
-        "| Icon | Project | Description | Stack | Links | License |",
-        "| :---: | :--- | :--- | :---: | :---: | :---: |"
+        "| Icon | Project | Description | Stack | Stars | Links | License |",
+        "| :---: | :--- | :--- | :---: | :---: | :---: | :---: |"
     ]
     for p in featured_projects:
         icon_path = p.get("icon", "icons/default.svg")
@@ -65,15 +81,15 @@ def generate_featured_table(featured_projects):
         desc = p["description"]
         lang = p.get("language", "Native")
         lic = p.get("license", "OSI")
+        stars_badge = get_stars_badge(gh)
         
         name_md = f"**[{name}]({site})**"
-        # Wrap icon in link so clicking the icon navigates to the project!
         icon_md = f'<a href="{site}"><img src="./{icon_path}" width="32" height="32" alt="{name}"></a>'
-        links_md = f"[Code]({gh})"
+        links_md = f"[Source]({gh})"
         if site != gh:
-            links_md = f"[Website]({site}) • [Code]({gh})"
+            links_md = f"[Website]({site}) • [Source]({gh})"
         
-        lines.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {links_md} | `{lic}` |")
+        lines.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {stars_badge} | {links_md} | `{lic}` |")
 
     return "\n".join(lines)
 
@@ -107,8 +123,8 @@ def generate_projects_markdown(categories, projects_by_cat):
             section.append("*No projects currently listed in this category. Contributions welcome!*\n")
         else:
             table = [
-                "| Icon | Project | Description | Stack | Links | License |",
-                "| :---: | :--- | :--- | :---: | :---: | :---: |"
+                "| Icon | Project | Description | Stack | Stars | Links | License |",
+                "| :---: | :--- | :--- | :---: | :---: | :---: | :---: |"
             ]
             for p in projs:
                 icon_path = p.get("icon", "icons/default.svg")
@@ -118,16 +134,16 @@ def generate_projects_markdown(categories, projects_by_cat):
                 desc = p["description"]
                 lang = p.get("language", "Native")
                 lic = p.get("license", "OSI")
+                stars_badge = get_stars_badge(gh)
                 
                 name_md = f"**[{name}]({site})**"
-                # Wrap icon in clickable link
                 icon_md = f'<a href="{site}"><img src="./{icon_path}" width="32" height="32" alt="{name}"></a>'
                 if site != gh:
                     links_md = f"[Website]({site}) • [Source]({gh})"
                 else:
                     links_md = f"[Source]({gh})"
 
-                table.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {links_md} | `{lic}` |")
+                table.append(f"| {icon_md} | {name_md} | {desc} | `{lang}` | {stars_badge} | {links_md} | `{lic}` |")
 
             section.append("\n".join(table))
             section.append("\n[⬆ Back to Top](#table-of-contents)\n")
@@ -160,7 +176,9 @@ def generate(check_mode=False):
         if p.get("featured"):
             featured_projects.append(p)
 
-    featured_projects.sort(key=lambda x: x["name"].lower())
+    # Top 10 Featured Projects sorted by stars descending
+    featured_projects.sort(key=lambda x: x.get("stars", 0), reverse=True)
+    featured_projects = featured_projects[:10]
 
     with open(README_PATH, "r", encoding="utf-8") as f:
         current_content = f.read()
