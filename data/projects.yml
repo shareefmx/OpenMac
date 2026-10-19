@@ -15351,3 +15351,16 @@ projects:
   status: active
   icon: icons/project-icons/acelink.svg
   stars: 888
+- id: glim
+  name: Glim
+  description: Free, open-source macOS file viewer for Markdown, PDFs, images, JSON, CSV and source code in one workspace.
+  github: https://github.com/NeoPanic/Glim
+  website: https://github.com/NeoPanic/Glim#download
+  category: markdown
+  subcategory: Document Renderers
+  license: MIT
+  platform: macOS (Apple Silicon and Intel)
+  language: Rust
+  status: active
+  icon: icons/project-icons/glim.png
+  featured: false

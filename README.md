@@ -7,7 +7,7 @@
 **The community-powered directory of genuinely open-source macOS apps, developer tools, and system utilities.**
 
 <!-- STATS:START -->
-[![Total Projects](https://img.shields.io/badge/Projects-1273-blue.svg?style=flat-square)](#all-categories) [![Categories](https://img.shields.io/badge/Categories-50-indigo.svg?style=flat-square)](#table-of-contents) [![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#selection-criteria) [![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#selection-criteria)
+[![Total Projects](https://img.shields.io/badge/Projects-1274-blue.svg?style=flat-square)](#all-categories) [![Categories](https://img.shields.io/badge/Categories-50-indigo.svg?style=flat-square)](#table-of-contents) [![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#selection-criteria) [![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#selection-criteria)
 <!-- STATS:END -->
 
 <p align="center">
@@ -66,7 +66,7 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 | 📝 [**Editors**](#editors) | General text and code editors, native macOS typing suites, and distraction-free editors. | [`6 apps`](#editors) |
 | 📊 [**CSV**](#csv) | Tabular data viewers, spreadsheet inspectors, and high-speed CSV file editors. | [`1 apps`](#csv) |
 | 📋 [**JSON**](#json) | Dedicated JSON documents editors, structure organizers, and tree manipulation apps. | [`2 apps`](#json) |
-| 📝 [**Markdown**](#markdown) | Markdown editors, live preview tools, note renderers, and technical documentation writers. | [`9 apps`](#markdown) |
+| 📝 [**Markdown**](#markdown) | Markdown editors, live preview tools, note renderers, and technical documentation writers. | [`10 apps`](#markdown) |
 | 📐 [**TeX**](#tex) | LaTeX typesetting tools, mathematical formula editors, and academic paper generators. | [`2 apps`](#tex) |
 | ✏️ [**Text**](#text) | Plain text scratchpads, notepad alternatives, and distraction-free writing environments. | [`7 apps`](#text) |
 | 🧩 [**Extensions**](#extensions) | Quick Look generators, Finder context menu extensions, and share sheet utilities. | [`13 apps`](#extensions) |
@@ -1092,7 +1092,7 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 | <a href="https://github.com/lukakerr/Pine"><img src="./icons/project-icons/pine.png" width="32" height="32" alt="Pine"></a> | **[Pine](https://github.com/lukakerr/Pine)** | A modern MacOS markdown editor. | `Swift` | [![Stars](https://img.shields.io/github/stars/lukakerr/Pine?style=flat-square&label=%E2%AD%90)](https://github.com/lukakerr/Pine/stargazers) | [Source](https://github.com/lukakerr/Pine) | `MIT` |
 
 <details>
-<summary><b>Show More (4 more apps in Markdown)</b></summary>
+<summary><b>Show More (5 more apps in Markdown)</b></summary>
 
 | Icon | Project | Description | Stack | Stars | Links | License |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -1100,6 +1100,7 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 | <a href="https://github.com/gingko/client"><img src="./icons/project-icons/gingko.png" width="32" height="32" alt="Gingko"></a> | **[Gingko](https://github.com/gingko/client)** | Tree-structured markdown editor for macOS, Windows, and Linux. | `Elm` | [![Stars](https://img.shields.io/github/stars/gingko/client?style=flat-square&label=%E2%AD%90)](https://github.com/gingko/client/stargazers) | [Source](https://github.com/gingko/client) | `MIT` |
 | <a href="https://notenik.app"><img src="./icons/project-icons/notenik.png" width="32" height="32" alt="Notenik"></a> | **[Notenik](https://notenik.app)** | Note-taking app with many organizational options. | `Swift` | [![Stars](https://img.shields.io/github/stars/hbowie/notenik-swift?style=flat-square&label=%E2%AD%90)](https://github.com/hbowie/notenik-swift/stargazers) | [Website](https://notenik.app) • [Source](https://github.com/hbowie/notenik-swift) | `MIT` |
 | <a href="https://github.com/ruspg/markdown-quicklook"><img src="./icons/project-icons/markdown-quicklook.png" width="32" height="32" alt="markdown-quicklook"></a> | **[markdown-quicklook](https://github.com/ruspg/markdown-quicklook)** | Rendered Markdown Quick Look preview with syntax highlighting, YAML front matter, configurable fonts/colors, and a menu bar toggle. | `Swift` | [![Stars](https://img.shields.io/github/stars/ruspg/markdown-quicklook?style=flat-square&label=%E2%AD%90)](https://github.com/ruspg/markdown-quicklook/stargazers) | [Source](https://github.com/ruspg/markdown-quicklook) | `MIT` |
+| <a href="https://github.com/NeoPanic/Glim#download"><img src="./icons/project-icons/glim.png" width="32" height="32" alt="Glim"></a> | **[Glim](https://github.com/NeoPanic/Glim#download)** | Free, open-source macOS file viewer for Markdown, PDFs, images, JSON, CSV and source code in one workspace. | `Rust` | [![Stars](https://img.shields.io/github/stars/NeoPanic/Glim?style=flat-square&label=%E2%AD%90)](https://github.com/NeoPanic/Glim/stargazers) | [Website](https://github.com/NeoPanic/Glim#download) • [Source](https://github.com/NeoPanic/Glim) | `MIT` |
 
 </details>
 
