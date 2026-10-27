@@ -7,7 +7,7 @@
 **The community-powered directory of genuinely open-source macOS apps, developer tools, and system utilities.**
 
 <!-- STATS:START -->
-[![Total Projects](https://img.shields.io/badge/Projects-1273-blue.svg?style=flat-square)](#all-categories) [![Categories](https://img.shields.io/badge/Categories-50-indigo.svg?style=flat-square)](#table-of-contents) [![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#selection-criteria) [![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#selection-criteria)
+[![Total Projects](https://img.shields.io/badge/Projects-1274-blue.svg?style=flat-square)](#all-categories) [![Categories](https://img.shields.io/badge/Categories-50-indigo.svg?style=flat-square)](#table-of-contents) [![100% Open Source](https://img.shields.io/badge/Source-100%25%20Open%20Source-emerald.svg?style=flat-square)](#selection-criteria) [![macOS Compatible](https://img.shields.io/badge/Platform-macOS-000000.svg?logo=apple&style=flat-square)](#selection-criteria)
 <!-- STATS:END -->
 
 <p align="center">
@@ -98,7 +98,7 @@ While directories like *awesome-mac* provide great utility, they frequently mix 
 | 🔐 [**VPN & Proxy**](#vpn-proxy) | WireGuard, OpenVPN, Shadowsocks clients, and local network proxy toggle utilities. | [`7 apps`](#vpn-proxy) |
 | 🎬 [**Video**](#video) | Video players, subtitle editors, video encoders, and multimedia conversion tools. | [`22 apps`](#video) |
 | 🖥️ [**Wallpaper**](#wallpaper) | Dynamic wallpaper rotators, aerial desktop engines, and custom wallpaper creators. | [`11 apps`](#wallpaper) |
-| 🪟 [**Window Management**](#window-management) | Tiling window managers, keyboard snap helpers, and window switcher enhancements. | [`41 apps`](#window-management) |
+| 🪟 [**Window Management**](#window-management) | Tiling window managers, keyboard snap helpers, and window switcher enhancements. | [`42 apps`](#window-management) |
 <!-- TOC:END -->
 
 ---
@@ -2278,7 +2278,7 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 | <a href="https://github.com/Hammerspoon/hammerspoon"><img src="./icons/project-icons/hammerspoon.svg" width="32" height="32" alt="Hammerspoon"></a> | **[Hammerspoon](https://github.com/Hammerspoon/hammerspoon)** | Staggeringly powerful macOS desktop automation with Lua. | `Lua` | [![Stars](https://img.shields.io/github/stars/Hammerspoon/hammerspoon?style=flat-square&label=%E2%AD%90)](https://github.com/Hammerspoon/hammerspoon/stargazers) | [Source](https://github.com/Hammerspoon/hammerspoon) | `MIT` |
 
 <details>
-<summary><b>Show More (36 more apps in Window Management)</b></summary>
+<summary><b>Show More (37 more apps in Window Management)</b></summary>
 
 | Icon | Project | Description | Stack | Stars | Links | License |
 | :---: | :--- | :--- | :---: | :---: | :---: | :---: |
@@ -2318,6 +2318,7 @@ A curated selection of standout, mature, and widely acclaimed open-source macOS 
 | <a href="https://github.com/mamiksik/Desktop-Profiles"><img src="./icons/project-icons/desktop-profiles.svg" width="32" height="32" alt="Desktop Profiles"></a> | **[Desktop Profiles](https://github.com/mamiksik/Desktop-Profiles)** | An innovative desktop/window manager for macOS | `Swift` | [![Stars](https://img.shields.io/github/stars/mamiksik/Desktop-Profiles?style=flat-square&label=%E2%AD%90)](https://github.com/mamiksik/Desktop-Profiles/stargazers) | [Source](https://github.com/mamiksik/Desktop-Profiles) | `MIT` |
 | <a href="https://github.com/mardlib/ensoniq-eps-16-plus"><img src="./icons/project-icons/ensoniq-eps-16-plus.png" width="32" height="32" alt="Ensoniq EPS-16 Plus"></a> | **[Ensoniq EPS-16 Plus](https://github.com/mardlib/ensoniq-eps-16-plus)** | The Ensoniq EPS-16 Plus emulator runs the original 1990s operating system on modern Mac hardware. Instead of simulating the sound with a modern sample player, this project builds a… | `C` | [![Stars](https://img.shields.io/github/stars/mardlib/ensoniq-eps-16-plus?style=flat-square&label=%E2%AD%90)](https://github.com/mardlib/ensoniq-eps-16-plus/stargazers) | [Source](https://github.com/mardlib/ensoniq-eps-16-plus) | `MIT` |
 | <a href="https://nudge.run"><img src="./icons/project-icons/nudge.svg" width="32" height="32" alt="Nudge"></a> | **[Nudge](https://nudge.run)** | Free, open-source window manager with keyboard shortcuts and drag-to-edge snapping. | `Swift` | [![Stars](https://img.shields.io/github/stars/mikusnuz/nudge?style=flat-square&label=%E2%AD%90)](https://github.com/mikusnuz/nudge/stargazers) | [Website](https://nudge.run) • [Source](https://github.com/mikusnuz/nudge) | `MIT` |
+| <a href="https://github.com/tumingke0/LayoutKeeper"><img src="./icons/project-icons/layoutkeeper.png" width="32" height="32" alt="LayoutKeeper"></a> | **[LayoutKeeper](https://github.com/tumingke0/LayoutKeeper)** | Restore macOS windows to their original monitor, Space, and position automatically when reconnecting external displays. | `Swift` | [![Stars](https://img.shields.io/github/stars/tumingke0/LayoutKeeper?style=flat-square&label=%E2%AD%90)](https://github.com/tumingke0/LayoutKeeper/stargazers) | [Source](https://github.com/tumingke0/LayoutKeeper) | `GPL-3.0` |
 
 </details>
 
