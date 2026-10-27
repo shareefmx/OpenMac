@@ -15351,3 +15351,16 @@ projects:
   status: active
   icon: icons/project-icons/acelink.svg
   stars: 888
+- id: layoutkeeper
+  name: LayoutKeeper
+  description: Restore macOS windows to their original monitor, Space, and position automatically when reconnecting external displays.
+  github: https://github.com/tumingke0/LayoutKeeper
+  website: https://github.com/tumingke0/LayoutKeeper
+  category: window-management
+  subcategory: Window Snapping & Organizing
+  license: GPL-3.0
+  platform: macOS 14.0+
+  language: Swift
+  status: active
+  icon: icons/project-icons/layoutkeeper.png
+  featured: false
